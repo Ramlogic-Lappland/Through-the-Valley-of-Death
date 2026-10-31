@@ -2,7 +2,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 public class SceneTransitionTrigger : MonoBehaviour
 {
-    [SerializeField] private string sceneToLoad;
+    [SerializeField] private SceneField sceneToLoad;
 
     private bool _isTransitioning;
 

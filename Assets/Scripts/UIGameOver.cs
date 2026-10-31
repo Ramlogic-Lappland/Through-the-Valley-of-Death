@@ -17,7 +17,7 @@ public class UIGameOver : MonoBehaviour
       buttonRestart.onClick.AddListener(OnButtonRestart);
       buttonMainMenu.onClick.AddListener(OnButtonMainMenu);
 
-      EventManager.Instance.PlayerHasDied += OnPlayerDeath;
+      //EventManager.Instance.PlayerHasDied += OnPlayerDeath;
    }
 
    private void OnButtonRestart()
