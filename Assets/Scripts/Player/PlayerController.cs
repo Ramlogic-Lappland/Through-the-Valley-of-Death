@@ -32,10 +32,12 @@ public class PlayerController : MonoBehaviour
     private float _dashTimeRemaining;
     private float _dashCooldownRemaining;
 
+    private bool _isAlive;
+
     private void Awake()
     {
         _rb = GetComponent<Rigidbody2D>();
-
+        _isAlive = true;
         _gamePasued = false;
 
         if (uiPause != null)
@@ -46,7 +48,7 @@ public class PlayerController : MonoBehaviour
 
     private void Update()
     {
-        if (_gamePasued)
+        if (_gamePasued || !_isAlive)
         {
             _movementInput = Vector2.zero;
 
@@ -66,7 +68,7 @@ public class PlayerController : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if (_gamePasued)
+        if (_gamePasued || !_isAlive)
         {
             _rb.linearVelocity = Vector2.zero;
             _knockbackVelocity = Vector2.zero;
@@ -222,5 +224,10 @@ public class PlayerController : MonoBehaviour
     private void toggleFreezeInput()
     {
         _gamePasued = !_gamePasued;
+    }
+
+    public void SetIsAlive(bool isAlive)
+    {
+        _isAlive = isAlive;
     }
 }

@@ -16,8 +16,7 @@ public class UIGameOver : MonoBehaviour
    {
       buttonRestart.onClick.AddListener(OnButtonRestart);
       buttonMainMenu.onClick.AddListener(OnButtonMainMenu);
-
-      //EventManager.Instance.PlayerHasDied += OnPlayerDeath;
+      
    }
 
    private void OnButtonRestart()
@@ -41,5 +40,10 @@ public class UIGameOver : MonoBehaviour
       panel.alpha = state ? 1 : 0;
       panel.interactable = state;
       panel.blocksRaycasts = state;
+   }
+
+   public void ActivePanel()
+   {
+      SetPanel(gameOverPanel, true);
    }
 }

@@ -1,7 +1,7 @@
 using TMPro;
 using UnityEngine;
 using UnityEngine.Rendering.Universal;
-
+using UnityEngine.UI;
 public class WinConditionManager : MonoBehaviour
 {
     [SerializeField] private TextMeshProUGUI enemiesRemainingText;
@@ -11,6 +11,7 @@ public class WinConditionManager : MonoBehaviour
     [SerializeField] private Light2D outsideLight;
     [SerializeField] private float globalLightIntensity = 0.15f;
     [SerializeField] private ExitArrow exitArrow;
+    [SerializeField] private UIGameOver gameOverPanel; 
     public string hexColor = "#EFA35B";
     private int _remainingEnemies;
     private bool _gameEnded;
@@ -83,6 +84,8 @@ public class WinConditionManager : MonoBehaviour
             return;
 
         _gameEnded = true;
+        
+        gameOverPanel.ActivePanel();
         
         Debug.Log("YOU LOSE!");
 
