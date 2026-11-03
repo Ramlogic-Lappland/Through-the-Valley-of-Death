@@ -40,17 +40,24 @@ public class Bullet : MonoBehaviour
         _speed = speed;
     }
 
-    private void OnTriggerEnter2D(Collider2D other)
+private void OnTriggerEnter2D(Collider2D other)
+{
+    BasicEnemyBehaviour basicEnemy =
+        other.GetComponentInParent<BasicEnemyBehaviour>();
+
+    ChargerEnemyBehaviour chargerEnemy =
+        other.GetComponentInParent<ChargerEnemyBehaviour>();
+
+    if (basicEnemy != null)
     {
-        BasicEnemyBehaviour enemy =
-            other.GetComponentInParent<BasicEnemyBehaviour>();
-
-        if (enemy != null)
-        {
-            enemy.TakeDamage(damage, _sourcePosition);
-        }
-
-        Destroy(gameObject);
+        basicEnemy.TakeDamage(damage, _sourcePosition);
     }
+    else if (chargerEnemy != null)
+    {
+        chargerEnemy.TakeDamage(damage, _sourcePosition);
+    }
+
+    Destroy(gameObject);
+}
     
 }

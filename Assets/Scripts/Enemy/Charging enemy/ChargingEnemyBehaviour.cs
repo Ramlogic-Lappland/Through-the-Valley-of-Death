@@ -4,7 +4,7 @@ using UnityEngine.AI;
 
 [RequireComponent(typeof(NavMeshAgent))]
 
-public class ChargingEnemyBehaviour : MonoBehaviour
+public class ChargerEnemyBehaviour : MonoBehaviour
 {
     [Header("References")]
     [SerializeField] private Transform player;
