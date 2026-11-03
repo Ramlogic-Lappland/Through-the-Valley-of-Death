@@ -8,6 +8,7 @@ TagManager:
   - Obstacle
   - Enemy
   - Door
+  - ChargeEnemy
   layers:
   - Default
   - TransparentFX
@@ -21,7 +22,7 @@ TagManager:
   - Wall
   - Door
   - Obstacle
-  - 
+  - ChargeEnemy
   - 
   - 
   - 
