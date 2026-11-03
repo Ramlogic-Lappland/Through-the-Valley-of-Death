@@ -40,10 +40,10 @@ public class Bullet : MonoBehaviour
         _speed = speed;
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    private void OnTriggerEnter2D(Collider2D other)
     {
         BasicEnemyBehaviour enemy =
-            collision.collider.GetComponentInParent<BasicEnemyBehaviour>();
+            other.GetComponentInParent<BasicEnemyBehaviour>();
 
         if (enemy != null)
         {
