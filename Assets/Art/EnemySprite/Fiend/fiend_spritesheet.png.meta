@@ -1,0 +1,794 @@
+fileFormatVersion: 2
+guid: 35751d422c8864a4ba253557666463ba
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5562417586555408391
+    second: fiend_spritesheet_0
+  - first:
+      213: 4876112635870361224
+    second: fiend_spritesheet_1
+  - first:
+      213: -3676814952432278086
+    second: fiend_spritesheet_2
+  - first:
+      213: -3670010341086845174
+    second: fiend_spritesheet_3
+  - first:
+      213: 7201091438899921427
+    second: fiend_spritesheet_4
+  - first:
+      213: -2155078693406706444
+    second: fiend_spritesheet_5
+  - first:
+      213: -4054772673976232464
+    second: fiend_spritesheet_6
+  - first:
+      213: 17857405745234987
+    second: fiend_spritesheet_7
+  - first:
+      213: 3991610715897716564
+    second: fiend_spritesheet_8
+  - first:
+      213: -3315293903099667675
+    second: fiend_spritesheet_9
+  - first:
+      213: 805638354371039561
+    second: fiend_spritesheet_10
+  - first:
+      213: 8543100644133698420
+    second: fiend_spritesheet_11
+  - first:
+      213: -8280910408927639354
+    second: fiend_spritesheet_12
+  - first:
+      213: 2783122383966363044
+    second: fiend_spritesheet_13
+  - first:
+      213: 2485169962225584624
+    second: fiend_spritesheet_14
+  - first:
+      213: -4564419660780095982
+    second: fiend_spritesheet_15
+  - first:
+      213: 3424912047936073104
+    second: fiend_spritesheet_16
+  - first:
+      213: 5647743911696370803
+    second: fiend_spritesheet_17
+  - first:
+      213: -7518537804728822442
+    second: fiend_spritesheet_18
+  - first:
+      213: -6447394981333984032
+    second: fiend_spritesheet_19
+  - first:
+      213: 8331128400219025056
+    second: fiend_spritesheet_20
+  - first:
+      213: -9161594498645473536
+    second: fiend_spritesheet_21
+  - first:
+      213: 6376429448105749070
+    second: fiend_spritesheet_22
+  - first:
+      213: -4784777442529621484
+    second: fiend_spritesheet_23
+  - first:
+      213: 8109562197356823486
+    second: fiend_spritesheet_24
+  - first:
+      213: 7518274484416227304
+    second: fiend_spritesheet_25
+  - first:
+      213: 5426786314078775009
+    second: fiend_spritesheet_26
+  - first:
+      213: -5704115455398027448
+    second: fiend_spritesheet_27
+  - first:
+      213: -7080100860883607502
+    second: fiend_spritesheet_28
+  - first:
+      213: -6222868911054164556
+    second: fiend_spritesheet_29
+  - first:
+      213: 8676180242646139135
+    second: fiend_spritesheet_30
+  - first:
+      213: 5738977574544004952
+    second: fiend_spritesheet_31
+  - first:
+      213: -4962988840981588696
+    second: fiend_spritesheet_32
+  - first:
+      213: -984819480636734875
+    second: fiend_spritesheet_33
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: fiend_spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 741
+        width: 281
+        height: 327
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ffaafc0da25ec2b0800000000000000
+      internalID: -5562417586555408391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fiend_spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 740
+        width: 262
+        height: 334
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 886b8d98b9e6ba340800000000000000
+      internalID: 4876112635870361224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fiend_spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 743
+        width: 265
+        height: 337
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab5ed67084459fcc0800000000000000
+      internalID: -3676814952432278086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fiend_spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 743
+        width: 265
+        height: 337
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0722811a01811dc0800000000000000
+      internalID: -3670010341086845174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fiend_spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 1066
+        y: 740
+        width: 262
+        height: 334
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3128cbab28a6fe360800000000000000
+      internalID: 7201091438899921427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fiend_spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 386
+        width: 246
+        height: 314
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f4fa70b85f9712e0800000000000000
+      internalID: -2155078693406706444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fiend_spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 386
+        width: 258
+        height: 311
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f59fa27cbd8ab7c0800000000000000
+      internalID: -4054772673976232464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fiend_spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 377
+        width: 270
+        height: 324
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b240e0647317f3000800000000000000
+      internalID: 17857405745234987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fiend_spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 378
+        width: 275
+        height: 324
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45fd9b23ccc056730800000000000000
+      internalID: 3991610715897716564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fiend_spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 1084
+        y: 378
+        width: 263
+        height: 324
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52bd9b3a2c5bdf1d0800000000000000
+      internalID: -3315293903099667675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fiend_spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 1345
+        y: 386
+        width: 257
+        height: 314
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94157b990d33e2b00800000000000000
+      internalID: 805638354371039561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fiend_spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 37
+        width: 229
+        height: 292
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47bfff5c5c03f8670800000000000000
+      internalID: 8543100644133698420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fiend_spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 32
+        width: 253
+        height: 347
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c888037bdb441d80800000000000000
+      internalID: -8280910408927639354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fiend_spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 36
+        width: 234
+        height: 299
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4add0c60013af9620800000000000000
+      internalID: 2783122383966363044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fiend_spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 68
+        width: 216
+        height: 197
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f94de4e9e81d7220800000000000000
+      internalID: 2485169962225584624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fiend_spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 1052
+        y: 62
+        width: 253
+        height: 205
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 216b469708ce7a0c0800000000000000
+      internalID: -4564419660780095982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fiend_spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 68
+        width: 365
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09d6f249c5bb78f20800000000000000
+      internalID: 3424912047936073104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fiend_spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 1688
+        y: 68
+        width: 251
+        height: 199
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37c89072a21d06e40800000000000000
+      internalID: 5647743911696370803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fiend_spritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 1960
+        y: 74
+        width: 221
+        height: 191
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6551bc693b9c8a790800000000000000
+      internalID: -7518537804728822442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fiend_spritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 2184
+        y: 77
+        width: 230
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ec93fa9c604686a0800000000000000
+      internalID: -6447394981333984032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fiend_spritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 2417
+        y: 80
+        width: 278
+        height: 187
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ae2939c32d1e9370800000000000000
+      internalID: 8331128400219025056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fiend_spritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 2698
+        y: 83
+        width: 359
+        height: 178
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 007401cf75a7bd080800000000000000
+      internalID: -9161594498645473536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fiend_spritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 3057
+        y: 83
+        width: 274
+        height: 184
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4aeead9cc0ad7850800000000000000
+      internalID: 6376429448105749070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fiend_spritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 3332
+        y: 84
+        width: 243
+        height: 181
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41a48b0544e099db0800000000000000
+      internalID: -4784777442529621484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: a27702acd26cc6340abd0089f1f52185
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      fiend_spritesheet_0: -5562417586555408391
+      fiend_spritesheet_1: 4876112635870361224
+      fiend_spritesheet_10: 805638354371039561
+      fiend_spritesheet_11: 8543100644133698420
+      fiend_spritesheet_12: -8280910408927639354
+      fiend_spritesheet_13: 2783122383966363044
+      fiend_spritesheet_14: 2485169962225584624
+      fiend_spritesheet_15: -4564419660780095982
+      fiend_spritesheet_16: 3424912047936073104
+      fiend_spritesheet_17: 5647743911696370803
+      fiend_spritesheet_18: -7518537804728822442
+      fiend_spritesheet_19: -6447394981333984032
+      fiend_spritesheet_2: -3676814952432278086
+      fiend_spritesheet_20: 8331128400219025056
+      fiend_spritesheet_21: -9161594498645473536
+      fiend_spritesheet_22: 6376429448105749070
+      fiend_spritesheet_23: -4784777442529621484
+      fiend_spritesheet_24: 8109562197356823486
+      fiend_spritesheet_25: 7518274484416227304
+      fiend_spritesheet_26: 5426786314078775009
+      fiend_spritesheet_27: -5704115455398027448
+      fiend_spritesheet_28: -7080100860883607502
+      fiend_spritesheet_29: -6222868911054164556
+      fiend_spritesheet_3: -3670010341086845174
+      fiend_spritesheet_30: 8676180242646139135
+      fiend_spritesheet_31: 5738977574544004952
+      fiend_spritesheet_32: -4962988840981588696
+      fiend_spritesheet_33: -984819480636734875
+      fiend_spritesheet_4: 7201091438899921427
+      fiend_spritesheet_5: -2155078693406706444
+      fiend_spritesheet_6: -4054772673976232464
+      fiend_spritesheet_7: 17857405745234987
+      fiend_spritesheet_8: 3991610715897716564
+      fiend_spritesheet_9: -3315293903099667675
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

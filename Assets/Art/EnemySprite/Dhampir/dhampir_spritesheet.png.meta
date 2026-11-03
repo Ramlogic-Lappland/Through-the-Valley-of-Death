@@ -253,7 +253,7 @@ TextureImporter:
         width: 360
         height: 518
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -275,7 +275,7 @@ TextureImporter:
         width: 368
         height: 518
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -297,7 +297,7 @@ TextureImporter:
         width: 408
         height: 526
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -314,12 +314,12 @@ TextureImporter:
       name: dhampir_spritesheet_3
       rect:
         serializedVersion: 2
-        x: 1321
-        y: 1819
-        width: 171
-        height: 118
+        x: 2015
+        y: 1640
+        width: 456
+        height: 410
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -336,12 +336,12 @@ TextureImporter:
       name: dhampir_spritesheet_4
       rect:
         serializedVersion: 2
-        x: 1666
-        y: 1828
-        width: 165
-        height: 110
+        x: 1656
+        y: 1633
+        width: 353
+        height: 414
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -358,12 +358,12 @@ TextureImporter:
       name: dhampir_spritesheet_5
       rect:
         serializedVersion: 2
-        x: 2018
-        y: 1832
-        width: 195
-        height: 101
+        x: 2474
+        y: 1640
+        width: 353
+        height: 414
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -380,12 +380,12 @@ TextureImporter:
       name: dhampir_spritesheet_6
       rect:
         serializedVersion: 2
-        x: 2487
-        y: 1828
-        width: 180
-        height: 110
+        x: 2825
+        y: 1639
+        width: 328
+        height: 419
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -402,12 +402,12 @@ TextureImporter:
       name: dhampir_spritesheet_7
       rect:
         serializedVersion: 2
-        x: 2851
-        y: 1819
-        width: 142
-        height: 118
+        x: 3155
+        y: 1639
+        width: 307
+        height: 419
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -424,12 +424,12 @@ TextureImporter:
       name: dhampir_spritesheet_8
       rect:
         serializedVersion: 2
-        x: 3310
-        y: 1850
-        width: 137
-        height: 87
+        x: 3464
+        y: 1642
+        width: 356
+        height: 412
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -446,12 +446,12 @@ TextureImporter:
       name: dhampir_spritesheet_9
       rect:
         serializedVersion: 2
-        x: 3643
-        y: 1847
-        width: 165
-        height: 91
+        x: 3822
+        y: 1646
+        width: 487
+        height: 404
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -468,12 +468,12 @@ TextureImporter:
       name: dhampir_spritesheet_10
       rect:
         serializedVersion: 2
-        x: 4065
-        y: 1830
-        width: 228
-        height: 103
+        x: 4317
+        y: 1646
+        width: 356
+        height: 412
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -490,12 +490,12 @@ TextureImporter:
       name: dhampir_spritesheet_11
       rect:
         serializedVersion: 2
-        x: 4489
-        y: 1847
-        width: 165
-        height: 91
+        x: 4677
+        y: 1646
+        width: 323
+        height: 412
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -509,37 +509,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dhampir_spritesheet_12
-      rect:
-        serializedVersion: 2
-        x: 4834
-        y: 1850
-        width: 137
-        height: 87
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7374d554e6e9cee60800000000000000
-      internalID: 7992937635123119927
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: dhampir_spritesheet_13
       rect:
         serializedVersion: 2
-        x: 1493
-        y: 1718
-        width: 136
-        height: 88
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1303
+        y: 1632
+        width: 333
+        height: 410
+      alignment: 9
+      pivot: {x: 0.79528075, y: 0.45717385}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -553,204 +531,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dhampir_spritesheet_14
-      rect:
-        serializedVersion: 2
-        x: 1825
-        y: 1717
-        width: 165
-        height: 92
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: faacd488987815100800000000000000
-      internalID: 95006091918559919
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: dhampir_spritesheet_15
-      rect:
-        serializedVersion: 2
-        x: 2237
-        y: 1722
-        width: 228
-        height: 103
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7100935d49e4b38c0800000000000000
-      internalID: -4018531841358626793
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: dhampir_spritesheet_16
-      rect:
-        serializedVersion: 2
-        x: 2661
-        y: 1717
-        width: 165
-        height: 92
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 258f1598ae3f62240800000000000000
-      internalID: 4766765444269996114
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: dhampir_spritesheet_17
-      rect:
-        serializedVersion: 2
-        x: 2994
-        y: 1718
-        width: 149
-        height: 88
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8159d5f6b1e956620800000000000000
-      internalID: 2766791386758747416
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: dhampir_spritesheet_18
-      rect:
-        serializedVersion: 2
-        x: 3168
-        y: 1718
-        width: 141
-        height: 118
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 50fbc508147b2def0800000000000000
-      internalID: -84803951012299003
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: dhampir_spritesheet_19
-      rect:
-        serializedVersion: 2
-        x: 3479
-        y: 1717
-        width: 169
-        height: 111
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6c98313335ab2d1a0800000000000000
-      internalID: -6786156821991945786
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: dhampir_spritesheet_20
-      rect:
-        serializedVersion: 2
-        x: 3845
-        y: 1722
-        width: 196
-        height: 102
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7146adeb2d5fd3d10800000000000000
-      internalID: 2107110486173180951
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: dhampir_spritesheet_21
-      rect:
-        serializedVersion: 2
-        x: 4327
-        y: 1717
-        width: 168
-        height: 111
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1176e7d96d4169ef0800000000000000
-      internalID: -101871029571393775
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: dhampir_spritesheet_22
-      rect:
-        serializedVersion: 2
-        x: 4690
-        y: 1718
-        width: 142
-        height: 118
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 03b045865fbd0feb0800000000000000
-      internalID: -4688005365028877520
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: dhampir_spritesheet_23
       rect:
         serializedVersion: 2
@@ -759,7 +539,7 @@ TextureImporter:
         width: 443
         height: 490
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -781,7 +561,7 @@ TextureImporter:
         width: 390
         height: 500
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -803,7 +583,7 @@ TextureImporter:
         width: 369
         height: 495
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -825,7 +605,7 @@ TextureImporter:
         width: 430
         height: 489
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -847,7 +627,7 @@ TextureImporter:
         width: 369
         height: 495
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -869,7 +649,7 @@ TextureImporter:
         width: 390
         height: 500
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -891,7 +671,7 @@ TextureImporter:
         width: 443
         height: 490
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -913,7 +693,7 @@ TextureImporter:
         width: 389
         height: 500
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -935,7 +715,7 @@ TextureImporter:
         width: 370
         height: 495
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -957,7 +737,7 @@ TextureImporter:
         width: 430
         height: 489
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -979,7 +759,7 @@ TextureImporter:
         width: 369
         height: 495
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1001,7 +781,7 @@ TextureImporter:
         width: 390
         height: 500
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1023,7 +803,7 @@ TextureImporter:
         width: 313
         height: 449
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1045,7 +825,7 @@ TextureImporter:
         width: 299
         height: 532
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1067,7 +847,7 @@ TextureImporter:
         width: 296
         height: 726
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1089,7 +869,7 @@ TextureImporter:
         width: 267
         height: 799
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1111,7 +891,7 @@ TextureImporter:
         width: 348
         height: 839
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1133,7 +913,7 @@ TextureImporter:
         width: 307
         height: 784
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1155,7 +935,7 @@ TextureImporter:
         width: 298
         height: 532
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1177,7 +957,7 @@ TextureImporter:
         width: 312
         height: 450
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1199,7 +979,7 @@ TextureImporter:
         width: 1122
         height: 429
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1221,7 +1001,7 @@ TextureImporter:
         width: 932
         height: 589
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1238,7 +1018,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: ffcc21bd85c1a2e4da863f7a565a5248
     internalID: 0
     vertices: []
     indices: 

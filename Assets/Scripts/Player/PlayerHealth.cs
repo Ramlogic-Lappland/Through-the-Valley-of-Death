@@ -3,7 +3,7 @@ using System;
 public class PlayerHealth : MonoBehaviour
 {
     [SerializeField] private float maxHealth = 100f;
-
+    private PlayerController  _playerController;
     public event Action<float> OnHealthChanged;
 
     private float _health;
@@ -11,6 +11,7 @@ public class PlayerHealth : MonoBehaviour
 
     private void Start()
     {
+        _playerController = GetComponent<PlayerController>();
         _health = maxHealth;
         OnHealthChanged?.Invoke(_health);
     }
@@ -74,7 +75,8 @@ public class PlayerHealth : MonoBehaviour
         {
             manager.PlayerDefeated();
         }
-
+        _playerController.SetIsAlive(false);
+        
         Debug.Log("Player died!");
 
         // TODO:Disable movement, Play death animation, Show lose screen.
