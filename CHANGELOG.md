@@ -1,5 +1,43 @@
 # Changelog
 
+## [0.9.1] - 2026-11-03
+
+### Changes
+
+- Charger and player collision fixed.
+
+## [0.9.0] - 2026-11-03
+
+### New
+
+- Fiend charging enemy.
+- Win and lose screens.
+- Foot animations for the player and enemies.
+
+### Changes
+
+- Player no longer moves after dying.
+- First level walls changed to tilemap walls.
+- First level ground changed from sand to wood.
+- Doors added to the first level.
+- Level transitions fixed.
+- Game over screen scaling fixed.
+- Werewolf animation loop fixed.
+- Fiend and bullet logic fixed.
+
+## [0.8.7] - 2026-10-29
+
+### Changes
+
+- Version number shown in the pause menu updated.
+
+## [0.8.6] - 2026-10-29
+
+### New
+
+- Player dash.
+- Basic game over layout.
+
 ## [0.8.4] - 2026-10-27
 
 ### Changes
