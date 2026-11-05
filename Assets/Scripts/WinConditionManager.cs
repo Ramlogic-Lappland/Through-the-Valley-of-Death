@@ -13,12 +13,13 @@ public class WinConditionManager : MonoBehaviour
     [SerializeField] private ExitArrow exitArrow;
     [SerializeField] private UIGameOver gameOverPanel; 
     public string hexColor = "#EFA35B";
-    private int _remainingEnemies;
+    private int _remainingEnemies = 0;
     private bool _gameEnded;
     
     private void Start()
     {
-        _remainingEnemies = FindObjectsByType<BasicEnemyBehaviour>(FindObjectsSortMode.None).Length;
+        _remainingEnemies = _remainingEnemies + FindObjectsByType<BasicEnemyBehaviour>(FindObjectsSortMode.None).Length;
+        _remainingEnemies = _remainingEnemies + FindObjectsByType<ChargerEnemyBehaviour>(FindObjectsSortMode.None).Length;
         if (globalLight == null)
         {
             globalLight = GetComponent<Light2D>();
