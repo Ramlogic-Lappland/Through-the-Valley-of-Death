@@ -5,6 +5,8 @@ public class PlayerHealth : MonoBehaviour
     [SerializeField] private float maxHealth = 100f;
     private PlayerController  _playerController;
     public event Action<float> OnHealthChanged;
+    [SerializeField] private AK.Wwise.Event hitEvent;
+    [SerializeField] private AK.Wwise.Event deathEvent;
 
     private float _health;
     private bool _isDead;
@@ -42,6 +44,8 @@ public class PlayerHealth : MonoBehaviour
 
         OnHealthChanged?.Invoke(_health);
 
+        AkUnitySoundEngine.PostEvent(hitEvent.Id, gameObject);
+        
         if (_health <= 0f)
         {
             Die();
@@ -76,6 +80,7 @@ public class PlayerHealth : MonoBehaviour
             manager.PlayerDefeated();
         }
         _playerController.SetIsAlive(false);
+        AkUnitySoundEngine.PostEvent(deathEvent.Id, gameObject);
         
         Debug.Log("Player died!");
 

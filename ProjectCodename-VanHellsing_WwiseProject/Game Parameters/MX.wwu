@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{8E26D86D-7452-4502-83CB-2DE14B24F4D5}" SchemaVersion="133">
+	<GameParameters>
+		<WorkUnit Name="MX" ID="{8E26D86D-7452-4502-83CB-2DE14B24F4D5}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="HP" ID="{1E8AD067-5975-4467-868C-5EBF3F1C5E0A}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

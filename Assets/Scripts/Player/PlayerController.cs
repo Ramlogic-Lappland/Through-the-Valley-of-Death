@@ -18,6 +18,8 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float dashSpeed = 20f;
     [SerializeField] private float dashDuration = 0.2f;
     [SerializeField] private float dashCooldown = 1f;
+    
+    [SerializeField] private AK.Wwise.Event stepsEvent;
 
     private Rigidbody2D _rb;
     private bool _gamePasued;
@@ -125,6 +127,10 @@ public class PlayerController : MonoBehaviour
         Vector2 movementVelocity = _movementInput * speed;
 
         _rb.linearVelocity = movementVelocity + _knockbackVelocity;
+        if (_movementInput.x != 0 || _movementInput.y != 0)
+        {
+            AkUnitySoundEngine.PostEvent(stepsEvent.Id, gameObject);
+        }
     }
 
     private void HandleKnockback()

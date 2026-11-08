@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{EBC2C18C-7282-44FF-AB64-F84DE7D0657C}" SchemaVersion="133">
+	<GameParameters>
+		<WorkUnit Name="SFX" ID="{EBC2C18C-7282-44FF-AB64-F84DE7D0657C}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="Distance" ID="{49ACD7CB-5071-4E9A-A7D9-503BDEE55028}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

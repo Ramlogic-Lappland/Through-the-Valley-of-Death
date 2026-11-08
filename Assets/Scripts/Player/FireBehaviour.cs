@@ -1,5 +1,6 @@
 using UnityEngine;
 
+
 public abstract class FireBehaviour : MonoBehaviour
 {
     private float _fireCooldown;

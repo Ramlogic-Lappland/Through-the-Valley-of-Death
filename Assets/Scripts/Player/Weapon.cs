@@ -100,6 +100,7 @@ public class Weapon : MonoBehaviour
         _canShoot = true;
         _isReloading = false;
         EventManager.Instance?.RestartUIAmmo();
+        AkUnitySoundEngine.PostEvent(data.GetReloadEventSound().Id, gameObject);
     }
     
     public void DecreaseRounds()

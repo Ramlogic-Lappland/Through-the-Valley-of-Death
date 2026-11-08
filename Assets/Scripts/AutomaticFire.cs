@@ -1,8 +1,8 @@
 using UnityEngine;
 
+
 public class AutomaticFire : FireBehaviour
 {
-    
     void Update()
     {
         UpdateCooldown();
@@ -24,5 +24,6 @@ public class AutomaticFire : FireBehaviour
         SetCooldown(data.FireRate());
         weapon.DecreaseRounds();
         EventManager.Instance.UpdateUIAmmo(weapon.GetRoundsInMag(),(int)data.GetMagazineSize(), data.FireRate());
+        AkUnitySoundEngine.PostEvent(data.GetShootEventSound().Id, gameObject);
     }
 }
