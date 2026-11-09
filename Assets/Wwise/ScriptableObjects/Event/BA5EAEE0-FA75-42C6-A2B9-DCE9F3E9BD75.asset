@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 516e28af23937a247babbc820ee005d9, type: 3}
+  m_Name: BA5EAEE0-FA75-42C6-A2B9-DCE9F3E9BD75
+  m_EditorClassIdentifier: AK.Wwise.Unity.API.WwiseTypes::WwiseEventReference
+  objectName: Werewolf_Dmg
+  id: 3361049067
+  guid: BA5EAEE0-FA75-42C6-A2B9-DCE9F3E9BD75
+  IsInUserDefinedSoundBank: 0

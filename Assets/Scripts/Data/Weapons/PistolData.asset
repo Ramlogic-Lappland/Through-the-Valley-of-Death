@@ -27,4 +27,4 @@ MonoBehaviour:
   reloadEvent:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 6e815da9d297e3247934acb2aa7a25aa, type: 2}
