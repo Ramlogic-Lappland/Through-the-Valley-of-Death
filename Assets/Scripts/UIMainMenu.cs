@@ -47,6 +47,7 @@ public class UIMainMenu : MonoBehaviour
         _isTransitioning = true;
         Time.timeScale = 1;
         EventManager.Instance?.ChangeCursor();
+        AkSoundEngine.SetState("Game_State", "Lvl");
         SceneManager.LoadScene(sceneToLoad);
     }
 

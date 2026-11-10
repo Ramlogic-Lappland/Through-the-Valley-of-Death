@@ -21,11 +21,13 @@ public class UIGameOver : MonoBehaviour
 
    private void OnButtonRestart()
    {
+      AkSoundEngine.SetState("Game_State",  "Lvl");
       SceneManager.LoadScene(sceneLvl1);
    }
 
    private void OnButtonMainMenu()
    {
+      AkSoundEngine.SetState("Game_State",  "Menu");
       SceneManager.LoadScene(sceneMainMenu);
    }
 

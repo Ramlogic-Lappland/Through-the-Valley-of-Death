@@ -56,7 +56,6 @@ public class BasicEnemyBehaviour : MonoBehaviour
     [Header("Sounds")]
     [SerializeField] private AK.Wwise.Event deathEvent;
     [SerializeField] private AK.Wwise.Event hitEvent;
-    [SerializeField] private AK.Wwise.Event walkEvent;
     [SerializeField] private AK.Wwise.Event idleEvent;
 
     private enum EnemyState
