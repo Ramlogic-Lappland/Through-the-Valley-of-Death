@@ -31,26 +31,6 @@ jobs:
           key: Library-${{ matrix.targetPlatform }}
           restore-keys: Library-
 
-      # Instala Wwise Authoring CLI en el runner remoto de forma desatendida
-      - name: Setup Wwise CLI
-        shell: pwsh
-        run: |
-            Write-Host "Instalando herramientas de línea de comandos de Wwise versión ${{ env.WWISE_VERSION }}..."
-        # Descarga el instalador offline/CLI de Audiokinetic o usa la API de descarga
-          $installerUrl = "https://www.audiokinetic.com/download/?File=WwiseAuthoringCmdLine_${{ env.WWISE_VERSION }}.exe"
-        # Nota: Si Audiokinetic requiere autenticación mediante cuenta para descargar el binario,
-        # puedes guardar tus credenciales en los GitHub Secrets del repositorio (ej. WWIFA_USER y WWISE_PASSWORD).
-
-      # Generates Wwise SoundBanks
-      - name: Generate Wwise SoundBanks
-        shell: cmd
-        run: |
-          :: Ruta estándar donde el CLI de Wwise se instala en Windows
-          set WWISE_CONSOLE="C:\Program Files (x86)\Audiokinetic\Wwise ${{ env.WWISE_VERSION }}\Authoring\x64\Release\bin\WwiseConsole.exe"
-          
-          echo "Generando SoundBanks para el proyecto: ${{ env.WWISE_PROJECT_PATH }}"
-          %WWISE_CONSOLE% generate-soundbank "${{ env.WWISE_PROJECT_PATH }}" --platform Windows --language English
-
       # Builds the project for Windows Standalone
       - name: Build
         uses: game-ci/unity-builder@v4
