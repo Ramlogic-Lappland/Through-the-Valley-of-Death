@@ -13,6 +13,7 @@ public class UIWin : MonoBehaviour
     {
         //buttonRestart.onClick.AddListener(OnButtonRestart);
         buttonMainMenu.onClick.AddListener(OnButtonMainMenu);
+        AkSoundEngine.SetState("Game_State",  "Win");
     }
 
     /*private void OnButtonRestart()

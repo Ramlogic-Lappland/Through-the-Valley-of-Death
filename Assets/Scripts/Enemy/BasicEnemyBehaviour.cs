@@ -52,6 +52,11 @@ public class BasicEnemyBehaviour : MonoBehaviour
     [SerializeField] private MonoBehaviour attackBehaviour;
     private IEnemyAttack _attack;
     private Animator _animator;
+    
+    [Header("Sounds")]
+    [SerializeField] private AK.Wwise.Event deathEvent;
+    [SerializeField] private AK.Wwise.Event hitEvent;
+    [SerializeField] private AK.Wwise.Event idleEvent;
 
     private enum EnemyState
     {
@@ -200,6 +205,7 @@ public class BasicEnemyBehaviour : MonoBehaviour
 
             _agent.ResetPath();
         }
+        
     }
     
     private void GoToPatrolPoint()
@@ -488,7 +494,7 @@ public class BasicEnemyBehaviour : MonoBehaviour
 
         if (hitPoints <= 0)
         {
-          
+            AkUnitySoundEngine.PostEvent(deathEvent.Id, gameObject);
             if (deadEnemyPrefab != null) // sprite of dead enemy
             {
                 Instantiate
@@ -513,6 +519,7 @@ public class BasicEnemyBehaviour : MonoBehaviour
         }
 
         ReactToHit(sourcePosition);
+        AkUnitySoundEngine.PostEvent(hitEvent.Id, gameObject);
     }
     
     private void ReactToHit(Vector2 sourcePosition)

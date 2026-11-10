@@ -20,3 +20,11 @@ MonoBehaviour:
   fireType: 0
   magazineSize: 6
   reloadTime: 1.5
+  shootEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: baa4838810f7426468ef750b1f538993, type: 2}
+  reloadEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 6e815da9d297e3247934acb2aa7a25aa, type: 2}

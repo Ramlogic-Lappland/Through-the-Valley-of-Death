@@ -18,6 +18,9 @@ public class WeaponData : ScriptableObject
     
     [SerializeField] private float magazineSize;
     [SerializeField] private float reloadTime;
+    
+    [SerializeField] private AK.Wwise.Event shootEvent;
+    [SerializeField] private AK.Wwise.Event reloadEvent;
 
     public Bullet GetProjectile()
     {
@@ -52,5 +55,15 @@ public class WeaponData : ScriptableObject
     public float GetMagazineSize()
     {
         return magazineSize;
+    }
+
+    public AK.Wwise.Event GetShootEventSound()
+    {
+        return shootEvent;
+    }
+    
+    public AK.Wwise.Event GetReloadEventSound()
+    {
+        return reloadEvent;
     }
 }

@@ -125,6 +125,7 @@ public class PlayerController : MonoBehaviour
         Vector2 movementVelocity = _movementInput * speed;
 
         _rb.linearVelocity = movementVelocity + _knockbackVelocity;
+
     }
 
     private void HandleKnockback()
@@ -230,4 +231,6 @@ public class PlayerController : MonoBehaviour
     {
         _isAlive = isAlive;
     }
+
+    
 }

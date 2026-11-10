@@ -6,9 +6,14 @@ using UnityEngine.SceneManagement;
 public class UIMainMenu : MonoBehaviour
 {
     [SerializeField] private Button buttonPlay;
+    [SerializeField] private Button buttonCredits;
     [SerializeField] private Button buttonSettings;
     [SerializeField] private Button buttonExit;
-    [SerializeField] private string sceneToLoad;
+    [SerializeField] private Button buttonBack;
+    [SerializeField] private SceneField sceneToLoad;
+
+    [SerializeField] private CanvasGroup creditsPanel;
+    [SerializeField] private CanvasGroup menuPanel;
 
     private bool _isTransitioning;
 
@@ -16,8 +21,10 @@ public class UIMainMenu : MonoBehaviour
     private void Awake()
     {
         buttonPlay.onClick.AddListener(OnButtonPlayClicked);
+        buttonCredits.onClick.AddListener(OnButtonCreditsClicked);
         buttonSettings.onClick.AddListener(OnButtonSettingsClicked);
         buttonExit.onClick.AddListener(OnButtonExitClicked);
+        buttonBack.onClick.AddListener(OnButtonBackClicked);
     }
 
     void Start()
@@ -47,7 +54,14 @@ public class UIMainMenu : MonoBehaviour
         _isTransitioning = true;
         Time.timeScale = 1;
         EventManager.Instance?.ChangeCursor();
+        AkSoundEngine.SetState("Game_State", "Lvl");
         SceneManager.LoadScene(sceneToLoad);
+    }
+
+    private void OnButtonCreditsClicked()
+    {
+        SetPanel(creditsPanel, true);
+        SetPanel(menuPanel, false);
     }
 
     private void OnButtonSettingsClicked()
@@ -62,6 +76,19 @@ public class UIMainMenu : MonoBehaviour
 #else
          Application.Quit(0);
 #endif
+    }
+
+    private void OnButtonBackClicked()
+    {
+        SetPanel(creditsPanel, false);
+        SetPanel(menuPanel, true);
+    }
+    
+    private void SetPanel(CanvasGroup panel, bool state)
+    {
+        panel.alpha = state ? 1 : 0;
+        panel.interactable = state;
+        panel.blocksRaycasts = state;
     }
     
 }

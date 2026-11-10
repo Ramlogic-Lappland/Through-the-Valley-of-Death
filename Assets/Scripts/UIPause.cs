@@ -11,6 +11,7 @@ public class UIPause : MonoBehaviour
     [SerializeField] private TMP_Text versionText;
     [SerializeField] private Button buttonRestart;
     [SerializeField] private Button buttonMainMenu;
+    [SerializeField] private SceneField mainMenuScene;
     
     //[SerializeField] private Button buttonSettings;
 
@@ -60,7 +61,8 @@ public class UIPause : MonoBehaviour
 
     private void OnButtonExitClicked()
     {
-        SceneManager.LoadScene("Scenes/Build_0.8.0/MainMenu");
+        AkSoundEngine.SetState("Game_State",  "Menu");
+        SceneManager.LoadScene(mainMenuScene);
     }
     /*private void OnButtonSettingsClicked()
     {
@@ -91,6 +93,10 @@ public class UIPause : MonoBehaviour
         SetPanel(panelPause, _isPause);
         GameTogglePouse?.Invoke();
         EventManager.Instance.ChangeCursor();
+
+        string gameState = _isPause ? "Pause" : "Lvl";
+        AkSoundEngine.SetState("Game_State",  gameState);
+        
         //Cursor.lockState = _isPause ? CursorLockMode.None : CursorLockMode.Locked;
         //Cursor.visible = _isPause;
     }

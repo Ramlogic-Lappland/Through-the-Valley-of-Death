@@ -11,6 +11,7 @@ public class Bullet : MonoBehaviour
     private float _speed;
     private Vector2 _sourcePosition;
 
+    [SerializeField] private AK.Wwise.Event missEvent;
 
     private void Awake()
     {
@@ -55,6 +56,10 @@ private void OnTriggerEnter2D(Collider2D other)
     else if (chargerEnemy != null)
     {
         chargerEnemy.TakeDamage(damage, _sourcePosition);
+    }
+    else
+    {
+        AkUnitySoundEngine.PostEvent(missEvent.Id, gameObject);
     }
 
     Destroy(gameObject);

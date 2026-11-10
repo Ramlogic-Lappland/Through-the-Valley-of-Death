@@ -5,15 +5,23 @@ public class PlayerHealth : MonoBehaviour
     [SerializeField] private float maxHealth = 100f;
     private PlayerController  _playerController;
     public event Action<float> OnHealthChanged;
+    [SerializeField] private AK.Wwise.Event hitEvent;
+    [SerializeField] private AK.Wwise.Event deathEvent;
 
     private float _health;
     private bool _isDead;
+
+    [Range(0f, 100f)] 
+    private int _porHP;
 
     private void Start()
     {
         _playerController = GetComponent<PlayerController>();
         _health = maxHealth;
         OnHealthChanged?.Invoke(_health);
+        _porHP = (int) (maxHealth / (100f * _health));
+        
+        AkSoundEngine.SetRTPCValue("GameParameter", _porHP, gameObject);
     }
 
     private void Update()
@@ -41,7 +49,13 @@ public class PlayerHealth : MonoBehaviour
         _health = Mathf.Max(0f, _health - damage);
 
         OnHealthChanged?.Invoke(_health);
+        
+        _porHP = (int) (maxHealth / (100f * _health));
+        
+        AkSoundEngine.SetRTPCValue("HP", _porHP, gameObject);
 
+        AkUnitySoundEngine.PostEvent(hitEvent.Id, gameObject);
+        
         if (_health <= 0f)
         {
             Die();
@@ -56,6 +70,10 @@ public class PlayerHealth : MonoBehaviour
         }
 
         _health = Mathf.Min(_health + heal, maxHealth);
+        
+        _porHP = (int) (maxHealth / (100f * _health));
+        
+        AkSoundEngine.SetRTPCValue("HP", _porHP, gameObject);
 
         OnHealthChanged?.Invoke(_health);
     }
@@ -76,6 +94,8 @@ public class PlayerHealth : MonoBehaviour
             manager.PlayerDefeated();
         }
         _playerController.SetIsAlive(false);
+        AkUnitySoundEngine.PostEvent(deathEvent.Id, gameObject);
+        AkSoundEngine.SetState("Game_State", "Loose");
         
         Debug.Log("Player died!");
 
