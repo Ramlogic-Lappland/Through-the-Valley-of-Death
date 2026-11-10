@@ -1,0 +1,429 @@
+fileFormatVersion: 2
+guid: c0eb4e54a2e534b4c9b72e0ab9bb84a1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3373781416596095984
+    second: LogoIC_Fondo_Oscuro_Sin-Slogan_0
+  - first:
+      213: 917156255849337258
+    second: LogoIC_Fondo_Oscuro_Sin-Slogan_1
+  - first:
+      213: -7150975002083116451
+    second: LogoIC_Fondo_Oscuro_Sin-Slogan_2
+  - first:
+      213: -306267247158942217
+    second: LogoIC_Fondo_Oscuro_Sin-Slogan_3
+  - first:
+      213: 1881629447607899537
+    second: LogoIC_Fondo_Oscuro_Sin-Slogan_4
+  - first:
+      213: -6355915701025979547
+    second: LogoIC_Fondo_Oscuro_Sin-Slogan_5
+  - first:
+      213: 5155724040161820631
+    second: LogoIC_Fondo_Oscuro_Sin-Slogan_6
+  - first:
+      213: 2871603552720093053
+    second: LogoIC_Fondo_Oscuro_Sin-Slogan_7
+  - first:
+      213: 3051027196916162960
+    second: LogoIC_Fondo_Oscuro_Sin-Slogan_8
+  - first:
+      213: -2250473737271657858
+    second: LogoIC_Fondo_Oscuro_Sin-Slogan_9
+  - first:
+      213: -3669637179865590799
+    second: LogoIC_Fondo_Oscuro_Sin-Slogan_10
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: LogoIC_Fondo_Oscuro_Sin-Slogan_0
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 222
+        width: 84
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01cb9f93dabed21d0800000000000000
+      internalID: -3373781416596095984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoIC_Fondo_Oscuro_Sin-Slogan_1
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 222
+        width: 166
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa15d6161c46abc00800000000000000
+      internalID: 917156255849337258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoIC_Fondo_Oscuro_Sin-Slogan_2
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 222
+        width: 151
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5a33238f12a2cc90800000000000000
+      internalID: -7150975002083116451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoIC_Fondo_Oscuro_Sin-Slogan_3
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 222
+        width: 165
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f521c6bf8befbbf0800000000000000
+      internalID: -306267247158942217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoIC_Fondo_Oscuro_Sin-Slogan_4
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 221
+        width: 138
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19555976304ec1a10800000000000000
+      internalID: 1881629447607899537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoIC_Fondo_Oscuro_Sin-Slogan_5
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 126
+        width: 41
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 563c40258504bc7a0800000000000000
+      internalID: -6355915701025979547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoIC_Fondo_Oscuro_Sin-Slogan_6
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 127
+        width: 47
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7df79c5c2bfcc8740800000000000000
+      internalID: 5155724040161820631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoIC_Fondo_Oscuro_Sin-Slogan_7
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 126
+        width: 56
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7f71af773cf9d720800000000000000
+      internalID: 2871603552720093053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoIC_Fondo_Oscuro_Sin-Slogan_8
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 127
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0916e30121d675a20800000000000000
+      internalID: 3051027196916162960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoIC_Fondo_Oscuro_Sin-Slogan_9
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 126
+        width: 41
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7ab3993f06b4c0e0800000000000000
+      internalID: -2250473737271657858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoIC_Fondo_Oscuro_Sin-Slogan_10
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 126
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f39b8f6d64d21dc0800000000000000
+      internalID: -3669637179865590799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      LogoIC_Fondo_Oscuro_Sin-Slogan_0: -3373781416596095984
+      LogoIC_Fondo_Oscuro_Sin-Slogan_1: 917156255849337258
+      LogoIC_Fondo_Oscuro_Sin-Slogan_10: -3669637179865590799
+      LogoIC_Fondo_Oscuro_Sin-Slogan_2: -7150975002083116451
+      LogoIC_Fondo_Oscuro_Sin-Slogan_3: -306267247158942217
+      LogoIC_Fondo_Oscuro_Sin-Slogan_4: 1881629447607899537
+      LogoIC_Fondo_Oscuro_Sin-Slogan_5: -6355915701025979547
+      LogoIC_Fondo_Oscuro_Sin-Slogan_6: 5155724040161820631
+      LogoIC_Fondo_Oscuro_Sin-Slogan_7: 2871603552720093053
+      LogoIC_Fondo_Oscuro_Sin-Slogan_8: 3051027196916162960
+      LogoIC_Fondo_Oscuro_Sin-Slogan_9: -2250473737271657858
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

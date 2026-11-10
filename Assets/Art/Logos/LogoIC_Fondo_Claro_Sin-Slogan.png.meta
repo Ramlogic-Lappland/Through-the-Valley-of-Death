@@ -1,0 +1,429 @@
+fileFormatVersion: 2
+guid: 17ff87b0313c9514e8cea7cc506ffb6c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1131678416328401909
+    second: LogoIC_Fondo_Claro_Sin-Slogan_0
+  - first:
+      213: 4148691851747909290
+    second: LogoIC_Fondo_Claro_Sin-Slogan_1
+  - first:
+      213: 8916444926785925360
+    second: LogoIC_Fondo_Claro_Sin-Slogan_2
+  - first:
+      213: 1607046465268386980
+    second: LogoIC_Fondo_Claro_Sin-Slogan_3
+  - first:
+      213: -5607330926997822222
+    second: LogoIC_Fondo_Claro_Sin-Slogan_4
+  - first:
+      213: 7263030882502920242
+    second: LogoIC_Fondo_Claro_Sin-Slogan_5
+  - first:
+      213: -8017859502207610200
+    second: LogoIC_Fondo_Claro_Sin-Slogan_6
+  - first:
+      213: 3461556297573714133
+    second: LogoIC_Fondo_Claro_Sin-Slogan_7
+  - first:
+      213: -315094768177253560
+    second: LogoIC_Fondo_Claro_Sin-Slogan_8
+  - first:
+      213: -4955986018191467984
+    second: LogoIC_Fondo_Claro_Sin-Slogan_9
+  - first:
+      213: -4868881100306681720
+    second: LogoIC_Fondo_Claro_Sin-Slogan_10
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: LogoIC_Fondo_Claro_Sin-Slogan_0
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 222
+        width: 84
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f32b35168784bf00800000000000000
+      internalID: 1131678416328401909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoIC_Fondo_Claro_Sin-Slogan_1
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 222
+        width: 166
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaeddf9224d139930800000000000000
+      internalID: 4148691851747909290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoIC_Fondo_Claro_Sin-Slogan_2
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 222
+        width: 151
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f0b8686b639dbb70800000000000000
+      internalID: 8916444926785925360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoIC_Fondo_Claro_Sin-Slogan_3
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 222
+        width: 165
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ac8ed3ee306d4610800000000000000
+      internalID: 1607046465268386980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoIC_Fondo_Claro_Sin-Slogan_4
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 221
+        width: 138
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f4ab361b32ce22b0800000000000000
+      internalID: -5607330926997822222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoIC_Fondo_Claro_Sin-Slogan_5
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 126
+        width: 41
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23847404b187bc460800000000000000
+      internalID: 7263030882502920242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoIC_Fondo_Claro_Sin-Slogan_6
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 127
+        width: 47
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a2dcef5347dab090800000000000000
+      internalID: -8017859502207610200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoIC_Fondo_Claro_Sin-Slogan_7
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 126
+        width: 56
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d8c5eecc1be90030800000000000000
+      internalID: 3461556297573714133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoIC_Fondo_Claro_Sin-Slogan_8
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 127
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 843f5305afe80abf0800000000000000
+      internalID: -315094768177253560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoIC_Fondo_Claro_Sin-Slogan_9
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 126
+        width: 41
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03a15e179fcc83bb0800000000000000
+      internalID: -4955986018191467984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoIC_Fondo_Claro_Sin-Slogan_10
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 126
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8807b9a8f624e6cb0800000000000000
+      internalID: -4868881100306681720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      LogoIC_Fondo_Claro_Sin-Slogan_0: 1131678416328401909
+      LogoIC_Fondo_Claro_Sin-Slogan_1: 4148691851747909290
+      LogoIC_Fondo_Claro_Sin-Slogan_10: -4868881100306681720
+      LogoIC_Fondo_Claro_Sin-Slogan_2: 8916444926785925360
+      LogoIC_Fondo_Claro_Sin-Slogan_3: 1607046465268386980
+      LogoIC_Fondo_Claro_Sin-Slogan_4: -5607330926997822222
+      LogoIC_Fondo_Claro_Sin-Slogan_5: 7263030882502920242
+      LogoIC_Fondo_Claro_Sin-Slogan_6: -8017859502207610200
+      LogoIC_Fondo_Claro_Sin-Slogan_7: 3461556297573714133
+      LogoIC_Fondo_Claro_Sin-Slogan_8: -315094768177253560
+      LogoIC_Fondo_Claro_Sin-Slogan_9: -4955986018191467984
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
