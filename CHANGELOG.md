@@ -1,5 +1,36 @@
 # Changelog
 
+## [0.10.1] - 2026-11-10
+
+### New
+
+- Image logo splash screen.
+
+### Changes
+
+- Product and company names corrected in settings.
+
+## [0.10.0] - 2026-11-10
+
+### New
+
+- Fiend animations.
+- Door and exit point animations.
+- Weapon shoot sounds.
+- UI button sounds.
+- Credits placeholder in main menu.
+
+### Changes
+
+- Win condition now includes Charger enemies.
+- Player footstep audio fixed.
+- Audio events integrated across animations.
+
+### Known Issues
+
+- Enemy idle and footstep sounds need fixing.
+- Ambient audio is not integrated yet.
+
 ## [0.9.1] - 2026-11-03
 
 ### Changes
