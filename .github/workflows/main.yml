@@ -6,7 +6,9 @@ on:
       - '*.*.*'
 
 env:
-  buildName: My-Game
+  buildName: Through the Valley of Death
+  WWISE_PROJECT_PATH: ProjectCodename-VanHellsing_WwiseProject/ProjectCodename-VanHellsing_WwiseProject.wproj
+  WWISE_VERSION: 2025.1.11.9262
 
 jobs:
   buildAndUploadArtifact:
