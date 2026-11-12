@@ -15,4 +15,4 @@ MonoBehaviour:
   objectName: Werewolf_Death
   id: 4081187737
   guid: 5FF100BF-AD3B-4AFD-A6DE-CA116CBA8F5F
-  IsInUserDefinedSoundBank: 0
+  IsInUserDefinedSoundBank: 1

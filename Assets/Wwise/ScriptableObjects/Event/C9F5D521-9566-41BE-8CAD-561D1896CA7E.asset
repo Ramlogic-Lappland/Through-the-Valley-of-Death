@@ -15,4 +15,4 @@ MonoBehaviour:
   objectName: Player_Death
   id: 3083087645
   guid: C9F5D521-9566-41BE-8CAD-561D1896CA7E
-  IsInUserDefinedSoundBank: 0
+  IsInUserDefinedSoundBank: 1

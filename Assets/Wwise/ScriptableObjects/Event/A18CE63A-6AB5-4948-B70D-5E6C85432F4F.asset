@@ -15,4 +15,4 @@ MonoBehaviour:
   objectName: Werewolf_Idle
   id: 258637959
   guid: A18CE63A-6AB5-4948-B70D-5E6C85432F4F
-  IsInUserDefinedSoundBank: 0
+  IsInUserDefinedSoundBank: 1

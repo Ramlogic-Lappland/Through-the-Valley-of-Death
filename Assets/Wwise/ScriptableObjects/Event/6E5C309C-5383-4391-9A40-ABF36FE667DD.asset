@@ -15,4 +15,4 @@ MonoBehaviour:
   objectName: Dhampir_Walk
   id: 1360038204
   guid: 6E5C309C-5383-4391-9A40-ABF36FE667DD
-  IsInUserDefinedSoundBank: 0
+  IsInUserDefinedSoundBank: 1

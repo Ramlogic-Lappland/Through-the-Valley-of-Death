@@ -15,4 +15,4 @@ MonoBehaviour:
   objectName: Werewolf_Dmg
   id: 3361049067
   guid: BA5EAEE0-FA75-42C6-A2B9-DCE9F3E9BD75
-  IsInUserDefinedSoundBank: 0
+  IsInUserDefinedSoundBank: 1
