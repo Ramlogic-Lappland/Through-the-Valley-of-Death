@@ -77,94 +77,103 @@
 						</Folder>
 						<Folder Name="Enemy" ID="{2F9C697D-05CB-40E0-858C-D917C9251F70}" ShortID="1055554109">
 							<ChildrenList>
-								<Event Name="Dhampir_Dmg" ID="{0F276D16-2963-4B76-93F5-5D9D1DF14DD0}">
+								<Folder Name="Dhampir" ID="{DFDAA275-14AD-4F50-909A-82409A373A09}" ShortID="958967399">
 									<ChildrenList>
-										<Action Name="" ID="{5E15BA3C-FFD3-417F-A9DF-37A9152B871C}" ShortID="447235696">
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="TestHurt" ID="{01D36BE4-5B52-435F-95B3-F887C8DF6662}" WorkUnitID="{82D7ADE6-F8D1-4AC0-A8C0-CDF4DB1DB335}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
+										<Event Name="Dhampir_Death" ID="{53232916-217C-430A-8D75-9D5119D49BA0}">
+											<ChildrenList>
+												<Action Name="" ID="{AF8A3EAF-D1D6-4710-BFB2-EC4519D4109C}" ShortID="937629011">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="TestDie" ID="{8C7D4A9E-C3DB-4177-BEC8-0745F6E75403}" WorkUnitID="{82D7ADE6-F8D1-4AC0-A8C0-CDF4DB1DB335}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Dhampir_Idle" ID="{FDFCF3E2-A6B8-4486-948C-EEEFA71D0DAF}">
+											<ChildrenList>
+												<Action Name="" ID="{0B76012A-6B6D-4816-AC0C-941284E32255}" ShortID="207708037">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="TestIdle" ID="{7B3FB40A-147A-4E4B-ACB5-14D7D04CF3C0}" WorkUnitID="{82D7ADE6-F8D1-4AC0-A8C0-CDF4DB1DB335}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Dhampir_Walk" ID="{6E5C309C-5383-4391-9A40-ABF36FE667DD}">
+											<ChildrenList>
+												<Action Name="" ID="{633CA48B-1928-42B4-9F5E-A81D773752C1}" ShortID="877255255">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="TestStep" ID="{68852172-8C16-468D-8AB8-1D39DD154000}" WorkUnitID="{82D7ADE6-F8D1-4AC0-A8C0-CDF4DB1DB335}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Dhampir_Dmg" ID="{0F276D16-2963-4B76-93F5-5D9D1DF14DD0}">
+											<ChildrenList>
+												<Action Name="" ID="{5E15BA3C-FFD3-417F-A9DF-37A9152B871C}" ShortID="447235696">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="TestHurt" ID="{01D36BE4-5B52-435F-95B3-F887C8DF6662}" WorkUnitID="{82D7ADE6-F8D1-4AC0-A8C0-CDF4DB1DB335}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
 									</ChildrenList>
-								</Event>
-								<Event Name="Dhampir_Walk" ID="{6E5C309C-5383-4391-9A40-ABF36FE667DD}">
+								</Folder>
+								<Folder Name="Werewolf" ID="{B618A40F-D951-49A3-AFEC-2AB08C75DD66}" ShortID="1000823849">
 									<ChildrenList>
-										<Action Name="" ID="{633CA48B-1928-42B4-9F5E-A81D773752C1}" ShortID="877255255">
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="TestStep" ID="{68852172-8C16-468D-8AB8-1D39DD154000}" WorkUnitID="{82D7ADE6-F8D1-4AC0-A8C0-CDF4DB1DB335}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
+										<Event Name="Werewolf_Death" ID="{5FF100BF-AD3B-4AFD-A6DE-CA116CBA8F5F}">
+											<ChildrenList>
+												<Action Name="" ID="{D45E5D35-D86F-4D2A-B816-E324F0C74BF2}" ShortID="488672582">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="TestDie" ID="{8C7D4A9E-C3DB-4177-BEC8-0745F6E75403}" WorkUnitID="{82D7ADE6-F8D1-4AC0-A8C0-CDF4DB1DB335}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Werewolf_Dmg" ID="{BA5EAEE0-FA75-42C6-A2B9-DCE9F3E9BD75}">
+											<ChildrenList>
+												<Action Name="" ID="{C1D34821-5F5A-4E23-863E-C5D5A5F419AA}" ShortID="940878186">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="TestHurt" ID="{01D36BE4-5B52-435F-95B3-F887C8DF6662}" WorkUnitID="{82D7ADE6-F8D1-4AC0-A8C0-CDF4DB1DB335}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Werewolf_Walk" ID="{E586896F-9277-45B1-ACC8-D602B8A293D3}">
+											<ChildrenList>
+												<Action Name="" ID="{225DC2E4-9574-46EB-94C0-42162DB87EBA}" ShortID="545996635">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="TestStep" ID="{68852172-8C16-468D-8AB8-1D39DD154000}" WorkUnitID="{82D7ADE6-F8D1-4AC0-A8C0-CDF4DB1DB335}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Werewolf_Idle" ID="{A18CE63A-6AB5-4948-B70D-5E6C85432F4F}">
+											<ChildrenList>
+												<Action Name="" ID="{E86945FE-AAC3-4D17-B1EA-9DBD79846B20}" ShortID="723293716">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="TestIdle" ID="{7B3FB40A-147A-4E4B-ACB5-14D7D04CF3C0}" WorkUnitID="{82D7ADE6-F8D1-4AC0-A8C0-CDF4DB1DB335}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
 									</ChildrenList>
-								</Event>
-								<Event Name="Dhampir_Idle" ID="{FDFCF3E2-A6B8-4486-948C-EEEFA71D0DAF}">
-									<ChildrenList>
-										<Action Name="" ID="{0B76012A-6B6D-4816-AC0C-941284E32255}" ShortID="207708037">
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="TestIdle" ID="{7B3FB40A-147A-4E4B-ACB5-14D7D04CF3C0}" WorkUnitID="{82D7ADE6-F8D1-4AC0-A8C0-CDF4DB1DB335}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="Dhampir_Death" ID="{53232916-217C-430A-8D75-9D5119D49BA0}">
-									<ChildrenList>
-										<Action Name="" ID="{AF8A3EAF-D1D6-4710-BFB2-EC4519D4109C}" ShortID="937629011">
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="TestDie" ID="{8C7D4A9E-C3DB-4177-BEC8-0745F6E75403}" WorkUnitID="{82D7ADE6-F8D1-4AC0-A8C0-CDF4DB1DB335}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="Werewolf_Walk" ID="{E586896F-9277-45B1-ACC8-D602B8A293D3}">
-									<ChildrenList>
-										<Action Name="" ID="{225DC2E4-9574-46EB-94C0-42162DB87EBA}" ShortID="545996635">
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="TestStep" ID="{68852172-8C16-468D-8AB8-1D39DD154000}" WorkUnitID="{82D7ADE6-F8D1-4AC0-A8C0-CDF4DB1DB335}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="Werewolf_Idle" ID="{A18CE63A-6AB5-4948-B70D-5E6C85432F4F}">
-									<ChildrenList>
-										<Action Name="" ID="{E86945FE-AAC3-4D17-B1EA-9DBD79846B20}" ShortID="723293716">
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="TestIdle" ID="{7B3FB40A-147A-4E4B-ACB5-14D7D04CF3C0}" WorkUnitID="{82D7ADE6-F8D1-4AC0-A8C0-CDF4DB1DB335}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="Werewolf_Death" ID="{5FF100BF-AD3B-4AFD-A6DE-CA116CBA8F5F}">
-									<ChildrenList>
-										<Action Name="" ID="{D45E5D35-D86F-4D2A-B816-E324F0C74BF2}" ShortID="488672582">
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="TestDie" ID="{8C7D4A9E-C3DB-4177-BEC8-0745F6E75403}" WorkUnitID="{82D7ADE6-F8D1-4AC0-A8C0-CDF4DB1DB335}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="Werewolf_Dmg" ID="{BA5EAEE0-FA75-42C6-A2B9-DCE9F3E9BD75}">
-									<ChildrenList>
-										<Action Name="" ID="{C1D34821-5F5A-4E23-863E-C5D5A5F419AA}" ShortID="940878186">
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="TestHurt" ID="{01D36BE4-5B52-435F-95B3-F887C8DF6662}" WorkUnitID="{82D7ADE6-F8D1-4AC0-A8C0-CDF4DB1DB335}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
+								</Folder>
+								<Folder Name="Fiend" ID="{AEE761DF-0A7C-46FE-89DB-9C331CFDB1AC}" ShortID="604446917"/>
 							</ChildrenList>
 						</Folder>
 					</ChildrenList>
