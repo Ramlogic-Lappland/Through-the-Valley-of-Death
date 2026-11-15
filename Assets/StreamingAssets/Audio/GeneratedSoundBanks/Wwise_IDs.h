@@ -20,6 +20,10 @@ namespace AK
         static const AkUniqueID DHAMPIR_WALK = 1360038204U;
         static const AkUniqueID DOOR_CREEK = 1998015512U;
         static const AkUniqueID DOOR_CREEK_PLUS = 3796213831U;
+        static const AkUniqueID FIEND_DEATH = 3754399842U;
+        static const AkUniqueID FIEND_DMG = 159379504U;
+        static const AkUniqueID FIEND_IDLE_ = 3398507345U;
+        static const AkUniqueID FIEND_WALK_ = 1739541450U;
         static const AkUniqueID MISS = 3062523241U;
         static const AkUniqueID MX = 1685527054U;
         static const AkUniqueID PLAYER_DEATH = 3083087645U;
@@ -43,21 +47,37 @@ namespace AK
 
             namespace STATE
             {
-                static const AkUniqueID LOOSE = 174960569U;
+                static const AkUniqueID CLEAR = 1754255536U;
+                static const AkUniqueID LOOSE_CREDIT = 3801611875U;
                 static const AkUniqueID LVL = 964811649U;
                 static const AkUniqueID MENU = 2607556080U;
-                static const AkUniqueID NONE = 748895195U;
-                static const AkUniqueID WIN = 979765101U;
             } // namespace STATE
         } // namespace GAME_STATE
+
+        namespace PAUSE
+        {
+            static const AkUniqueID GROUP = 3092587493U;
+
+            namespace STATE
+            {
+                static const AkUniqueID OFF = 930712164U;
+                static const AkUniqueID ON = 1651971902U;
+            } // namespace STATE
+        } // namespace PAUSE
 
     } // namespace STATES
 
     namespace GAME_PARAMETERS
     {
+        static const AkUniqueID ACTION = 209137191U;
         static const AkUniqueID DISTANCE = 1240670792U;
         static const AkUniqueID HP = 1769415205U;
     } // namespace GAME_PARAMETERS
+
+    namespace TRIGGERS
+    {
+        static const AkUniqueID MENU_OUT = 2818768589U;
+    } // namespace TRIGGERS
 
     namespace BANKS
     {

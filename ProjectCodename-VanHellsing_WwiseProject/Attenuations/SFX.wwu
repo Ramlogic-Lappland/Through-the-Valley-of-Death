@@ -3,26 +3,26 @@
 	<Attenuations>
 		<WorkUnit Name="SFX" ID="{94A36065-4387-4575-B532-8529553FC79D}" PersistMode="Standalone">
 			<ChildrenList>
-				<Attenuation Name="Pasos" ID="{FDF9F50F-18BE-4A6A-AB76-E0A897CEE3F4}" ShortID="925525860">
+				<Attenuation Name="Pasos" ID="{E6F370E2-1154-4E70-A5ED-A6DEAAF8389A}" ShortID="925525861">
 					<PropertyList>
 						<Property Name="RadiusMax" Type="Real64" Value="30"/>
 					</PropertyList>
 					<CurveUsageInfoList>
 						<VolumeDryUsage>
 							<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-								<Curve Name="VolumeDry" ID="{34571136-738D-4D4E-AFB2-FAC62A37A43E}">
+								<Curve Name="VolumeDry" ID="{6E2F1C0B-E933-4304-AED8-D78A8A340E1D}">
 									<PropertyList>
 										<Property Name="Flags" Type="int32" Value="3"/>
 									</PropertyList>
 									<PointList>
 										<Point>
 											<XPos>0</XPos>
-											<YPos>-0</YPos>
+											<YPos>0</YPos>
 											<Flags>5</Flags>
 										</Point>
 										<Point>
 											<XPos>10.07937</XPos>
-											<YPos>-0</YPos>
+											<YPos>0</YPos>
 											<Flags>0</Flags>
 											<SegmentShape>Log3</SegmentShape>
 										</Point>
@@ -42,7 +42,7 @@
 						</VolumeDryUsage>
 						<VolumeWetGameUsage>
 							<CurveUsageInfo Platform="Linked" CurveToUse="None">
-								<Curve Name="VolumeWetGame" ID="{D0B5A732-315F-43FF-B6AF-6846E32061E7}">
+								<Curve Name="VolumeWetGame" ID="{AB100875-BD47-4591-82FF-C7850865E155}">
 									<PropertyList>
 										<Property Name="Flags" Type="int32" Value="3"/>
 									</PropertyList>
