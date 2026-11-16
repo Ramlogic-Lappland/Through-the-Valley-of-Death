@@ -132,7 +132,7 @@
 												<Action Name="" ID="{D45E5D35-D86F-4D2A-B816-E324F0C74BF2}" ShortID="488672582">
 													<ReferenceList>
 														<Reference Name="Target">
-															<ObjectRef Name="TestDie" ID="{8C7D4A9E-C3DB-4177-BEC8-0745F6E75403}" WorkUnitID="{82D7ADE6-F8D1-4AC0-A8C0-CDF4DB1DB335}"/>
+															<ObjectRef Name="Death" ID="{0138E0B9-9F5D-4527-A167-1CA3628E2C32}" WorkUnitID="{82D7ADE6-F8D1-4AC0-A8C0-CDF4DB1DB335}"/>
 														</Reference>
 													</ReferenceList>
 												</Action>
@@ -143,7 +143,7 @@
 												<Action Name="" ID="{C1D34821-5F5A-4E23-863E-C5D5A5F419AA}" ShortID="940878186">
 													<ReferenceList>
 														<Reference Name="Target">
-															<ObjectRef Name="TestHurt" ID="{01D36BE4-5B52-435F-95B3-F887C8DF6662}" WorkUnitID="{82D7ADE6-F8D1-4AC0-A8C0-CDF4DB1DB335}"/>
+															<ObjectRef Name="Dmg" ID="{342A1D27-DAEE-4CFC-824D-E8331A45D749}" WorkUnitID="{82D7ADE6-F8D1-4AC0-A8C0-CDF4DB1DB335}"/>
 														</Reference>
 													</ReferenceList>
 												</Action>
@@ -154,7 +154,7 @@
 												<Action Name="" ID="{225DC2E4-9574-46EB-94C0-42162DB87EBA}" ShortID="545996635">
 													<ReferenceList>
 														<Reference Name="Target">
-															<ObjectRef Name="TestStep" ID="{68852172-8C16-468D-8AB8-1D39DD154000}" WorkUnitID="{82D7ADE6-F8D1-4AC0-A8C0-CDF4DB1DB335}"/>
+															<ObjectRef Name="Walk" ID="{1401755D-1B0E-4B33-A317-1E1BDF5E6487}" WorkUnitID="{82D7ADE6-F8D1-4AC0-A8C0-CDF4DB1DB335}"/>
 														</Reference>
 													</ReferenceList>
 												</Action>
@@ -165,7 +165,18 @@
 												<Action Name="" ID="{E86945FE-AAC3-4D17-B1EA-9DBD79846B20}" ShortID="723293716">
 													<ReferenceList>
 														<Reference Name="Target">
-															<ObjectRef Name="TestIdle" ID="{7B3FB40A-147A-4E4B-ACB5-14D7D04CF3C0}" WorkUnitID="{82D7ADE6-F8D1-4AC0-A8C0-CDF4DB1DB335}"/>
+															<ObjectRef Name="Idle" ID="{7F2EA634-2BD1-4B1E-9A72-26DDE7ED3F3D}" WorkUnitID="{82D7ADE6-F8D1-4AC0-A8C0-CDF4DB1DB335}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Werewolf_Atk" ID="{E938608F-64CD-4F4A-BAE3-C1C9C5964092}">
+											<ChildrenList>
+												<Action Name="" ID="{F5C533F4-9D39-42E4-955F-E5FCD24BEC39}" ShortID="811862641">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Atk" ID="{14DDA541-7485-4DB6-B0A4-5D5479E5E685}" WorkUnitID="{82D7ADE6-F8D1-4AC0-A8C0-CDF4DB1DB335}"/>
 														</Reference>
 													</ReferenceList>
 												</Action>
@@ -197,7 +208,7 @@
 												</Action>
 											</ChildrenList>
 										</Event>
-										<Event Name="Fiend_Idle_" ID="{F7F758C1-7EB2-4292-B592-55673C7D6F2B}">
+										<Event Name="Fiend_Idle" ID="{F7F758C1-7EB2-4292-B592-55673C7D6F2B}">
 											<ChildrenList>
 												<Action Name="" ID="{9B20DF90-C13E-4E89-A148-411F08A24778}" ShortID="617889929">
 													<ReferenceList>
@@ -208,7 +219,7 @@
 												</Action>
 											</ChildrenList>
 										</Event>
-										<Event Name="Fiend_Walk_" ID="{48528660-B9D5-4DA9-9743-79A8A072770E}">
+										<Event Name="Fiend_Walk" ID="{48528660-B9D5-4DA9-9743-79A8A072770E}">
 											<ChildrenList>
 												<Action Name="" ID="{A8ACF639-FC9F-4177-8C89-514F3DE24D15}" ShortID="588497589">
 													<ReferenceList>
@@ -258,7 +269,7 @@
 								<Action Name="" ID="{1C3C80D9-5534-4A23-826B-4D8133A4B21F}" ShortID="902977968">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="TestAmb" ID="{308D1597-305B-4ADC-A9E9-D0B2B07257BD}" WorkUnitID="{82D7ADE6-F8D1-4AC0-A8C0-CDF4DB1DB335}"/>
+											<ObjectRef Name="Amb" ID="{B1904006-9D68-465A-B2AD-27F540FFCCDE}" WorkUnitID="{82D7ADE6-F8D1-4AC0-A8C0-CDF4DB1DB335}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

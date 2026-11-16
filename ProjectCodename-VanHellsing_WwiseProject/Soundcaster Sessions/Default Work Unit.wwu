@@ -3,7 +3,46 @@
 	<SoundcasterSessions>
 		<WorkUnit Name="Default Work Unit" ID="{346D2642-C68A-4C14-9147-00A3CC622B61}" PersistMode="Standalone">
 			<ChildrenList>
-				<SoundcasterSession Name="New Soundcaster Session" ID="{85A18947-2CCD-4011-9181-852ECE2D06DC}"/>
+				<SoundcasterSession Name="Mix Test" ID="{85A18947-2CCD-4011-9181-852ECE2D06DC}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Amb" ID="{74192867-BE19-4D28-8FB9-6B7D6E5B699A}" WorkUnitID="{F2C881ED-CBE3-4C24-BFB7-8B706B5DFC8B}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Werewolf_Idle" ID="{A18CE63A-6AB5-4948-B70D-5E6C85432F4F}" WorkUnitID="{F2C881ED-CBE3-4C24-BFB7-8B706B5DFC8B}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="MX" ID="{F73D2297-C12B-49C0-BEF1-26886F4AADEA}" WorkUnitID="{20878FE9-78AE-4938-9992-CE0FC8BCDE69}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Werewolf_Walk" ID="{E586896F-9277-45B1-ACC8-D602B8A293D3}" WorkUnitID="{F2C881ED-CBE3-4C24-BFB7-8B706B5DFC8B}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Werewolf_Dmg" ID="{BA5EAEE0-FA75-42C6-A2B9-DCE9F3E9BD75}" WorkUnitID="{F2C881ED-CBE3-4C24-BFB7-8B706B5DFC8B}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Werewolf_Death" ID="{5FF100BF-AD3B-4AFD-A6DE-CA116CBA8F5F}" WorkUnitID="{F2C881ED-CBE3-4C24-BFB7-8B706B5DFC8B}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Werewolf_Atk" ID="{E938608F-64CD-4F4A-BAE3-C1C9C5964092}" WorkUnitID="{F2C881ED-CBE3-4C24-BFB7-8B706B5DFC8B}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Shoot" ID="{7A35BB67-4F45-4F42-8D33-7149B7BE44FA}" WorkUnitID="{F2C881ED-CBE3-4C24-BFB7-8B706B5DFC8B}"/>
+							<Position X="3" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Reload" ID="{8BF3532A-3338-4DC0-B4C9-9AC9915AF88E}" WorkUnitID="{F2C881ED-CBE3-4C24-BFB7-8B706B5DFC8B}"/>
+							<Position X="3" Y="2"/>
+						</Module>
+					</ModuleList>
+				</SoundcasterSession>
 			</ChildrenList>
 		</WorkUnit>
 	</SoundcasterSessions>

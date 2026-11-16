@@ -5,6 +5,7 @@
 			<ChildrenList>
 				<StateGroup Name="Game_State" ID="{A23C531C-A3F1-4C9D-8282-9D77BE2F7FE5}">
 					<ChildrenList>
+						<State Name="None" ID="{50EFB8CA-11FF-4115-9D36-0D84B118B0E6}"/>
 						<State Name="Menu" ID="{B72ECBFE-119F-4BD9-ACAD-83ABAA582B83}"/>
 						<State Name="Lvl" ID="{2CE3EECE-F4CC-493A-98CB-40C28E32DAF5}"/>
 						<State Name="Loose_Credit" ID="{D4C420F5-78E5-4786-94F8-44B342A282A9}"/>
@@ -16,8 +17,29 @@
 						<Property Name="DefaultTransitionTime" Type="Real64" Value="0.5"/>
 					</PropertyList>
 					<ChildrenList>
+						<State Name="None" ID="{CCD3DF9A-18BF-4DE5-81BF-0D5CF16DDE42}"/>
 						<State Name="On" ID="{2EADBDB6-E53C-4F8E-A86D-76ECDCC665F6}"/>
 						<State Name="Off" ID="{31FB9AE4-5FC2-4063-A7E5-1944196029BD}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="Combat" ID="{5B9375FB-8A44-43B7-ADB8-BE6CA590FB56}">
+					<PropertyList>
+						<Property Name="DefaultTransitionTime" Type="Real64" Value="4"/>
+					</PropertyList>
+					<ChildrenList>
+						<State Name="None" ID="{770F3906-EDDB-47DA-B50F-21AD31090A64}"/>
+						<State Name="On" ID="{F3B93C69-C8B5-47D3-A3EB-129A7136571B}"/>
+						<State Name="Off" ID="{C65DC2B3-6422-41CC-B70B-06EB03E99CDD}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="Location" ID="{B6059E60-8BFF-404C-B271-CF0C11E646E7}">
+					<PropertyList>
+						<Property Name="DefaultTransitionTime" Type="Real64" Value="3"/>
+					</PropertyList>
+					<ChildrenList>
+						<State Name="None" ID="{16F58D41-DF5C-4B45-B5D8-43020A1FA268}"/>
+						<State Name="Indoor" ID="{4407483F-C46F-4536-896A-B3E04AEADD98}"/>
+						<State Name="Outdoor" ID="{EC1511DC-0A3A-4CEC-9AF9-CFC96CF34CD1}"/>
 					</ChildrenList>
 				</StateGroup>
 			</ChildrenList>
