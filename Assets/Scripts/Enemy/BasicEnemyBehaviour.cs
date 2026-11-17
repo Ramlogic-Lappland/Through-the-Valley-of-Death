@@ -428,7 +428,7 @@ public class BasicEnemyBehaviour : MonoBehaviour
             return false;
         }
 
-        return hit.collider.CompareTag("Player");
+        return hit.collider.GetComponentInParent<PlayerController>() != null;
     }
     #endregion =============================================================================================================================
 
