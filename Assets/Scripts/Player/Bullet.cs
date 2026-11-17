@@ -33,7 +33,8 @@ public class Bullet : MonoBehaviour
 
     private void HandleMovement()
     {
-        _rb.MovePosition(_rb.position + (Vector2)transform.up * _speed * Time.fixedDeltaTime);
+        //_rb.MovePosition(_rb.position + (Vector2)transform.up * _speed * Time.fixedDeltaTime);
+        _rb.linearVelocity = (Vector2)transform.up * _speed;
     }
 
     public void SetSpeed(float speed)
@@ -41,28 +42,29 @@ public class Bullet : MonoBehaviour
         _speed = speed;
     }
 
-private void OnTriggerEnter2D(Collider2D other)
-{
-    BasicEnemyBehaviour basicEnemy =
-        other.GetComponentInParent<BasicEnemyBehaviour>();
-
-    ChargerEnemyBehaviour chargerEnemy =
-        other.GetComponentInParent<ChargerEnemyBehaviour>();
-
-    if (basicEnemy != null)
+    private void OnCollisionEnter2D(Collision2D collision)
     {
-        basicEnemy.TakeDamage(damage, _sourcePosition);
-    }
-    else if (chargerEnemy != null)
-    {
-        chargerEnemy.TakeDamage(damage, _sourcePosition);
-    }
-    else
-    {
-        AkUnitySoundEngine.PostEvent(missEvent.Id, gameObject);
-    }
+        //Collider2D tenia antes
+        BasicEnemyBehaviour basicEnemy =
+            collision.collider.GetComponentInParent<BasicEnemyBehaviour>();
 
-    Destroy(gameObject);
-}
+        ChargerEnemyBehaviour chargerEnemy =
+            collision.collider.GetComponentInParent<ChargerEnemyBehaviour>();
+
+        if (basicEnemy != null)
+        {
+            basicEnemy.TakeDamage(damage, _sourcePosition);
+        }
+        else if (chargerEnemy != null)
+        {
+            chargerEnemy.TakeDamage(damage, _sourcePosition);
+        }
+        else
+        {
+            AkUnitySoundEngine.PostEvent(missEvent.Id, gameObject);
+        }
+
+        Destroy(gameObject);
+    }
     
 }
