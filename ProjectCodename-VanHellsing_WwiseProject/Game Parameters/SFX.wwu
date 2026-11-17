@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{EBC2C18C-7282-44FF-AB64-F84DE7D0657C}" SchemaVersion="133">
 	<GameParameters>
-		<WorkUnit Name="SFX" ID="{EBC2C18C-7282-44FF-AB64-F84DE7D0657C}" PersistMode="Standalone"/>
+		<WorkUnit Name="SFX" ID="{EBC2C18C-7282-44FF-AB64-F84DE7D0657C}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="DoorSpeed" ID="{B45D1051-1D88-4425-965D-8FC2EF0A35BF}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="SlewRateUp" Type="Real64" Value="92"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
 	</GameParameters>
 </WwiseDocument>

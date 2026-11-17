@@ -84,7 +84,7 @@
 												<Action Name="" ID="{AF8A3EAF-D1D6-4710-BFB2-EC4519D4109C}" ShortID="937629011">
 													<ReferenceList>
 														<Reference Name="Target">
-															<ObjectRef Name="TestDie" ID="{8C7D4A9E-C3DB-4177-BEC8-0745F6E75403}" WorkUnitID="{82D7ADE6-F8D1-4AC0-A8C0-CDF4DB1DB335}"/>
+															<ObjectRef Name="Death" ID="{D20CFBFA-6313-4F6F-BC62-4F4A1382F730}" WorkUnitID="{82D7ADE6-F8D1-4AC0-A8C0-CDF4DB1DB335}"/>
 														</Reference>
 													</ReferenceList>
 												</Action>
@@ -95,7 +95,7 @@
 												<Action Name="" ID="{0B76012A-6B6D-4816-AC0C-941284E32255}" ShortID="207708037">
 													<ReferenceList>
 														<Reference Name="Target">
-															<ObjectRef Name="TestIdle" ID="{7B3FB40A-147A-4E4B-ACB5-14D7D04CF3C0}" WorkUnitID="{82D7ADE6-F8D1-4AC0-A8C0-CDF4DB1DB335}"/>
+															<ObjectRef Name="Idle" ID="{4315F3C5-79E0-420D-BD1B-8864B039616B}" WorkUnitID="{82D7ADE6-F8D1-4AC0-A8C0-CDF4DB1DB335}"/>
 														</Reference>
 													</ReferenceList>
 												</Action>
@@ -106,7 +106,7 @@
 												<Action Name="" ID="{633CA48B-1928-42B4-9F5E-A81D773752C1}" ShortID="877255255">
 													<ReferenceList>
 														<Reference Name="Target">
-															<ObjectRef Name="TestStep" ID="{68852172-8C16-468D-8AB8-1D39DD154000}" WorkUnitID="{82D7ADE6-F8D1-4AC0-A8C0-CDF4DB1DB335}"/>
+															<ObjectRef Name="Walk" ID="{C39F5849-728E-4778-90F6-EFF062C1B02C}" WorkUnitID="{82D7ADE6-F8D1-4AC0-A8C0-CDF4DB1DB335}"/>
 														</Reference>
 													</ReferenceList>
 												</Action>
@@ -117,7 +117,18 @@
 												<Action Name="" ID="{5E15BA3C-FFD3-417F-A9DF-37A9152B871C}" ShortID="447235696">
 													<ReferenceList>
 														<Reference Name="Target">
-															<ObjectRef Name="TestHurt" ID="{01D36BE4-5B52-435F-95B3-F887C8DF6662}" WorkUnitID="{82D7ADE6-F8D1-4AC0-A8C0-CDF4DB1DB335}"/>
+															<ObjectRef Name="Dmg" ID="{4797E39A-CC96-4A8C-93FD-162388867799}" WorkUnitID="{82D7ADE6-F8D1-4AC0-A8C0-CDF4DB1DB335}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Dhampir_Atk" ID="{3D699F3E-ED42-4996-89DE-007193E938D9}">
+											<ChildrenList>
+												<Action Name="" ID="{49B0B2CC-E130-47C2-BDEE-6EDA7CCDDA21}" ShortID="491091657">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Atk" ID="{066C0ED6-933C-4F80-8271-BDBF1669ABCC}" WorkUnitID="{82D7ADE6-F8D1-4AC0-A8C0-CDF4DB1DB335}"/>
 														</Reference>
 													</ReferenceList>
 												</Action>
@@ -291,7 +302,7 @@
 								<Action Name="" ID="{BD9EF363-88BE-463D-9F13-18F0CF6040F2}" ShortID="291714877">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="TestGeneral" ID="{AE13168F-2AD7-4F9D-B298-B7C2882E1697}" WorkUnitID="{82D7ADE6-F8D1-4AC0-A8C0-CDF4DB1DB335}"/>
+											<ObjectRef Name="DoorPlus" ID="{96130FEA-D047-4C9B-AA71-81D14E86CC79}" WorkUnitID="{82D7ADE6-F8D1-4AC0-A8C0-CDF4DB1DB335}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

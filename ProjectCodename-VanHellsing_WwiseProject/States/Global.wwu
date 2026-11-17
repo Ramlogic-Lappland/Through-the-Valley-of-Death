@@ -39,7 +39,8 @@
 					<ChildrenList>
 						<State Name="None" ID="{16F58D41-DF5C-4B45-B5D8-43020A1FA268}"/>
 						<State Name="Indoor" ID="{4407483F-C46F-4536-896A-B3E04AEADD98}"/>
-						<State Name="Outdoor" ID="{EC1511DC-0A3A-4CEC-9AF9-CFC96CF34CD1}"/>
+						<State Name="Menu" ID="{EC1511DC-0A3A-4CEC-9AF9-CFC96CF34CD1}"/>
+						<State Name="Outdoor" ID="{B5DF400C-BBD6-4E24-AFAD-D9B2C6E29D38}"/>
 					</ChildrenList>
 				</StateGroup>
 			</ChildrenList>

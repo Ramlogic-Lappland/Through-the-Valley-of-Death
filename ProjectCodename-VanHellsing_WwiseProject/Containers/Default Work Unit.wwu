@@ -466,6 +466,169 @@
 								<ActiveSource Name="BASS-STEM" ID="{33B0B43A-5FF2-40D0-9191-B8926BFD4CDE}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+						<RandomSequenceContainer Name="DoorPlus" ID="{96130FEA-D047-4C9B-AA71-81D14E86CC79}" ShortID="215600916">
+							<PropertyList>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4D728955-958C-4B5A-90A1-2DBDEB0EB7DA}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E636EE33-691F-4FD0-96E9-388E6E0470F6}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="TestDoor" ID="{18C3B4AD-77F5-46F8-84AC-4C9EEED84719}" ShortID="779959681">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4D728955-958C-4B5A-90A1-2DBDEB0EB7DA}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E636EE33-691F-4FD0-96E9-388E6E0470F6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="TestDoor" ID="{E07481E9-C7CB-4DE3-9830-FBB6CB4B6C76}">
+											<PropertyList>
+												<Property Name="LoopEnd" Type="Real64" Value="0.02517"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.04747"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>TestDoor.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="637425144"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="RTPC">
+											<RTPC Name="" ID="{B3762BC8-2ACA-4914-9446-10281CA0FB75}" ShortID="718572977">
+												<PropertyList>
+													<Property Name="PropertyName" Type="string" Value="Volume"/>
+												</PropertyList>
+												<ReferenceList>
+													<Reference Name="ControlInput">
+														<ObjectRef Name="DoorSpeed" ID="{B45D1051-1D88-4425-965D-8FC2EF0A35BF}" WorkUnitID="{EBC2C18C-7282-44FF-AB64-F84DE7D0657C}"/>
+													</Reference>
+													<Reference Name="Curve">
+														<Custom>
+															<Curve Name="" ID="{6A28BA24-4B97-4E4E-8843-D598028FFC03}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>47.51281</XPos>
+																		<YPos>0.67716999999999</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>-6.46613</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</RTPC>
+										</ObjectList>
+									</ObjectLists>
+									<ActiveSourceList>
+										<ActiveSource Name="TestDoor" ID="{E07481E9-C7CB-4DE3-9830-FBB6CB4B6C76}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Empty Wav" ID="{940E0973-5F92-481B-AD03-172465DDD5F0}" ShortID="123505806">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4D728955-958C-4B5A-90A1-2DBDEB0EB7DA}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E636EE33-691F-4FD0-96E9-388E6E0470F6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Empty Wav" ID="{525D4ECE-48AB-403C-B928-BE8624429620}">
+											<PropertyList>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.03271"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Empty Wav.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="801282071"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="RTPC">
+											<RTPC Name="" ID="{3BB32AE7-1F9A-481D-9924-828BADBAD2C9}" ShortID="222658568">
+												<PropertyList>
+													<Property Name="PropertyName" Type="string" Value="Pitch"/>
+												</PropertyList>
+												<ReferenceList>
+													<Reference Name="ControlInput">
+														<ObjectRef Name="DoorSpeed" ID="{B45D1051-1D88-4425-965D-8FC2EF0A35BF}" WorkUnitID="{EBC2C18C-7282-44FF-AB64-F84DE7D0657C}"/>
+													</Reference>
+													<Reference Name="Curve">
+														<Custom>
+															<Curve Name="" ID="{56931589-9EF4-4159-8B20-3DFCA0FF702A}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="65537"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-1680</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>240</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</RTPC>
+										</ObjectList>
+									</ObjectLists>
+									<ActiveSourceList>
+										<ActiveSource Name="Empty Wav" ID="{525D4ECE-48AB-403C-B928-BE8624429620}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Playlist">
+									<PluginInnerObject Name="" ID="{6211B949-16AB-4AD5-8B08-4BB4266371DF}" PluginName="PlaylistSlot" CompanyID="0" PluginID="86">
+										<ReferenceList>
+											<Reference Name="PlaylistObject">
+												<ObjectRef Name="TestDoor" ID="{18C3B4AD-77F5-46F8-84AC-4C9EEED84719}" WorkUnitID="{82D7ADE6-F8D1-4AC0-A8C0-CDF4DB1DB335}"/>
+											</Reference>
+										</ReferenceList>
+									</PluginInnerObject>
+									<PluginInnerObject Name="" ID="{53CBF671-37D9-4FBE-9729-618C2ACBAC6A}" PluginName="PlaylistSlot" CompanyID="0" PluginID="86">
+										<ReferenceList>
+											<Reference Name="PlaylistObject">
+												<ObjectRef Name="Empty Wav" ID="{940E0973-5F92-481B-AD03-172465DDD5F0}" WorkUnitID="{82D7ADE6-F8D1-4AC0-A8C0-CDF4DB1DB335}"/>
+											</Reference>
+										</ReferenceList>
+									</PluginInnerObject>
+								</ObjectList>
+							</ObjectLists>
+						</RandomSequenceContainer>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="MX" ID="{FB6AF4EE-8425-4753-A153-9A3632FBE8A4}" ShortID="276647526">
@@ -2480,6 +2643,7 @@
 								<RandomSequenceContainer Name="Walk" ID="{C39F5849-728E-4778-90F6-EFF062C1B02C}" ShortID="355178244">
 									<PropertyList>
 										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Attenuation">
@@ -2492,8 +2656,92 @@
 											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E636EE33-691F-4FD0-96E9-388E6E0470F6}"/>
 										</Reference>
 									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="SFX_Dhampir_Walk-001" ID="{14968988-F853-4554-BF2D-9F057D0B8002}" ShortID="495538823">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4D728955-958C-4B5A-90A1-2DBDEB0EB7DA}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E636EE33-691F-4FD0-96E9-388E6E0470F6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_Dhampir_Walk-001" ID="{822F8178-6CF2-4942-ACEB-CF0009753460}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_Dhampir_Walk-001.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="851842950"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_Dhampir_Walk-001" ID="{822F8178-6CF2-4942-ACEB-CF0009753460}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_Dhampir_Walk-002" ID="{5BA08300-F5CE-4F7B-A3B9-EC00A8CBA523}" ShortID="153318615">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4D728955-958C-4B5A-90A1-2DBDEB0EB7DA}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E636EE33-691F-4FD0-96E9-388E6E0470F6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_Dhampir_Walk-002" ID="{70DCA757-E4E7-4E15-A097-4BAC1A45267A}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_Dhampir_Walk-002.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="373420620"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_Dhampir_Walk-002" ID="{70DCA757-E4E7-4E15-A097-4BAC1A45267A}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_Dhampir_Walk-003" ID="{67F17031-B1AA-4BF0-8C85-8BE41A1DC7D3}" ShortID="673130098">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4D728955-958C-4B5A-90A1-2DBDEB0EB7DA}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E636EE33-691F-4FD0-96E9-388E6E0470F6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_Dhampir_Walk-003" ID="{C9F03695-A19E-4B6D-9E92-827756F9989F}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_Dhampir_Walk-003.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1001021332"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_Dhampir_Walk-003" ID="{C9F03695-A19E-4B6D-9E92-827756F9989F}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="Dmg" ID="{4797E39A-CC96-4A8C-93FD-162388867799}" ShortID="737304356">
+									<PropertyList>
+										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{520B046B-1A23-48AA-9622-DE17752D8540}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="375"/>
+															<Property Name="Min" Type="Real64" Value="-175"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4D728955-958C-4B5A-90A1-2DBDEB0EB7DA}"/>
@@ -2502,8 +2750,92 @@
 											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E636EE33-691F-4FD0-96E9-388E6E0470F6}"/>
 										</Reference>
 									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="SFX_Dhampir_Dmg-001" ID="{CFA7A7E5-8998-476C-9E10-EA0182B43173}" ShortID="271258610">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4D728955-958C-4B5A-90A1-2DBDEB0EB7DA}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E636EE33-691F-4FD0-96E9-388E6E0470F6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_Dhampir_Dmg-001" ID="{C7CC278D-E5A9-4371-9248-D4FF6778045A}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_Dhampir_Dmg-001.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="769773365"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_Dhampir_Dmg-001" ID="{C7CC278D-E5A9-4371-9248-D4FF6778045A}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_Dhampir_Dmg-002" ID="{5E6E357F-C162-4354-B1D9-2FD574101165}" ShortID="904468387">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4D728955-958C-4B5A-90A1-2DBDEB0EB7DA}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E636EE33-691F-4FD0-96E9-388E6E0470F6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_Dhampir_Dmg-002" ID="{57205375-44CB-45D0-A0E9-6BBE46AA1890}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_Dhampir_Dmg-002.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="23076556"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_Dhampir_Dmg-002" ID="{57205375-44CB-45D0-A0E9-6BBE46AA1890}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_Dhampir_Dmg-003" ID="{C038E689-F9E3-4940-8930-53F468E3F534}" ShortID="739586769">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4D728955-958C-4B5A-90A1-2DBDEB0EB7DA}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E636EE33-691F-4FD0-96E9-388E6E0470F6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_Dhampir_Dmg-003" ID="{9E867E16-32E1-41B2-8A3D-4A13B9F39831}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_Dhampir_Dmg-003.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="989837666"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_Dhampir_Dmg-003" ID="{9E867E16-32E1-41B2-8A3D-4A13B9F39831}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="Atk" ID="{066C0ED6-933C-4F80-8271-BDBF1669ABCC}" ShortID="991815125">
+									<PropertyList>
+										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{0FDAE1BD-0597-49B5-850F-9C44C1879E29}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="300"/>
+															<Property Name="Min" Type="Real64" Value="-250"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4D728955-958C-4B5A-90A1-2DBDEB0EB7DA}"/>
@@ -2512,8 +2844,91 @@
 											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E636EE33-691F-4FD0-96E9-388E6E0470F6}"/>
 										</Reference>
 									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="SFX_Dhampir_Atk-001" ID="{72F2E190-2DA0-499A-97B2-60CD22E6EECE}" ShortID="334227781">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4D728955-958C-4B5A-90A1-2DBDEB0EB7DA}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E636EE33-691F-4FD0-96E9-388E6E0470F6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_Dhampir_Atk-001" ID="{EB05C9AA-2EED-4FBC-938A-AE48B2C1936F}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_Dhampir_Atk-001.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="962489214"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_Dhampir_Atk-001" ID="{EB05C9AA-2EED-4FBC-938A-AE48B2C1936F}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_Dhampir_Atk-002" ID="{9AB95693-36A1-4F94-A332-C39DC3ECE87A}" ShortID="24976554">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4D728955-958C-4B5A-90A1-2DBDEB0EB7DA}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E636EE33-691F-4FD0-96E9-388E6E0470F6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_Dhampir_Atk-002" ID="{A5B703B5-783B-4B22-8E6E-56D35FADD85B}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_Dhampir_Atk-002.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="354451990"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_Dhampir_Atk-002" ID="{A5B703B5-783B-4B22-8E6E-56D35FADD85B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_Dhampir_Atk-003" ID="{9588AC6D-51E0-4EBE-95AF-E7406BBE657D}" ShortID="341964910">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4D728955-958C-4B5A-90A1-2DBDEB0EB7DA}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E636EE33-691F-4FD0-96E9-388E6E0470F6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_Dhampir_Atk-003" ID="{C1C21FE0-2AE9-43C4-B556-D90D722037C0}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_Dhampir_Atk-003.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="679493528"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_Dhampir_Atk-003" ID="{C1C21FE0-2AE9-43C4-B556-D90D722037C0}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
 								</RandomSequenceContainer>
 								<Sound Name="Death" ID="{D20CFBFA-6313-4F6F-BC62-4F4A1382F730}" ShortID="62648470">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{9AAB96DA-60FF-4C49-9956-A229AF122587}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="700"/>
+															<Property Name="Min" Type="Real64" Value="-350"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4D728955-958C-4B5A-90A1-2DBDEB0EB7DA}"/>
@@ -2522,10 +2937,35 @@
 											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E636EE33-691F-4FD0-96E9-388E6E0470F6}"/>
 										</Reference>
 									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_Dhampir_Death" ID="{3D7AB57A-EB0B-49E4-9EE1-3DDC117A9D20}">
+											<Language>SFX</Language>
+											<AudioFile>SFX_Dhampir_Death.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="449449473"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_Dhampir_Death" ID="{3D7AB57A-EB0B-49E4-9EE1-3DDC117A9D20}" Platform="Linked"/>
+									</ActiveSourceList>
 								</Sound>
 								<Sound Name="Idle" ID="{4315F3C5-79E0-420D-BD1B-8864B039616B}" ShortID="944520253">
 									<PropertyList>
 										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{A6920C64-43B3-49CB-BEAE-40990B9E0649}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="200"/>
+															<Property Name="Min" Type="Real64" Value="-225"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Attenuation">
@@ -2538,6 +2978,18 @@
 											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E636EE33-691F-4FD0-96E9-388E6E0470F6}"/>
 										</Reference>
 									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_Dhampir_Idle" ID="{4C0A1EC1-13C5-4728-AD0F-6672BA702696}">
+											<Language>SFX</Language>
+											<AudioFile>SFX_Dhampir_Idle.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="689190827"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_Dhampir_Idle" ID="{4C0A1EC1-13C5-4728-AD0F-6672BA702696}" Platform="Linked"/>
+									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
 						</Folder>
@@ -2611,7 +3063,7 @@
 							<PropertyList>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-14</Value>
+										<Value>-10</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -2666,12 +3118,16 @@
 												</CustomState>
 											</CustomState>
 											<CustomState>
-												<StateRef Name="Outdoor" ID="{EC1511DC-0A3A-4CEC-9AF9-CFC96CF34CD1}"/>
+												<StateRef Name="Menu" ID="{EC1511DC-0A3A-4CEC-9AF9-CFC96CF34CD1}"/>
 												<CustomState Name="" ID="{A4F2D039-CAB0-4D90-B7FB-50BC52FDFF65}" ShortID="685343243">
 													<PropertyList>
 														<Property Name="Volume" Type="Real64" Value="-108"/>
 													</PropertyList>
 												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Outdoor" ID="{B5DF400C-BBD6-4E24-AFAD-D9B2C6E29D38}"/>
+												<CustomState Name="" ID="{24E1926B-2973-4F6B-B2C4-2B5D3A917C07}" ShortID="511884362"/>
 											</CustomState>
 										</CustomStateList>
 									</StateInfo>
@@ -2725,8 +3181,12 @@
 												</CustomState>
 											</CustomState>
 											<CustomState>
-												<StateRef Name="Outdoor" ID="{EC1511DC-0A3A-4CEC-9AF9-CFC96CF34CD1}"/>
+												<StateRef Name="Menu" ID="{EC1511DC-0A3A-4CEC-9AF9-CFC96CF34CD1}"/>
 												<CustomState Name="" ID="{1FFCC32E-F0F3-4899-995F-89D38DEE3506}" ShortID="327248752"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Outdoor" ID="{B5DF400C-BBD6-4E24-AFAD-D9B2C6E29D38}"/>
+												<CustomState Name="" ID="{672391CA-425D-4782-AFE8-D84F88AE2E94}" ShortID="950695693"/>
 											</CustomState>
 										</CustomStateList>
 									</StateInfo>
@@ -2736,9 +3196,7 @@
 								</Sound>
 							</ChildrenList>
 							<BlendTrackList>
-								<BlendTrack Name="New Blend Track" ID="{34ED3780-49CA-4B0C-9370-8A2A108BFA15}" ShortID="700990650">
-									<ReferenceList/>
-								</BlendTrack>
+								<BlendTrack Name="New Blend Track" ID="{34ED3780-49CA-4B0C-9370-8A2A108BFA15}" ShortID="700990650"/>
 							</BlendTrackList>
 						</BlendContainer>
 					</ChildrenList>

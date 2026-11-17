@@ -5,9 +5,7 @@
 			<ChildrenList>
 				<SoundBank Name="New_SoundBank" ID="{1007AC47-745F-466C-A008-B90481FBE5FE}">
 					<ObjectInclusionList>
-						<ObjectRef Name="Shoot" ID="{2213F8CE-3BB7-46D8-AE38-2AAC7D4E554C}" WorkUnitID="{82D7ADE6-F8D1-4AC0-A8C0-CDF4DB1DB335}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="MX" ID="{FB6AF4EE-8425-4753-A153-9A3632FBE8A4}" WorkUnitID="{82D7ADE6-F8D1-4AC0-A8C0-CDF4DB1DB335}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Reload" ID="{BB52B684-FC71-4B8D-8472-FA18B2C1B022}" WorkUnitID="{82D7ADE6-F8D1-4AC0-A8C0-CDF4DB1DB335}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Door_Creek_Plus" ID="{E774AB57-471E-4804-8A70-00A826315464}" WorkUnitID="{F2C881ED-CBE3-4C24-BFB7-8B706B5DFC8B}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
