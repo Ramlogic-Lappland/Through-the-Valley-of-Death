@@ -15,4 +15,4 @@ MonoBehaviour:
   objectName: Player_Walk
   id: 2147561130
   guid: B40B49EE-C35B-4D32-B4D2-66CDCC2A3685
-  IsInUserDefinedSoundBank: 0
+  IsInUserDefinedSoundBank: 1

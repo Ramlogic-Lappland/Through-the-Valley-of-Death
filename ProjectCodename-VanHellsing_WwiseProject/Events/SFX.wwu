@@ -12,7 +12,7 @@
 										<Action Name="" ID="{A74423B1-620A-47BF-90A1-BEC9180BBD85}" ShortID="677617187">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="TestGeneral" ID="{AE13168F-2AD7-4F9D-B298-B7C2882E1697}" WorkUnitID="{82D7ADE6-F8D1-4AC0-A8C0-CDF4DB1DB335}"/>
+													<ObjectRef Name="SFX_Bullet_Miss" ID="{4BDB46E6-2A17-43FC-8B60-A43E36874CED}" WorkUnitID="{82D7ADE6-F8D1-4AC0-A8C0-CDF4DB1DB335}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -286,23 +286,23 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Door_Creek" ID="{9D6A814B-D1D4-4888-A75F-15F8230C0A85}">
+						<Event Name="Door_Collision" ID="{9D6A814B-D1D4-4888-A75F-15F8230C0A85}">
 							<ChildrenList>
 								<Action Name="" ID="{A74162EB-593C-4D54-98B1-6E8D00004F19}" ShortID="216813950">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="TestGeneral" ID="{AE13168F-2AD7-4F9D-B298-B7C2882E1697}" WorkUnitID="{82D7ADE6-F8D1-4AC0-A8C0-CDF4DB1DB335}"/>
+											<ObjectRef Name="Collision" ID="{5DEBCB8D-5EAB-480A-82AB-03F38B91488A}" WorkUnitID="{82D7ADE6-F8D1-4AC0-A8C0-CDF4DB1DB335}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Door_Creek_Plus" ID="{E774AB57-471E-4804-8A70-00A826315464}">
+						<Event Name="Door_Creak" ID="{E774AB57-471E-4804-8A70-00A826315464}">
 							<ChildrenList>
 								<Action Name="" ID="{BD9EF363-88BE-463D-9F13-18F0CF6040F2}" ShortID="291714877">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="DoorPlus" ID="{96130FEA-D047-4C9B-AA71-81D14E86CC79}" WorkUnitID="{82D7ADE6-F8D1-4AC0-A8C0-CDF4DB1DB335}"/>
+											<ObjectRef Name="SFX_Door_Creak_System" ID="{8EB515B7-417E-441B-BBAA-BE8DFFEA9867}" WorkUnitID="{82D7ADE6-F8D1-4AC0-A8C0-CDF4DB1DB335}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

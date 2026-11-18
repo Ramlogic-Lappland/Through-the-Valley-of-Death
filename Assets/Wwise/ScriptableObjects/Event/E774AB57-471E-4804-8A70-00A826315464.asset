@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 516e28af23937a247babbc820ee005d9, type: 3}
   m_Name: E774AB57-471E-4804-8A70-00A826315464
   m_EditorClassIdentifier: AK.Wwise.Unity.API.WwiseTypes::WwiseEventReference
-  objectName: Door_Creek_Plus
-  id: 3796213831
+  objectName: Door_Creak
+  id: 2065126100
   guid: E774AB57-471E-4804-8A70-00A826315464
   IsInUserDefinedSoundBank: 1

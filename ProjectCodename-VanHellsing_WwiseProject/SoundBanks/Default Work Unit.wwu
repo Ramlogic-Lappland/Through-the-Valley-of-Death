@@ -3,9 +3,9 @@
 	<SoundBanks>
 		<WorkUnit Name="Default Work Unit" ID="{9E0155A1-77C7-4602-94F1-2FBEDCD68ADA}" PersistMode="Standalone">
 			<ChildrenList>
-				<SoundBank Name="New_SoundBank" ID="{1007AC47-745F-466C-A008-B90481FBE5FE}">
+				<SoundBank Name="Global" ID="{1007AC47-745F-466C-A008-B90481FBE5FE}">
 					<ObjectInclusionList>
-						<ObjectRef Name="Door_Creek_Plus" ID="{E774AB57-471E-4804-8A70-00A826315464}" WorkUnitID="{F2C881ED-CBE3-4C24-BFB7-8B706B5DFC8B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Events" ID="{A69BF0FC-D84A-487C-ABDD-56F71CB2A126}" WorkUnitID="{A69BF0FC-D84A-487C-ABDD-56F71CB2A126}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

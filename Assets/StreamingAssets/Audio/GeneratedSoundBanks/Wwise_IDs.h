@@ -14,12 +14,13 @@ namespace AK
     namespace EVENTS
     {
         static const AkUniqueID AMB = 1117531639U;
+        static const AkUniqueID DHAMPIR_ATK = 474746735U;
         static const AkUniqueID DHAMPIR_DEATH = 1580949467U;
         static const AkUniqueID DHAMPIR_DMG = 693591049U;
         static const AkUniqueID DHAMPIR_IDLE = 2360149477U;
         static const AkUniqueID DHAMPIR_WALK = 1360038204U;
-        static const AkUniqueID DOOR_CREEK = 1998015512U;
-        static const AkUniqueID DOOR_CREEK_PLUS = 3796213831U;
+        static const AkUniqueID DOOR_COLLISION = 2857455984U;
+        static const AkUniqueID DOOR_CREAK = 2065126100U;
         static const AkUniqueID FIEND_DEATH = 3754399842U;
         static const AkUniqueID FIEND_DMG = 159379504U;
         static const AkUniqueID FIEND_IDLE = 2475891066U;
@@ -75,6 +76,7 @@ namespace AK
             namespace STATE
             {
                 static const AkUniqueID INDOOR = 340398852U;
+                static const AkUniqueID MENU = 2607556080U;
                 static const AkUniqueID NONE = 748895195U;
                 static const AkUniqueID OUTDOOR = 144697359U;
             } // namespace STATE
@@ -100,15 +102,10 @@ namespace AK
         static const AkUniqueID HP = 1769415205U;
     } // namespace GAME_PARAMETERS
 
-    namespace TRIGGERS
-    {
-        static const AkUniqueID MENU_OUT = 2818768589U;
-    } // namespace TRIGGERS
-
     namespace BANKS
     {
         static const AkUniqueID INIT = 1355168291U;
-        static const AkUniqueID NEW_SOUNDBANK = 4072029455U;
+        static const AkUniqueID GLOBAL = 1465331116U;
     } // namespace BANKS
 
     namespace BUSSES
