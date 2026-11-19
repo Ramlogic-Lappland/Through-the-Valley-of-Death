@@ -1,5 +1,21 @@
 # Changelog
 
+## [0.11.0] - 2026-11-17
+
+### New
+
+- New first and second level layouts.
+- New scene flow with level and win scenes.
+- Exit door opens when the win condition is met.
+
+### Changes
+
+- Enemy detection and player weapon wall clipping fixed.
+- Bullets no longer pass through walls.
+- Level 2 enemy speed adjusted.
+- First level layout and table positions adjusted, with navmesh rebuilt.
+- Doors improved in the first level.
+
 ## [0.10.1] - 2026-11-10
 
 ### New
