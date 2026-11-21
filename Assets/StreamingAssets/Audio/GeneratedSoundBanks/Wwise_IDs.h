@@ -21,6 +21,7 @@ namespace AK
         static const AkUniqueID DHAMPIR_WALK = 1360038204U;
         static const AkUniqueID DOOR_COLLISION = 2857455984U;
         static const AkUniqueID DOOR_CREAK = 2065126100U;
+        static const AkUniqueID FIEND_ATK = 646769050U;
         static const AkUniqueID FIEND_DEATH = 3754399842U;
         static const AkUniqueID FIEND_DMG = 159379504U;
         static const AkUniqueID FIEND_IDLE = 2475891066U;

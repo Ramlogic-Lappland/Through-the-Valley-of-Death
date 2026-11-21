@@ -6,7 +6,6 @@
 				<GameParameter Name="DoorSpeed" ID="{B45D1051-1D88-4425-965D-8FC2EF0A35BF}">
 					<PropertyList>
 						<Property Name="InitialValue" Type="Real64" Value="0"/>
-						<Property Name="RTPCRamping" Type="int16" Value="1"/>
 						<Property Name="SlewRateDown" Type="Real64" Value="99.7"/>
 						<Property Name="SlewRateUp" Type="Real64" Value="99.7"/>
 					</PropertyList>

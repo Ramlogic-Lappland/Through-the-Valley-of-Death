@@ -16,6 +16,13 @@
 												</Reference>
 											</ReferenceList>
 										</Action>
+										<Action Name="" ID="{DCD74CD4-399B-4D8D-8A51-E9A5C440C064}" ShortID="127041104">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SFX_Bullet_Miss_Random_Layer" ID="{A96F7D4B-4DE9-4978-88FD-AFE5DC908261}" WorkUnitID="{82D7ADE6-F8D1-4AC0-A8C0-CDF4DB1DB335}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
 									</ChildrenList>
 								</Event>
 								<Event Name="Shoot" ID="{7A35BB67-4F45-4F42-8D33-7149B7BE44FA}">
@@ -202,7 +209,7 @@
 												<Action Name="" ID="{0D8B29AF-6C72-4831-B27E-2EFA789E3D37}" ShortID="470847248">
 													<ReferenceList>
 														<Reference Name="Target">
-															<ObjectRef Name="TestDie" ID="{8C7D4A9E-C3DB-4177-BEC8-0745F6E75403}" WorkUnitID="{82D7ADE6-F8D1-4AC0-A8C0-CDF4DB1DB335}"/>
+															<ObjectRef Name="Death" ID="{46649BD4-F7E6-4319-90B5-E6AF3165CC6E}" WorkUnitID="{82D7ADE6-F8D1-4AC0-A8C0-CDF4DB1DB335}"/>
 														</Reference>
 													</ReferenceList>
 												</Action>
@@ -213,7 +220,7 @@
 												<Action Name="" ID="{58FE8D40-B454-4F62-A6B3-AAADB0047E76}" ShortID="74726833">
 													<ReferenceList>
 														<Reference Name="Target">
-															<ObjectRef Name="TestHurt" ID="{01D36BE4-5B52-435F-95B3-F887C8DF6662}" WorkUnitID="{82D7ADE6-F8D1-4AC0-A8C0-CDF4DB1DB335}"/>
+															<ObjectRef Name="Dmg" ID="{1ED527A1-D2FC-4C90-959B-A45D84E24DEC}" WorkUnitID="{82D7ADE6-F8D1-4AC0-A8C0-CDF4DB1DB335}"/>
 														</Reference>
 													</ReferenceList>
 												</Action>
@@ -224,7 +231,7 @@
 												<Action Name="" ID="{9B20DF90-C13E-4E89-A148-411F08A24778}" ShortID="617889929">
 													<ReferenceList>
 														<Reference Name="Target">
-															<ObjectRef Name="TestIdle" ID="{7B3FB40A-147A-4E4B-ACB5-14D7D04CF3C0}" WorkUnitID="{82D7ADE6-F8D1-4AC0-A8C0-CDF4DB1DB335}"/>
+															<ObjectRef Name="Idle" ID="{4AF91BC8-ACCC-4531-B6CE-15DDA555DD89}" WorkUnitID="{82D7ADE6-F8D1-4AC0-A8C0-CDF4DB1DB335}"/>
 														</Reference>
 													</ReferenceList>
 												</Action>
@@ -235,7 +242,18 @@
 												<Action Name="" ID="{A8ACF639-FC9F-4177-8C89-514F3DE24D15}" ShortID="588497589">
 													<ReferenceList>
 														<Reference Name="Target">
-															<ObjectRef Name="TestStep" ID="{68852172-8C16-468D-8AB8-1D39DD154000}" WorkUnitID="{82D7ADE6-F8D1-4AC0-A8C0-CDF4DB1DB335}"/>
+															<ObjectRef Name="Walk" ID="{4841657E-7DD9-4F17-BCC6-D8CE8BD233A3}" WorkUnitID="{82D7ADE6-F8D1-4AC0-A8C0-CDF4DB1DB335}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Fiend_Atk" ID="{F0B2D42E-4283-4595-82A3-2BBA92D6B8B4}">
+											<ChildrenList>
+												<Action Name="" ID="{00491502-6BCA-4C6B-AF51-CC55B15EB112}" ShortID="939387781">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Atk" ID="{15553C16-A011-4C6F-B524-E0ACD5BB73EF}" WorkUnitID="{82D7ADE6-F8D1-4AC0-A8C0-CDF4DB1DB335}"/>
 														</Reference>
 													</ReferenceList>
 												</Action>
