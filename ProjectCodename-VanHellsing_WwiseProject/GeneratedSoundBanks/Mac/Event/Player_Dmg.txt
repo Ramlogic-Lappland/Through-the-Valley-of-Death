@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1475219471	Player_Dmg			\SFX\Characters\Player\Player_Dmg	
+

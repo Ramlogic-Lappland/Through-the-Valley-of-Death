@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	258637959	Werewolf_Idle			\SFX\Characters\Enemy\Werewolf_Idle	
+

@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2147561130	Player_Walk			\SFX\Characters\Player\Player_Walk	
+

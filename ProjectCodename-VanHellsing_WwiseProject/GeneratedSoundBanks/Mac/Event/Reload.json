@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "172",
+  "SoundBanks": [
+   {
+    "Id": "456382354",
+    "Type": "Event",
+    "GUID": "{8BF3532A-3338-4DC0-B4C9-9AC9915AF88E}",
+    "Language": "SFX",
+    "Hash": "{595F9FCD-A9BA-910D-1A70-591DBC542147}",
+    "ObjectPath": "Reload",
+    "ShortName": "Reload",
+    "Path": "Event/Reload.bnk",
+    "Media": [
+     {
+      "Id": "447342224",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Test.wav",
+      "Path": "Media/447342224.wem",
+      "CachePath": "6C/{6C7EF076-ED33-C0DA-B39C-B66B1E3AFD01}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "456382354",
+      "Name": "Reload",
+      "ObjectPath": "\\Events\\SFX\\Characters\\Player\\Reload",
+      "GUID": "{8BF3532A-3338-4DC0-B4C9-9AC9915AF88E}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.22",
+      "DurationMax": "0.22",
+      "MediaRefs": [
+       {
+        "Id": "447342224"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{FBE3EF54-6421-5985-52EF-4BAD96F617F7}"
+ }
+}

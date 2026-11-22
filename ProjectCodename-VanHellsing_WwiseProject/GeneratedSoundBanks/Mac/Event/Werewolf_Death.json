@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "172",
+  "SoundBanks": [
+   {
+    "Id": "4081187737",
+    "Type": "Event",
+    "GUID": "{5FF100BF-AD3B-4AFD-A6DE-CA116CBA8F5F}",
+    "Language": "SFX",
+    "Hash": "{A029CB62-9659-CE40-52AC-C41C3BA3D68A}",
+    "ObjectPath": "Werewolf_Death",
+    "ShortName": "Werewolf_Death",
+    "Path": "Event/Werewolf_Death.bnk",
+    "Media": [
+     {
+      "Id": "75394159",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Powerup 11.wav",
+      "Path": "Media/75394159.wem",
+      "CachePath": "7E/{7EC602F3-BF8B-8C04-5DDA-BD6913CA3E4F}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "4081187737",
+      "Name": "Werewolf_Death",
+      "ObjectPath": "\\Events\\SFX\\Characters\\Enemy\\Werewolf_Death",
+      "GUID": "{5FF100BF-AD3B-4AFD-A6DE-CA116CBA8F5F}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.9511473",
+      "DurationMax": "1.5098522",
+      "MediaRefs": [
+       {
+        "Id": "75394159"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{8AF485B7-6F39-4854-C03E-D5766C08F56C}"
+ }
+}

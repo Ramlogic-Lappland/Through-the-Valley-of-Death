@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "172",
+  "SoundBanks": [
+   {
+    "Id": "1324873894",
+    "Type": "Event",
+    "GUID": "{E586896F-9277-45B1-ACC8-D602B8A293D3}",
+    "Language": "SFX",
+    "Hash": "{E432D818-0923-7A88-69DE-20E699A828DB}",
+    "ObjectPath": "Werewolf_Walk",
+    "ShortName": "Werewolf_Walk",
+    "Path": "Event/Werewolf_Walk.bnk",
+    "Media": [
+     {
+      "Id": "15494918",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "TestStep.wav",
+      "Path": "Media/15494918.wem",
+      "CachePath": "4C/{4CE0F0CF-E13A-9EDD-7514-1D765C0AA2AC}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1324873894",
+      "Name": "Werewolf_Walk",
+      "ObjectPath": "\\Events\\SFX\\Characters\\Enemy\\Werewolf_Walk",
+      "GUID": "{E586896F-9277-45B1-ACC8-D602B8A293D3}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.06869768",
+      "DurationMax": "0.12782471",
+      "MediaRefs": [
+       {
+        "Id": "15494918"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{06D3260B-B917-0980-86FB-921E58955EA7}"
+ }
+}

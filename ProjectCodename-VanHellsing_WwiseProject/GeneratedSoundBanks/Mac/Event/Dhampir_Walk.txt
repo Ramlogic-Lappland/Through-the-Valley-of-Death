@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1360038204	Dhampir_Walk			\SFX\Characters\Enemy\Dhampir_Walk	
+
