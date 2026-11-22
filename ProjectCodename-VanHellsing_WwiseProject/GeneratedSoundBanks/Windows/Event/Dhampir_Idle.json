@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "172",
+  "SoundBanks": [
+   {
+    "Id": "2360149477",
+    "Type": "Event",
+    "GUID": "{FDFCF3E2-A6B8-4486-948C-EEEFA71D0DAF}",
+    "Language": "SFX",
+    "Hash": "{A28DACF7-7BD8-E153-34A5-C15C906978A3}",
+    "ObjectPath": "Dhampir_Idle",
+    "ShortName": "Dhampir_Idle",
+    "Path": "Event/Dhampir_Idle.bnk",
+    "Media": [
+     {
+      "Id": "128780910",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Random 41.wav",
+      "Path": "Media/128780910.wem",
+      "CachePath": "A5/{A5052504-4838-7804-E944-8612655AA863}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2360149477",
+      "Name": "Dhampir_Idle",
+      "ObjectPath": "\\Events\\SFX\\Characters\\Enemy\\Dhampir_Idle",
+      "GUID": "{FDFCF3E2-A6B8-4486-948C-EEEFA71D0DAF}",
+      "DurationType": "OneShot",
+      "DurationMin": "6.247982",
+      "DurationMax": "6.247982",
+      "MediaRefs": [
+       {
+        "Id": "128780910"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{70427B2D-43AE-A9B9-5E23-5D3D32345ACF}"
+ }
+}

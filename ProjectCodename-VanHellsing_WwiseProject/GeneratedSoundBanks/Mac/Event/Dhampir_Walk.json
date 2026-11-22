@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "172",
+  "SoundBanks": [
+   {
+    "Id": "1360038204",
+    "Type": "Event",
+    "GUID": "{6E5C309C-5383-4391-9A40-ABF36FE667DD}",
+    "Language": "SFX",
+    "Hash": "{8EEB9C3C-F4D7-D099-974A-1E326B5C8DB1}",
+    "ObjectPath": "Dhampir_Walk",
+    "ShortName": "Dhampir_Walk",
+    "Path": "Event/Dhampir_Walk.bnk",
+    "Media": [
+     {
+      "Id": "15494918",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "TestStep.wav",
+      "Path": "Media/15494918.wem",
+      "CachePath": "4C/{4CE0F0CF-E13A-9EDD-7514-1D765C0AA2AC}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1360038204",
+      "Name": "Dhampir_Walk",
+      "ObjectPath": "\\Events\\SFX\\Characters\\Enemy\\Dhampir_Walk",
+      "GUID": "{6E5C309C-5383-4391-9A40-ABF36FE667DD}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.06869768",
+      "DurationMax": "0.12782471",
+      "MediaRefs": [
+       {
+        "Id": "15494918"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{218027B6-C4F4-F0DD-C459-578474C64CFB}"
+ }
+}

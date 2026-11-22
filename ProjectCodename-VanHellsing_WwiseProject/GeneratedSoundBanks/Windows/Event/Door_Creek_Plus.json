@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "172",
+  "SoundBanks": [
+   {
+    "Id": "3796213831",
+    "Type": "Event",
+    "GUID": "{E774AB57-471E-4804-8A70-00A826315464}",
+    "Language": "SFX",
+    "Hash": "{1511F98D-3F30-58C8-1022-90F5EB603E41}",
+    "ObjectPath": "Door_Creek_Plus",
+    "ShortName": "Door_Creek_Plus",
+    "Path": "Event/Door_Creek_Plus.bnk",
+    "Media": [
+     {
+      "Id": "447342224",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Test.wav",
+      "Path": "Media/447342224.wem",
+      "CachePath": "6C/{6C7EF076-ED33-C0DA-B39C-B66B1E3AFD01}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3796213831",
+      "Name": "Door_Creek_Plus",
+      "ObjectPath": "\\Events\\SFX\\Other\\Door_Creek_Plus",
+      "GUID": "{E774AB57-471E-4804-8A70-00A826315464}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.22",
+      "DurationMax": "0.22",
+      "MediaRefs": [
+       {
+        "Id": "447342224"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{72035C8F-9AAE-7885-4B98-7D13E0333389}"
+ }
+}

@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "172",
+  "SoundBanks": [
+   {
+    "Id": "1475219471",
+    "Type": "Event",
+    "GUID": "{FE559452-8C7D-4C7D-93D6-70E58CBE1F77}",
+    "Language": "SFX",
+    "Hash": "{2A4BE9D7-4DCE-703F-2EA8-FD4741256139}",
+    "ObjectPath": "Player_Dmg",
+    "ShortName": "Player_Dmg",
+    "Path": "Event/Player_Dmg.bnk",
+    "Media": [
+     {
+      "Id": "599022264",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Hit_hurt 10.wav",
+      "Path": "Media/599022264.wem",
+      "CachePath": "EB/{EB4EF2DE-A757-0BD9-1A1E-429B691DAFED}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1475219471",
+      "Name": "Player_Dmg",
+      "ObjectPath": "\\Events\\SFX\\Characters\\Player\\Player_Dmg",
+      "GUID": "{FE559452-8C7D-4C7D-93D6-70E58CBE1F77}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.061202683",
+      "DurationMax": "0.17817974",
+      "MediaRefs": [
+       {
+        "Id": "599022264"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{53EEB362-DAFF-3A04-C78F-8F550A1354D2}"
+ }
+}

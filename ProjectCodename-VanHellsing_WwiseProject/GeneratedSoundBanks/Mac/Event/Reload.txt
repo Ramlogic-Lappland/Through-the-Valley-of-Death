@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	456382354	Reload			\SFX\Characters\Player\Reload	
+

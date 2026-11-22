@@ -119,8 +119,6 @@ InitTestScene*.unity*
 
 *.wsettings
 
-*.wem
-
 *.prof
 
 # Archivos de instalación
@@ -131,17 +129,8 @@ WwiseUnityIntegration_*_Src.zip
 
 /[Aa]ssets/Wwise/Editor/ProjectData/AkWwiseProjectData.asset*
 
-# Sound Banks:
-
-
-*WwiseProject/GeneratedSoundBanks/
-
 # Documentación:
 
 /[Aa]ssets/Wwise/Documentation.meta
 
 /[Aa]ssets/Wwise/Documentation/*
-
-# Carpeta plugins:
-
-/[Aa]ssets/Wwise/API/Runtime/Plugins.meta

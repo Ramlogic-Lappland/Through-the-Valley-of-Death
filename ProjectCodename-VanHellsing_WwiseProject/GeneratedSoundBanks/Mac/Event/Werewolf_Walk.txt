@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1324873894	Werewolf_Walk			\SFX\Characters\Enemy\Werewolf_Walk	
+

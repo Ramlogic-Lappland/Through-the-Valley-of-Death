@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "172",
+  "SoundBanks": [
+   {
+    "Id": "693591049",
+    "Type": "Event",
+    "GUID": "{0F276D16-2963-4B76-93F5-5D9D1DF14DD0}",
+    "Language": "SFX",
+    "Hash": "{ABD43814-754A-FCD6-5FA9-4201A8BAB5CD}",
+    "ObjectPath": "Dhampir_Dmg",
+    "ShortName": "Dhampir_Dmg",
+    "Path": "Event/Dhampir_Dmg.bnk",
+    "Media": [
+     {
+      "Id": "599022264",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Hit_hurt 10.wav",
+      "Path": "Media/599022264.wem",
+      "CachePath": "EB/{EB4EF2DE-A757-0BD9-1A1E-429B691DAFED}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "693591049",
+      "Name": "Dhampir_Dmg",
+      "ObjectPath": "\\Events\\SFX\\Characters\\Enemy\\Dhampir_Dmg",
+      "GUID": "{0F276D16-2963-4B76-93F5-5D9D1DF14DD0}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.061202683",
+      "DurationMax": "0.17817974",
+      "MediaRefs": [
+       {
+        "Id": "599022264"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{258F94BE-A59F-1557-26DC-1A0FB0D27DAC}"
+ }
+}

@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "172",
+  "SoundBanks": [
+   {
+    "Id": "2774129122",
+    "Type": "Event",
+    "GUID": "{0D155F77-4F0C-42A7-A593-7BC60EC0382A}",
+    "Language": "SFX",
+    "Hash": "{FA7AD954-4CBF-675E-8B52-0F4D69298371}",
+    "ObjectPath": "UI_Select",
+    "ShortName": "UI_Select",
+    "Path": "Event/UI_Select.bnk",
+    "Media": [
+     {
+      "Id": "346391248",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Blip_select 11.wav",
+      "Path": "Media/346391248.wem",
+      "CachePath": "A4/{A45AF276-3E00-4B10-7B41-6D291CE23562}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2774129122",
+      "Name": "UI_Select",
+      "ObjectPath": "\\Events\\SFX\\UI\\UI_Select",
+      "GUID": "{0D155F77-4F0C-42A7-A593-7BC60EC0382A}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.06",
+      "DurationMax": "0.06",
+      "MediaRefs": [
+       {
+        "Id": "346391248"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{07C96991-4E3E-9F95-588D-A87950EB9812}"
+ }
+}
