@@ -8,9 +8,9 @@ Through the Valley of Death is a top-down shooter with a grimdark, gothic wester
 
 Embody a mysterious character only known as ‘’The Reverend’’, a religious fanatic that has devoted himself to spread the light of the Lord in these corrupted, desecrated lands. Hunt the creatures of the night through abandoned taverns and run-down chapels. Become a beacon in the dark with your lamp, filled with sanctified oil. Its light is your only bulwark against the dangers you’ll face; if its flame is snuffed, your life will be too.
 
-    Traverse through the wild west under a blood moon, exploring the dens of evil.
-    Burn blasphemous creatures that defile the Lord’s creation with your Holy Revolver.
-    Fight back against the dark with your Hallowed Oil Lamp, lest you let the shadows consume you.
+Traverse through the wild west under a blood moon, exploring the dens of evil.
+Burn blasphemous creatures that defile the Lord’s creation with your Holy Revolver.
+Fight back against the dark with your Hallowed Oil Lamp, lest you let the shadows consume you.
 
 This is a game being developed by students from <a href="https://www.imagecampus.edu.ar/">Image Campus</a>
 
