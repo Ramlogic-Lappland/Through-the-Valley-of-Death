@@ -28,6 +28,8 @@ public class UIMainMenu : MonoBehaviour
         buttonExit.onClick.AddListener(OnButtonExitClicked);
         buttonBack.onClick.AddListener(OnButtonBackClicked);
         versionText.text = $"{Application.version}";
+        AkSoundEngine.SetState("Game_State",  "Menu");
+        
     }
 
     void Start()

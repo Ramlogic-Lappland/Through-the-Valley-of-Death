@@ -8,7 +8,14 @@
 						<Action Name="" ID="{269A9876-0F44-41F1-84B5-AC5B05C31689}" ShortID="808116157">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="TestMX" ID="{B5751731-46EE-43DD-83DB-5E3E0EEA58C8}" WorkUnitID="{82D7ADE6-F8D1-4AC0-A8C0-CDF4DB1DB335}"/>
+									<ObjectRef Name="MX_Manager" ID="{28588853-FDAA-4DD1-B7AE-533A4CC80D77}" WorkUnitID="{82D7ADE6-F8D1-4AC0-A8C0-CDF4DB1DB335}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{605AD566-669B-4CFD-8E32-0E59E7AB8F5F}" ShortID="423038524">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Lvl HB" ID="{E6CFA7C4-8003-485C-940E-FC586153B2AA}" WorkUnitID="{82D7ADE6-F8D1-4AC0-A8C0-CDF4DB1DB335}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
