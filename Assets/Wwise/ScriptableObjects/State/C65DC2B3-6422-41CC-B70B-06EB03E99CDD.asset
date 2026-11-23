@@ -15,4 +15,4 @@ MonoBehaviour:
   objectName: Off
   id: 930712164
   guid: C65DC2B3-6422-41CC-B70B-06EB03E99CDD
-  WwiseStateGroupReference: {fileID: 11400000, guid: ccd501ca194e84b4ab2074e9dc3edcb2, type: 2}
+  WwiseStateGroupReference: {fileID: 11400000, guid: fc5152914a32cf942ba931047354a792, type: 2}

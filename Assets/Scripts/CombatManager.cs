@@ -1,45 +1,37 @@
 using UnityEngine;
 using AK.Wwise;
 
-public class CombatManager : MonoBehaviour
+public class CombatManager : MonoSingleton<CombatManager>
 {
     public static CombatManager Instance { get; private set; }
 
-    public float maxTimer;
+    [SerializeField] private float maxTimer;
 
-    public AK.Wwise.State combatOnState;
-    public AK.Wwise.State combatOffState;
+    [SerializeField] private AK.Wwise.State combatOnState;
+    [SerializeField] private AK.Wwise.State combatOffState;
 
     private float combatTimer = 0f;
     private bool inCombat = false;
 
     private void Awake()
     {
-        if (Instance != null && Instance != this)
-        {
-            Destroy(gameObject);
-            return;
-        }
-        Instance = this;
+        AkSoundEngine.SetState("Combat", "Off");
     }
-    void OnDestroy()
-    {
-        if (Instance == this) Instance = null;
-    }
-
+    
+    
     public void RegisterCombat()
     {
         if (!inCombat)
         {
             inCombat = true;
-            combatOnState.SetValue();
+            AkSoundEngine.SetState("Combat", "On");
         }
 
         combatTimer = maxTimer;
     }
     void Update()
     {
-        if (!inCombat) return; //todo lo que est· abajo es para caso combate = true
+        if (!inCombat) return; //todo lo que est√° abajo es para caso combate = true
 
         // bajar timer
         combatTimer -= Time.deltaTime;
@@ -48,7 +40,7 @@ public class CombatManager : MonoBehaviour
         if (combatTimer <= 0f)
         {
             inCombat = false;
-            combatOffState.SetValue();
+            AkSoundEngine.SetState("Combat", "Off");
         }
     }
 }

@@ -18,6 +18,8 @@ public class BasicMeleeEnemyWithKnockBack : MonoBehaviour, IEnemyAttack
     public float AttackRange => attackRange;
     private Animator _animator;
 
+    [SerializeField] private AK.Wwise.Event attackEvent;
+    
     private void Awake()
     {
         _animator = GetComponentInChildren<Animator>();
@@ -110,5 +112,7 @@ public class BasicMeleeEnemyWithKnockBack : MonoBehaviour, IEnemyAttack
             knockbackDirection,
             knockbackForce
         );
+        
+        AkUnitySoundEngine.PostEvent(attackEvent.Id, gameObject);
     }
 }

@@ -11,7 +11,8 @@ public class WinConditionManager : MonoBehaviour
     [SerializeField] private Light2D outsideLight;
     [SerializeField] private float globalLightIntensity = 0.15f;
     [SerializeField] private ExitArrow exitArrow;
-    [SerializeField] private UIGameOver gameOverPanel; 
+    [SerializeField] private UIGameOver gameOverPanel;
+    [SerializeField] private Animator exitDoorAnimator;
     public string hexColor = "#EFA35B";
     private int _remainingEnemies = 0;
     private bool _gameEnded;
@@ -57,6 +58,11 @@ public class WinConditionManager : MonoBehaviour
         stageClearText.gameObject.SetActive(true);
         exitPoint.SetActive(true);
 
+        if (exitDoorAnimator != null)
+        {
+            exitDoorAnimator.SetTrigger("Open");
+        }
+        
         WindowBehaviour[] windows = FindObjectsByType<WindowBehaviour>(FindObjectsSortMode.None);
         globalLight.intensity = globalLightIntensity;
         Color newColor;
@@ -75,6 +81,7 @@ public class WinConditionManager : MonoBehaviour
         {
             exitArrow.ActivateArrow();
         }
+        AkSoundEngine.SetState("Game_State", "Clear");
         
         // TODO: Show win screen
     }

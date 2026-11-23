@@ -58,6 +58,8 @@ public class BasicEnemyBehaviour : MonoBehaviour
     [SerializeField] private AK.Wwise.Event hitEvent;
     [SerializeField] private AK.Wwise.Event idleEvent;
 
+    private uint playingId;
+
     private enum EnemyState
     {
         Idle,
@@ -77,7 +79,7 @@ public class BasicEnemyBehaviour : MonoBehaviour
         
         if (player == null)
         {
-            GameObject playerObject = GameObject.Find("PlayerVIsual");
+            GameObject playerObject = GameObject.FindGameObjectWithTag("Player");
 
             if (playerObject != null)
             {
@@ -85,10 +87,7 @@ public class BasicEnemyBehaviour : MonoBehaviour
             }
             else
             {
-                Debug.LogError(
-                    "Could not find a GameObject named PlayerVIsual!",
-                    this
-                );
+                Debug.LogError("Player not found!", this);
             }
         }
         
@@ -126,6 +125,10 @@ public class BasicEnemyBehaviour : MonoBehaviour
 
     private void Update() 
     {
+        if (Input.GetKeyDown(KeyCode.K))
+        {
+            DebugVision();
+        }
         if (Input.GetKeyDown(KeyCode.J))// ONLY FOR TEST
         {
             Vector2 sourcePosition = player != null ? (Vector2)player.position : (Vector2)transform.position - _facingDirection;
@@ -162,13 +165,57 @@ public class BasicEnemyBehaviour : MonoBehaviour
         
         UpdateFacingDirection();
     }
+    private void DebugVision()
+    {
+        if (player == null)
+        {
+            Debug.LogWarning($"{name}: Player reference is NULL.");
+            return;
+        }
 
+        Vector2 origin = transform.position;
+        Vector2 toPlayer = (Vector2)player.position - origin;
+
+        float distance = toPlayer.magnitude;
+        float angle = Vector2.Angle(_facingDirection, toPlayer);
+
+        RaycastHit2D hit = Physics2D.Raycast(
+            origin,
+            toPlayer.normalized,
+            distance,
+            visionLayer
+        );
+
+        string hitName = hit.collider != null
+            ? hit.collider.name
+            : "NOTHING";
+
+        string hitLayer = hit.collider != null
+            ? LayerMask.LayerToName(hit.collider.gameObject.layer)
+            : "NONE";
+
+        Debug.Log(
+            $"ENEMY: {name}\n" +
+            $"Player Target: {player.name}\n" +
+            $"Distance: {distance:F2}\n" +
+            $"Vision Range: {detectionRange}\n" +
+            $"Angle: {angle:F2}\n" +
+            $"Detection Angle: {detectionAngle}\n" +
+            $"Raycast Hit: {hitName}\n" +
+            $"Hit Layer: {hitLayer}\n" +
+            $"Can See Player: {CanSeePlayer()}"
+        );
+
+        Debug.DrawRay(origin, toPlayer, Color.yellow, 3f);
+    }
     private void UpdateIdle()
     {
         if (CanSeePlayer())
         {
             DetectPlayer();
         }
+        
+        idleEvent.Post(gameObject);
     }
 
     #region PATROL CODE =============================================================================================================================
@@ -248,6 +295,7 @@ public class BasicEnemyBehaviour : MonoBehaviour
     
     private void UpdateChase()
     {
+        idleEvent.Stop(gameObject);
         if (!CanSeePlayer())
         {
             StartSearch();
@@ -266,6 +314,11 @@ public class BasicEnemyBehaviour : MonoBehaviour
 
         _agent.isStopped = false;
         _agent.SetDestination(player.position);
+        CombatManager.Instance?.RegisterCombat();
+        if (CombatManager.Instance == false)
+        {
+            Debug.Log("Esta el combat manager");
+        }
     }
 
     #region Chase Code =============================================================================================================================
@@ -399,24 +452,21 @@ public class BasicEnemyBehaviour : MonoBehaviour
             return false;
         }
 
-        Vector2 toPlayer =
-            player.position - transform.position;
+        Vector2 toPlayer = player.position - transform.position;
 
-      
         if (toPlayer.sqrMagnitude > detectionRange * detectionRange)
         {
             return false;
         }
-        
-        float angle = Vector2.Angle(_facingDirection, toPlayer); // Cone check.
+
+        float angle = Vector2.Angle(_facingDirection, toPlayer);
 
         if (angle > detectionAngle / 2f)
         {
             return false;
         }
 
-        
-        RaycastHit2D hit = Physics2D.Raycast // Line of sight.
+        RaycastHit2D hit = Physics2D.Raycast
         (
             transform.position,
             toPlayer.normalized,
@@ -431,6 +481,8 @@ public class BasicEnemyBehaviour : MonoBehaviour
 
         return hit.collider.CompareTag("Player");
     }
+    
+    
     #endregion =============================================================================================================================
 
     private void UpdateFacingDirection()
@@ -496,6 +548,7 @@ public class BasicEnemyBehaviour : MonoBehaviour
         if (hitPoints <= 0)
         {
             AkUnitySoundEngine.PostEvent(deathEvent.Id, gameObject);
+            idleEvent.Stop(gameObject);
             if (deadEnemyPrefab != null) // sprite of dead enemy
             {
                 Instantiate

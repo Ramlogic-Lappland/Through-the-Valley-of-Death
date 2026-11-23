@@ -52,6 +52,11 @@ public class ChargerEnemyBehaviour : MonoBehaviour
     [SerializeField] private MonoBehaviour attackBehaviour;
     private IEnemyAttack _attack;
     private Animator _animator;
+    
+    [SerializeField] private AK.Wwise.Event deathEvent;
+    [SerializeField] private AK.Wwise.Event dmgEvent;
+    [SerializeField] private AK.Wwise.Event idleEvent;
+    
 
     private enum EnemyState
     {
@@ -163,6 +168,8 @@ public class ChargerEnemyBehaviour : MonoBehaviour
         {
             DetectPlayer();
         }
+
+        idleEvent.Post(gameObject);
     }
 
     #region PATROL CODE =============================================================================================================================
@@ -241,6 +248,7 @@ public class ChargerEnemyBehaviour : MonoBehaviour
     
     private void UpdateChase()
     {
+        idleEvent.Stop(gameObject);
         if (!CanSeePlayer())
         {
             StartSearch();
@@ -259,6 +267,7 @@ public class ChargerEnemyBehaviour : MonoBehaviour
 
         _agent.isStopped = false;
         _agent.SetDestination(player.position);
+        CombatManager.Instance?.RegisterCombat();
     }
 
     #region Chase Code =============================================================================================================================
@@ -501,10 +510,11 @@ public class ChargerEnemyBehaviour : MonoBehaviour
         hitPoints -= damage;
 
         healtBar.SetHealth(hitPoints, maxHitPoints);
-
+        AkUnitySoundEngine.PostEvent(dmgEvent.Id, gameObject);
+        
         if (hitPoints <= 0)
         {
-          
+            idleEvent.Stop(gameObject);
             if (deadEnemyPrefab != null) // sprite of dead enemy
             {
                 Instantiate
@@ -523,7 +533,7 @@ public class ChargerEnemyBehaviour : MonoBehaviour
                 winManager.EnemyDefeated();
             }
 
-            
+            AkUnitySoundEngine.PostEvent(deathEvent.Id, gameObject);
             Destroy(gameObject);
             return;
         }
