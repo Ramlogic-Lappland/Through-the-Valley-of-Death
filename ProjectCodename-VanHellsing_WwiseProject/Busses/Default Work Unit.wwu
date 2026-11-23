@@ -3,12 +3,148 @@
 	<Busses>
 		<WorkUnit Name="Default Work Unit" ID="{E636EE33-691F-4FD0-96E9-388E6E0470F6}" PersistMode="Standalone">
 			<ChildrenList>
-				<Bus Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
+				<Bus Name="SFX" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
 					<ReferenceList>
 						<Reference Name="AudioDevice" PluginName="System" CompanyID="0" PluginID="174" PluginType="7">
 							<ObjectRef Name="System" ID="{033886A8-7CAA-4323-90DD-8A53C4A69CA2}" WorkUnitID="{E4851A88-D2B9-4064-BCE3-67E93A79D6CD}"/>
 						</Reference>
 					</ReferenceList>
+					<ObjectLists>
+						<ObjectList Name="Effects">
+							<EffectSlot Name="" ID="{B4092988-6341-4AD0-AD60-C00AD8990F2A}" ShortID="165959284">
+								<ReferenceList>
+									<Reference Name="Effect" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
+										<ObjectRef Name="MX_Ducker" ID="{91AD8DA1-B769-411D-B1E2-6F61B195D6A6}" WorkUnitID="{DC4652A8-9A03-4DC3-B7F9-EDBB01F1FE32}"/>
+									</Reference>
+								</ReferenceList>
+							</EffectSlot>
+							<EffectSlot Name="" ID="{8D86D040-1A72-4652-AE7A-4ACBAA551CBD}" ShortID="855168945">
+								<PropertyList>
+									<Property Name="Bypass" Type="bool" Value="True"/>
+								</PropertyList>
+								<ReferenceList>
+									<Reference Name="Effect">
+										<Custom>
+											<Effect Name="Sidechain Send (Custom)" ID="{EB6F2A16-88D2-41F4-83FC-FCBA25098236}" ShortID="702709081" PluginName="Ak Sidechain Send" CompanyID="0" PluginID="193" PluginType="3">
+												<ReferenceList>
+													<Reference Name="SidechainRef">
+														<ObjectRef Name="Sidechain Mix" ID="{3FC6A914-C125-4519-AA30-8CC61812CC6C}" WorkUnitID="{5B0D6BF6-D306-4B33-AD7D-1BBB89FCDE34}"/>
+													</Reference>
+												</ReferenceList>
+											</Effect>
+										</Custom>
+									</Reference>
+								</ReferenceList>
+							</EffectSlot>
+						</ObjectList>
+					</ObjectLists>
+				</Bus>
+				<Bus Name="MX" ID="{8DF3C9F8-4455-4560-BE0C-45189655F97C}">
+					<ReferenceList>
+						<Reference Name="AudioDevice" PluginName="System" CompanyID="0" PluginID="174" PluginType="7">
+							<ObjectRef Name="System" ID="{033886A8-7CAA-4323-90DD-8A53C4A69CA2}" WorkUnitID="{E4851A88-D2B9-4064-BCE3-67E93A79D6CD}"/>
+						</Reference>
+					</ReferenceList>
+					<ObjectLists>
+						<ObjectList Name="Effects">
+							<EffectSlot Name="" ID="{3F123572-7F16-4FC4-9DA5-445E578F099F}" ShortID="384002466">
+								<PropertyList>
+									<Property Name="Bypass" Type="bool" Value="True"/>
+								</PropertyList>
+								<ReferenceList>
+									<Reference Name="Effect" PluginName="Wwise Compressor" CompanyID="0" PluginID="108" PluginType="3">
+										<ObjectRef Name="SidechainCompressor" ID="{076C2179-9022-46C5-A020-CB75F78D17C2}" WorkUnitID="{DC4652A8-9A03-4DC3-B7F9-EDBB01F1FE32}"/>
+									</Reference>
+								</ReferenceList>
+							</EffectSlot>
+						</ObjectList>
+						<ObjectList Name="RTPC">
+							<RTPC Name="" ID="{29F10236-D241-4DC6-804C-04CB786EC3C4}" ShortID="1008017352">
+								<PropertyList>
+									<Property Name="PropertyName" Type="string" Value="BusVolume"/>
+								</PropertyList>
+								<ReferenceList>
+									<Reference Name="ControlInput">
+										<ObjectRef Name="Sidechain" ID="{5649909D-9B52-47DD-9225-4F29CD82DFEB}" WorkUnitID="{8E56E943-AF58-45BB-B986-F4F3B5C478CC}"/>
+									</Reference>
+									<Reference Name="Curve">
+										<Custom>
+											<Curve Name="" ID="{F97A0724-5A29-44C5-9879-3F187CC6E437}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>-48</XPos>
+														<YPos>-0.02693</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>-30.0177</XPos>
+														<YPos>-0.00662</YPos>
+														<Flags>0</Flags>
+														<SegmentShape>Log3</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>-19.75221</XPos>
+														<YPos>-12.08136</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-12.13115</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</Custom>
+									</Reference>
+								</ReferenceList>
+							</RTPC>
+							<RTPC Name="" ID="{34A1E68D-8A93-41F2-9E5B-654BA36D9DE9}" ShortID="503590856">
+								<PropertyList>
+									<Property Name="PropertyName" Type="string" Value="Lowpass"/>
+								</PropertyList>
+								<ReferenceList>
+									<Reference Name="ControlInput">
+										<ObjectRef Name="Sidechain" ID="{5649909D-9B52-47DD-9225-4F29CD82DFEB}" WorkUnitID="{8E56E943-AF58-45BB-B986-F4F3B5C478CC}"/>
+									</Reference>
+									<Reference Name="Curve">
+										<Custom>
+											<Curve Name="" ID="{3F6A3AAE-E353-47BA-BB71-DD0DC4451B45}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="65537"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>-48</XPos>
+														<YPos>0</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>-30.0177</XPos>
+														<YPos>0</YPos>
+														<Flags>0</Flags>
+														<SegmentShape>Log3</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>-19.75221</XPos>
+														<YPos>48</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>47</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</Custom>
+									</Reference>
+								</ReferenceList>
+							</RTPC>
+						</ObjectList>
+					</ObjectLists>
 				</Bus>
 			</ChildrenList>
 		</WorkUnit>

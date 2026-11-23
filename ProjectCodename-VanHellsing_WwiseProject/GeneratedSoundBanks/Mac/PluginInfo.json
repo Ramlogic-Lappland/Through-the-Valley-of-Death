@@ -4,6 +4,20 @@
   "BasePlatform": "Mac",
   "PluginLibs": [
    {
+    "LibName": "Wwise Compressor",
+    "LibId": "7077891",
+    "Type": "Effect",
+    "DLL": "AkCompressor",
+    "StaticLib": "AkCompressorFX"
+   },
+   {
+    "LibName": "Wwise Meter",
+    "LibId": "8454147",
+    "Type": "Effect",
+    "DLL": "AkMeter",
+    "StaticLib": "AkMeterFX"
+   },
+   {
     "LibName": "System",
     "LibId": "11403271",
     "Type": "AudioDevice"
@@ -12,8 +26,15 @@
     "LibName": "No Output",
     "LibId": "11862023",
     "Type": "AudioDevice"
+   },
+   {
+    "LibName": "Ak Sidechain Send",
+    "LibId": "12648451",
+    "Type": "Effect",
+    "DLL": "AkSidechain",
+    "StaticLib": "AkSidechainFX"
    }
   ],
-  "FileHash": "{FBB1DD20-2267-5DFC-9D4C-1103B4D6B869}"
+  "FileHash": "{04107CD0-C0DA-2A38-98D0-3A9980244632}"
  }
 }

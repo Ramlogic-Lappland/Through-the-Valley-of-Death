@@ -32,17 +32,6 @@
 						<State Name="Off" ID="{C65DC2B3-6422-41CC-B70B-06EB03E99CDD}"/>
 					</ChildrenList>
 				</StateGroup>
-				<StateGroup Name="Location" ID="{B6059E60-8BFF-404C-B271-CF0C11E646E7}">
-					<PropertyList>
-						<Property Name="DefaultTransitionTime" Type="Real64" Value="3"/>
-					</PropertyList>
-					<ChildrenList>
-						<State Name="None" ID="{16F58D41-DF5C-4B45-B5D8-43020A1FA268}"/>
-						<State Name="Indoor" ID="{4407483F-C46F-4536-896A-B3E04AEADD98}"/>
-						<State Name="Menu" ID="{EC1511DC-0A3A-4CEC-9AF9-CFC96CF34CD1}"/>
-						<State Name="Outdoor" ID="{B5DF400C-BBD6-4E24-AFAD-D9B2C6E29D38}"/>
-					</ChildrenList>
-				</StateGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</States>

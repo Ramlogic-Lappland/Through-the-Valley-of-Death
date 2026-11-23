@@ -10,11 +10,39 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{D23AC2A4-5296-C873-BDBC-5FB6D75C1A2C}",
+    "Hash": "{4096DE3F-AF6F-CB19-4F93-E238F136152F}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
     "Plugins": {
+     "Custom": [
+      {
+       "Id": "702709081",
+       "Name": "Sidechain Send (Custom)",
+       "ObjectPath": "\\Busses\\Default Work Unit\\SFX\\[Effect Slot [1]: (Sidechain Send)]\\Sidechain Send (Custom)",
+       "GUID": "{EB6F2A16-88D2-41F4-83FC-FCBA25098236}",
+       "LibName": "Ak Sidechain Send",
+       "LibId": "12648451"
+      }
+     ],
+     "ShareSets": [
+      {
+       "Id": "1815120887",
+       "Name": "MX_Ducker",
+       "ObjectPath": "\\Effects\\Default Work Unit\\MX_Ducker",
+       "GUID": "{91AD8DA1-B769-411D-B1E2-6F61B195D6A6}",
+       "LibName": "Wwise Meter",
+       "LibId": "8454147"
+      },
+      {
+       "Id": "2039592764",
+       "Name": "SidechainCompressor",
+       "ObjectPath": "\\Effects\\Default Work Unit\\SidechainCompressor",
+       "GUID": "{076C2179-9022-46C5-A020-CB75F78D17C2}",
+       "LibName": "Wwise Compressor",
+       "LibId": "7077891"
+      }
+     ],
      "AudioDevices": [
       {
        "Id": "2317455096",
@@ -36,10 +64,35 @@
     },
     "Busses": [
      {
-      "Id": "2246998526",
-      "Name": "Main Audio Bus",
-      "ObjectPath": "\\Busses\\Default Work Unit\\Main Audio Bus",
-      "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"
+      "Id": "393239870",
+      "Name": "SFX",
+      "ObjectPath": "\\Busses\\Default Work Unit\\SFX",
+      "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}",
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "702709081"
+        }
+       ],
+       "ShareSets": [
+        {
+         "Id": "1815120887"
+        }
+       ]
+      }
+     },
+     {
+      "Id": "1685527054",
+      "Name": "MX",
+      "ObjectPath": "\\Busses\\Default Work Unit\\MX",
+      "GUID": "{8DF3C9F8-4455-4560-BE0C-45189655F97C}",
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "2039592764"
+        }
+       ]
+      }
      }
     ],
     "GameParameters": [
@@ -54,6 +107,12 @@
       "Name": "HP",
       "ObjectPath": "\\Game Parameters\\MX\\HP",
       "GUID": "{1E8AD067-5975-4467-868C-5EBF3F1C5E0A}"
+     },
+     {
+      "Id": "1883033791",
+      "Name": "Sidechain",
+      "ObjectPath": "\\Game Parameters\\Sidechain\\Sidechain",
+      "GUID": "{5649909D-9B52-47DD-9225-4F29CD82DFEB}"
      }
     ],
     "StateGroups": [
@@ -92,38 +151,6 @@
         "Name": "Loose_Credit",
         "ObjectPath": "\\States\\Global\\Game_State\\Loose_Credit",
         "GUID": "{D4C420F5-78E5-4786-94F8-44B342A282A9}"
-       }
-      ]
-     },
-     {
-      "Id": "1176052424",
-      "Name": "Location",
-      "ObjectPath": "\\States\\Global\\Location",
-      "GUID": "{B6059E60-8BFF-404C-B271-CF0C11E646E7}",
-      "States": [
-       {
-        "Id": "144697359",
-        "Name": "Outdoor",
-        "ObjectPath": "\\States\\Global\\Location\\Outdoor",
-        "GUID": "{B5DF400C-BBD6-4E24-AFAD-D9B2C6E29D38}"
-       },
-       {
-        "Id": "340398852",
-        "Name": "Indoor",
-        "ObjectPath": "\\States\\Global\\Location\\Indoor",
-        "GUID": "{4407483F-C46F-4536-896A-B3E04AEADD98}"
-       },
-       {
-        "Id": "748895195",
-        "Name": "None",
-        "ObjectPath": "\\States\\Global\\Location\\None",
-        "GUID": "{16F58D41-DF5C-4B45-B5D8-43020A1FA268}"
-       },
-       {
-        "Id": "2607556080",
-        "Name": "Menu",
-        "ObjectPath": "\\States\\Global\\Location\\Menu",
-        "GUID": "{EC1511DC-0A3A-4CEC-9AF9-CFC96CF34CD1}"
        }
       ]
      },
@@ -182,6 +209,6 @@
     ]
    }
   ],
-  "FileHash": "{9A35F9A0-FEDD-06CD-629F-150F670DDA0B}"
+  "FileHash": "{B99480BC-0C41-6B8E-928C-436679F56583}"
  }
 }

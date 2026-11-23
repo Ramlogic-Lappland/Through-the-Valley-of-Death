@@ -19,6 +19,13 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{88CDB703-9D7F-4794-9C13-CFC1A6DE9548}" ShortID="227251805">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Amb" ID="{B1904006-9D68-465A-B2AD-27F540FFCCDE}" WorkUnitID="{82D7ADE6-F8D1-4AC0-A8C0-CDF4DB1DB335}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 					</ChildrenList>
 				</Event>
 			</ChildrenList>

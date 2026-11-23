@@ -1,6 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{DC4652A8-9A03-4DC3-B7F9-EDBB01F1FE32}" SchemaVersion="133">
 	<Effects>
-		<WorkUnit Name="Default Work Unit" ID="{DC4652A8-9A03-4DC3-B7F9-EDBB01F1FE32}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{DC4652A8-9A03-4DC3-B7F9-EDBB01F1FE32}" PersistMode="Standalone">
+			<ChildrenList>
+				<Effect Name="MX_Ducker" ID="{91AD8DA1-B769-411D-B1E2-6F61B195D6A6}" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
+					<PropertyList>
+						<Property Name="ReleaseTime" Type="Real32" Value="1.35"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="GameParameter">
+							<ObjectRef Name="Sidechain" ID="{5649909D-9B52-47DD-9225-4F29CD82DFEB}" WorkUnitID="{8E56E943-AF58-45BB-B986-F4F3B5C478CC}"/>
+						</Reference>
+					</ReferenceList>
+				</Effect>
+				<Effect Name="SidechainCompressor" ID="{076C2179-9022-46C5-A020-CB75F78D17C2}" PluginName="Wwise Compressor" CompanyID="0" PluginID="108" PluginType="3">
+					<PropertyList>
+						<Property Name="Ratio" Type="Real32" Value="20.7"/>
+						<Property Name="ReleaseTime" Type="Real32" Value="1.26"/>
+						<Property Name="Threshold" Type="Real32" Value="-35.1"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="SidechainRef">
+							<ObjectRef Name="Sidechain Mix" ID="{3FC6A914-C125-4519-AA30-8CC61812CC6C}" WorkUnitID="{5B0D6BF6-D306-4B33-AD7D-1BBB89FCDE34}"/>
+						</Reference>
+					</ReferenceList>
+				</Effect>
+			</ChildrenList>
+		</WorkUnit>
 	</Effects>
 </WwiseDocument>

@@ -52,7 +52,7 @@
 										<Action Name="" ID="{EF574BDF-2810-4079-B74F-BC4869F14671}" ShortID="832308483">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="TestStep" ID="{68852172-8C16-468D-8AB8-1D39DD154000}" WorkUnitID="{82D7ADE6-F8D1-4AC0-A8C0-CDF4DB1DB335}"/>
+													<ObjectRef Name="Walk" ID="{F600796E-8A15-4420-9BA0-6B397F7D533E}" WorkUnitID="{82D7ADE6-F8D1-4AC0-A8C0-CDF4DB1DB335}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -63,7 +63,7 @@
 										<Action Name="" ID="{9E821466-2600-4B85-B6E1-ACF98E5B92E0}" ShortID="281108199">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="TestDie" ID="{8C7D4A9E-C3DB-4177-BEC8-0745F6E75403}" WorkUnitID="{82D7ADE6-F8D1-4AC0-A8C0-CDF4DB1DB335}"/>
+													<ObjectRef Name="Death" ID="{B006B2EC-0334-402D-8D77-80326C98F017}" WorkUnitID="{82D7ADE6-F8D1-4AC0-A8C0-CDF4DB1DB335}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -74,7 +74,7 @@
 										<Action Name="" ID="{51A303FA-A383-48A4-A7CD-95C07CE222C4}" ShortID="482689270">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="TestHurt" ID="{01D36BE4-5B52-435F-95B3-F887C8DF6662}" WorkUnitID="{82D7ADE6-F8D1-4AC0-A8C0-CDF4DB1DB335}"/>
+													<ObjectRef Name="Dmg" ID="{EA4DCD63-F677-429D-B518-F6A7753E2FF8}" WorkUnitID="{82D7ADE6-F8D1-4AC0-A8C0-CDF4DB1DB335}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>

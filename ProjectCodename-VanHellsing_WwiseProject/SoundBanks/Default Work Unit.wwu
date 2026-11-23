@@ -5,8 +5,34 @@
 			<ChildrenList>
 				<SoundBank Name="Global" ID="{1007AC47-745F-466C-A008-B90481FBE5FE}">
 					<ObjectInclusionList>
-						<ObjectRef Name="Events" ID="{A69BF0FC-D84A-487C-ABDD-56F71CB2A126}" WorkUnitID="{A69BF0FC-D84A-487C-ABDD-56F71CB2A126}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Containers" ID="{5EA7BBF8-64C0-4A50-8821-A07E8BE21D68}" WorkUnitID="{5EA7BBF8-64C0-4A50-8821-A07E8BE21D68}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Fiend_Death" ID="{71EA32DD-24D2-4189-98AE-B7284B2542A2}" WorkUnitID="{F2C881ED-CBE3-4C24-BFB7-8B706B5DFC8B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Player_Death" ID="{C9F5D521-9566-41BE-8CAD-561D1896CA7E}" WorkUnitID="{F2C881ED-CBE3-4C24-BFB7-8B706B5DFC8B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Fiend_Dmg" ID="{BA3AC811-E532-423B-939F-57A848F46B10}" WorkUnitID="{F2C881ED-CBE3-4C24-BFB7-8B706B5DFC8B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Fiend_Idle" ID="{F7F758C1-7EB2-4292-B592-55673C7D6F2B}" WorkUnitID="{F2C881ED-CBE3-4C24-BFB7-8B706B5DFC8B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="UI_Select" ID="{0D155F77-4F0C-42A7-A593-7BC60EC0382A}" WorkUnitID="{F2C881ED-CBE3-4C24-BFB7-8B706B5DFC8B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Werewolf_Dmg" ID="{BA5EAEE0-FA75-42C6-A2B9-DCE9F3E9BD75}" WorkUnitID="{F2C881ED-CBE3-4C24-BFB7-8B706B5DFC8B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Dhampir_Death" ID="{53232916-217C-430A-8D75-9D5119D49BA0}" WorkUnitID="{F2C881ED-CBE3-4C24-BFB7-8B706B5DFC8B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Dhampir_Walk" ID="{6E5C309C-5383-4391-9A40-ABF36FE667DD}" WorkUnitID="{F2C881ED-CBE3-4C24-BFB7-8B706B5DFC8B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Dhampir_Idle" ID="{FDFCF3E2-A6B8-4486-948C-EEEFA71D0DAF}" WorkUnitID="{F2C881ED-CBE3-4C24-BFB7-8B706B5DFC8B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Fiend_Atk" ID="{F0B2D42E-4283-4595-82A3-2BBA92D6B8B4}" WorkUnitID="{F2C881ED-CBE3-4C24-BFB7-8B706B5DFC8B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Werewolf_Walk" ID="{E586896F-9277-45B1-ACC8-D602B8A293D3}" WorkUnitID="{F2C881ED-CBE3-4C24-BFB7-8B706B5DFC8B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="UI_Hover" ID="{1810A31A-9430-47A4-BF78-7C5F0CE7D506}" WorkUnitID="{F2C881ED-CBE3-4C24-BFB7-8B706B5DFC8B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Door_Creak" ID="{E774AB57-471E-4804-8A70-00A826315464}" WorkUnitID="{F2C881ED-CBE3-4C24-BFB7-8B706B5DFC8B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Door_Collision" ID="{9D6A814B-D1D4-4888-A75F-15F8230C0A85}" WorkUnitID="{F2C881ED-CBE3-4C24-BFB7-8B706B5DFC8B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Werewolf_Idle" ID="{A18CE63A-6AB5-4948-B70D-5E6C85432F4F}" WorkUnitID="{F2C881ED-CBE3-4C24-BFB7-8B706B5DFC8B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Dhampir_Atk" ID="{3D699F3E-ED42-4996-89DE-007193E938D9}" WorkUnitID="{F2C881ED-CBE3-4C24-BFB7-8B706B5DFC8B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="MX" ID="{F73D2297-C12B-49C0-BEF1-26886F4AADEA}" WorkUnitID="{20878FE9-78AE-4938-9992-CE0FC8BCDE69}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Werewolf_Death" ID="{5FF100BF-AD3B-4AFD-A6DE-CA116CBA8F5F}" WorkUnitID="{F2C881ED-CBE3-4C24-BFB7-8B706B5DFC8B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Dhampir_Dmg" ID="{0F276D16-2963-4B76-93F5-5D9D1DF14DD0}" WorkUnitID="{F2C881ED-CBE3-4C24-BFB7-8B706B5DFC8B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Player_Dmg" ID="{FE559452-8C7D-4C7D-93D6-70E58CBE1F77}" WorkUnitID="{F2C881ED-CBE3-4C24-BFB7-8B706B5DFC8B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Amb" ID="{74192867-BE19-4D28-8FB9-6B7D6E5B699A}" WorkUnitID="{F2C881ED-CBE3-4C24-BFB7-8B706B5DFC8B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Player_Walk" ID="{B40B49EE-C35B-4D32-B4D2-66CDCC2A3685}" WorkUnitID="{F2C881ED-CBE3-4C24-BFB7-8B706B5DFC8B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Fiend_Walk" ID="{48528660-B9D5-4DA9-9743-79A8A072770E}" WorkUnitID="{F2C881ED-CBE3-4C24-BFB7-8B706B5DFC8B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Reload" ID="{8BF3532A-3338-4DC0-B4C9-9AC9915AF88E}" WorkUnitID="{F2C881ED-CBE3-4C24-BFB7-8B706B5DFC8B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="DummyBugFixer" ID="{7C1ADAF3-57FD-4DC8-9DBF-08B87207A195}" WorkUnitID="{26ECB0A2-5ED8-4033-BAEA-DD05D6B3ACF6}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Miss" ID="{C8E585EC-386F-4DD3-B6CC-FD11826EA74A}" WorkUnitID="{F2C881ED-CBE3-4C24-BFB7-8B706B5DFC8B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Shoot" ID="{7A35BB67-4F45-4F42-8D33-7149B7BE44FA}" WorkUnitID="{F2C881ED-CBE3-4C24-BFB7-8B706B5DFC8B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Werewolf_Atk" ID="{E938608F-64CD-4F4A-BAE3-C1C9C5964092}" WorkUnitID="{F2C881ED-CBE3-4C24-BFB7-8B706B5DFC8B}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

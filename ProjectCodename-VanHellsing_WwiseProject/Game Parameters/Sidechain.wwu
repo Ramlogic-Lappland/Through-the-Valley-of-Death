@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{8E56E943-AF58-45BB-B986-F4F3B5C478CC}" SchemaVersion="133">
+	<GameParameters>
+		<WorkUnit Name="Sidechain" ID="{8E56E943-AF58-45BB-B986-F4F3B5C478CC}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="Sidechain" ID="{5649909D-9B52-47DD-9225-4F29CD82DFEB}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="-48"/>
+						<Property Name="Max" Type="Real64" Value="0"/>
+						<Property Name="Min" Type="Real64" Value="-48"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

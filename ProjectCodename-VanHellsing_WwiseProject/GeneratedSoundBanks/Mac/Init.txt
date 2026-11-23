@@ -1,6 +1,5 @@
 State Group	ID	Name			Wwise Object Path	Notes
 	766723505	Game_State			\Global\Game_State	
-	1176052424	Location			\Global\Location	
 	2764240573	Combat			\Global\Combat	
 	3092587493	Pause			\Global\Pause	
 
@@ -10,10 +9,6 @@ State	ID	Name	State Group			Notes
 	1754255536	Clear	Game_State			
 	2607556080	Menu	Game_State			
 	3801611875	Loose_Credit	Game_State			
-	144697359	Outdoor	Location			
-	340398852	Indoor	Location			
-	748895195	None	Location			
-	2607556080	Menu	Location			
 	748895195	None	Combat			
 	930712164	Off	Combat			
 	1651971902	On	Combat			
@@ -21,8 +16,17 @@ State	ID	Name	State Group			Notes
 	930712164	Off	Pause			
 	1651971902	On	Pause			
 
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	1883033791	Sidechain			\Sidechain\Sidechain	
+
 Audio Bus	ID	Name			Wwise Object Path	Notes
-	2246998526	Main Audio Bus			\Default Work Unit\Main Audio Bus	
+	393239870	SFX			\Default Work Unit\SFX	
+	1685527054	MX			\Default Work Unit\MX	
+
+Effect plug-ins	ID	Name	Type				Notes
+	702709081	Sidechain Send (Custom)	Ak Sidechain Send			
+	1815120887	MX_Ducker	Wwise Meter			
+	2039592764	SidechainCompressor	Wwise Compressor			
 
 Audio Devices	ID	Name	Type				Notes
 	2317455096	No_Output	No Output			
