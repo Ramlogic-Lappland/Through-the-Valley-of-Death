@@ -4456,6 +4456,54 @@
 								</BlendContainer>
 							</ChildrenList>
 						</Folder>
+						<Folder Name="UI" ID="{929EEBC8-CE75-405E-A983-1069E5A0F475}" ShortID="930040236">
+							<ChildrenList>
+								<Sound Name="SFX_UI_Hover" ID="{0F328BE0-81C0-40F0-B6D8-BB462AE07DC6}" ShortID="358512455">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4D728955-958C-4B5A-90A1-2DBDEB0EB7DA}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E636EE33-691F-4FD0-96E9-388E6E0470F6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_UI_Hover" ID="{C238BF48-61BF-4702-AF52-2200F59485FF}">
+											<Language>SFX</Language>
+											<AudioFile>SFX_UI_Hover.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="879810700"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_UI_Hover" ID="{C238BF48-61BF-4702-AF52-2200F59485FF}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SFX_UI_Select" ID="{4E4EB965-FC05-47D3-9E80-32725B91630D}" ShortID="120251938">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4D728955-958C-4B5A-90A1-2DBDEB0EB7DA}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E636EE33-691F-4FD0-96E9-388E6E0470F6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_UI_Select" ID="{6334149C-2ED3-4E78-97E2-A08111BE1EB1}">
+											<Language>SFX</Language>
+											<AudioFile>SFX_UI_Select.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="29280551"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_UI_Select" ID="{6334149C-2ED3-4E78-97E2-A08111BE1EB1}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

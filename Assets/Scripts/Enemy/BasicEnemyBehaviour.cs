@@ -148,6 +148,7 @@ public class BasicEnemyBehaviour : MonoBehaviour
 
             case EnemyState.Chase:
                 UpdateChase();
+                CombatManager.Instance.RegisterCombat();
                 break;
 
             case EnemyState.Search:
