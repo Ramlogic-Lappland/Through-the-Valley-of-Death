@@ -2,6 +2,7 @@ using System;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using TMPro;
 
 public class UIMainMenu : MonoBehaviour
 {
@@ -11,6 +12,7 @@ public class UIMainMenu : MonoBehaviour
     [SerializeField] private Button buttonExit;
     [SerializeField] private Button buttonBack;
     [SerializeField] private SceneField sceneToLoad;
+    [SerializeField] private TMP_Text versionText;
 
     [SerializeField] private CanvasGroup creditsPanel;
     [SerializeField] private CanvasGroup menuPanel;
@@ -25,6 +27,7 @@ public class UIMainMenu : MonoBehaviour
         buttonSettings.onClick.AddListener(OnButtonSettingsClicked);
         buttonExit.onClick.AddListener(OnButtonExitClicked);
         buttonBack.onClick.AddListener(OnButtonBackClicked);
+        versionText.text = $"{Application.version}";
     }
 
     void Start()
