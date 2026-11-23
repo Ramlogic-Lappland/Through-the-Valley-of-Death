@@ -4,13 +4,6 @@
 		<WorkUnit Name="Default Work Unit" ID="{82D7ADE6-F8D1-4AC0-A8C0-CDF4DB1DB335}" PersistMode="Standalone">
 			<ChildrenList>
 				<Folder Name="Test sounds" ID="{8F95184F-7C28-48DA-8029-6551428F2F8B}" ShortID="529073957">
-					<PropertyList>
-						<Property Name="Inclusion" Type="bool">
-							<ValueList>
-								<Value>False</Value>
-							</ValueList>
-						</Property>
-					</PropertyList>
 					<ChildrenList>
 						<Sound Name="TestHurt" ID="{01D36BE4-5B52-435F-95B3-F887C8DF6662}" ShortID="192818695">
 							<PropertyList>
@@ -3543,6 +3536,12 @@
 								</Sound>
 								<Sound Name="Atk" ID="{15553C16-A011-4C6F-B524-E0ACD5BB73EF}" ShortID="792830546">
 									<PropertyList>
+										<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
 										<Property Name="Pitch" Type="int32">
 											<ModifierList>
 												<ModifierInfo>
@@ -3555,6 +3554,11 @@
 													</Modifier>
 												</ModifierInfo>
 											</ModifierList>
+										</Property>
+										<Property Name="UseMaxSoundPerInstance" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
 										</Property>
 									</PropertyList>
 									<ReferenceList>
@@ -3573,7 +3577,6 @@
 											<PropertyList>
 												<Property Name="FadeOutDuration" Type="Real64" Value="0.66653"/>
 												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-												<Property Name="TrimEnd" Type="Real64" Value="1.59753"/>
 											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>SFX_Fiend_Atk.wav</AudioFile>
