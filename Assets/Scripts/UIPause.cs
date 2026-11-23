@@ -30,6 +30,7 @@ public class UIPause : MonoBehaviour
         buttonResume.onClick.AddListener(OnButtonResumeClicked);
         buttonMainMenu.onClick.AddListener(OnButtonExitClicked);
         buttonRestart.onClick.AddListener(RestartScene);
+        AkSoundEngine.SetState("Pause", "Off");
         //buttonSettings.onClick.AddListener(OnButtonSettingsClicked);
         //buttonSettingsBack.onClick.AddListener(OnButtonSettingsBackClicked);
 
@@ -94,8 +95,8 @@ public class UIPause : MonoBehaviour
         GameTogglePouse?.Invoke();
         EventManager.Instance.ChangeCursor();
 
-        string gameState = _isPause ? "Pause" : "Lvl";
-        AkSoundEngine.SetState("Game_State",  gameState);
+        string gameState = _isPause ? "On" : "Off";
+        AkSoundEngine.SetState("Pause",  gameState);
         
         //Cursor.lockState = _isPause ? CursorLockMode.None : CursorLockMode.Locked;
         //Cursor.visible = _isPause;

@@ -26,7 +26,7 @@ public class SceneTransitionTrigger : MonoBehaviour
         }
 
         _isTransitioning = true;
-
+        AkSoundEngine.SetState("Game_State", "Lvl");
         SceneManager.LoadScene(sceneToLoad);
     }
 }

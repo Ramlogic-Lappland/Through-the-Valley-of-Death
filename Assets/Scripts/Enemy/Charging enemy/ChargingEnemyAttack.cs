@@ -47,6 +47,8 @@ public class ChargingEnemyAttack : MonoBehaviour, IEnemyAttack, IEnemyAttackStat
 
     public float AttackRange => attackRange;
     public bool IsAttackInProgress => _phase != ChargePhase.Ready;
+    
+    [SerializeField] private AK.Wwise.Event attackEvent;
 
     private void Awake()
     {
@@ -205,6 +207,8 @@ public class ChargingEnemyAttack : MonoBehaviour, IEnemyAttack, IEnemyAttackStat
         // Physically move in a straight line; let the Rigidbody2D respect walls.
         // Do not check NavMesh.SamplePosition on every tiny step
         _rb.MovePosition(_rb.position + _chargeDirection * step);
+        
+        AkUnitySoundEngine.PostEvent(attackEvent.Id, gameObject);
     }
 
     // Only return colliders that really are a wall or the target player.
@@ -237,7 +241,7 @@ public class ChargingEnemyAttack : MonoBehaviour, IEnemyAttack, IEnemyAttackStat
                 nearest = hit;
             }
         }
-
+    
         return nearest;
     }
 

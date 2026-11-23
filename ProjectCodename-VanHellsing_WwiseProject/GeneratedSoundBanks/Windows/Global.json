@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{1007AC47-745F-466C-A008-B90481FBE5FE}",
     "Language": "SFX",
-    "Hash": "{561B339D-29DA-4E1D-A7FF-DD9ED5A43C1B}",
+    "Hash": "{6884117F-3046-950D-5E3A-749EAC15B5F8}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Global",
     "ShortName": "Global",
     "Path": "Global.bnk",
@@ -30,6 +30,14 @@
       "Location": "Memory",
       "ShortName": "SFX_GUN_SPINNING CILINDER 2.wav",
       "CachePath": "5B/{5B5A3ED8-19E7-730A-4A9A-2FC0A29B3970}.wem"
+     },
+     {
+      "Id": "15494918",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "TestStep.wav",
+      "CachePath": "4C/{4CE0F0CF-E13A-9EDD-7514-1D765C0AA2AC}.wem"
      },
      {
       "Id": "23076556",
@@ -56,6 +64,14 @@
       "CachePath": "2D/{2D408BA4-5740-3A53-9135-82D9804841CF}.wem"
      },
      {
+      "Id": "29280551",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_UI_Select.wav",
+      "CachePath": "80/{803A7ECD-408A-C61F-E24E-63A5F570127B}.wem"
+     },
+     {
       "Id": "30202432",
       "Language": "SFX",
       "Streaming": "false",
@@ -80,6 +96,14 @@
       "CachePath": "1A/{1AFE41E5-6842-06DA-0E07-3235C5A644C3}.wem"
      },
      {
+      "Id": "75394159",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Powerup 11.wav",
+      "CachePath": "7E/{7EC602F3-BF8B-8C04-5DDA-BD6913CA3E4F}.wem"
+     },
+     {
       "Id": "91437013",
       "Language": "SFX",
       "Streaming": "false",
@@ -102,6 +126,14 @@
       "Location": "Memory",
       "ShortName": "SFX_Werewolf_Walk-001.wav",
       "CachePath": "B1/{B140FA35-6E58-DFA6-575A-8B5D7781B1B1}.wem"
+     },
+     {
+      "Id": "128780910",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Random 41.wav",
+      "CachePath": "A5/{A5052504-4838-7804-E944-8612655AA863}.wem"
      },
      {
       "Id": "130844389",
@@ -150,6 +182,14 @@
       "Location": "Memory",
       "ShortName": "M02 Intro.wav",
       "CachePath": "4E/{4E87A3C5-6A10-A763-7548-FCF077D803CC}.wem"
+     },
+     {
+      "Id": "162044131",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Explosion 4.wav",
+      "CachePath": "68/{68ECE4E1-433B-7782-A847-99CC94C72D4C}.wem"
      },
      {
       "Id": "182954663",
@@ -216,6 +256,14 @@
       "CachePath": "F5/{F536CA27-52ED-6B91-3310-CB1DC7A985D1}.wem"
      },
      {
+      "Id": "346391248",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Blip_select 11.wav",
+      "CachePath": "A4/{A45AF276-3E00-4B10-7B41-6D291CE23562}.wem"
+     },
+     {
       "Id": "354451990",
       "Language": "SFX",
       "Streaming": "false",
@@ -278,6 +326,14 @@
       "Location": "Memory",
       "ShortName": "SFX_Door_Open-002.wav",
       "CachePath": "25/{254E596A-299A-6D2A-B736-398DB6ACBED2}.wem"
+     },
+     {
+      "Id": "447342224",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Test.wav",
+      "CachePath": "6C/{6C7EF076-ED33-C0DA-B39C-B66B1E3AFD01}.wem"
      },
      {
       "Id": "449449473",
@@ -352,6 +408,14 @@
       "CachePath": "9E/{9E4AD868-A365-D1BA-CE31-1A9E8D36C2E9}.wem"
      },
      {
+      "Id": "599022264",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Hit_hurt 10.wav",
+      "CachePath": "EB/{EB4EF2DE-A757-0BD9-1A1E-429B691DAFED}.wem"
+     },
+     {
       "Id": "626280557",
       "Language": "SFX",
       "Streaming": "false",
@@ -414,6 +478,14 @@
       "Location": "Memory",
       "ShortName": "SFX_GUN_CILINDER CLOSE 1.wav",
       "CachePath": "F9/{F9996E3C-B31B-642B-06AF-D3BE4AAC5BDF}.wem"
+     },
+     {
+      "Id": "752215213",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Laser_shoot 39.wav",
+      "CachePath": "24/{24BB018B-78E0-6280-3B87-70D7516DDD6B}.wem"
      },
      {
       "Id": "759004911",
@@ -485,7 +557,15 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "SFX_Fiend_Atk.wav",
-      "CachePath": "76/{76F5BD8D-9592-50B5-50CA-EF89E2ABA9E3}.wem"
+      "CachePath": "13/{13A4D977-0449-F1A7-2AE9-73AC9B9F87B7}.wem"
+     },
+     {
+      "Id": "879810700",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_UI_Hover.wav",
+      "CachePath": "3F/{3F74BAD1-018D-0571-FB52-9731BAD090AB}.wem"
      },
      {
       "Id": "885051839",
@@ -568,6 +648,14 @@
       "CachePath": "6C/{6CF3BA1E-EEAD-4511-95F1-0E33D9BD878E}.wem"
      },
      {
+      "Id": "999326641",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "BASS-STEM.wav",
+      "CachePath": "B5/{B5774A87-6B54-959B-F9DB-00179C0F6001}.wem"
+     },
+     {
       "Id": "1001021332",
       "Language": "SFX",
       "Streaming": "false",
@@ -598,6 +686,14 @@
       "Location": "Memory",
       "ShortName": "SFX_Door_Oneshot-002.wav",
       "CachePath": "8C/{8CE93082-DEFF-D0CA-863D-019F8642A116}.wem"
+     },
+     {
+      "Id": "1071453198",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Blip_select 11.wav",
+      "CachePath": "62/{62BB278C-B501-9546-6692-8F96F9FA76BD}.wem"
      }
     ],
     "Events": [
@@ -764,8 +860,8 @@
       "GUID": "{F0B2D42E-4283-4595-82A3-2BBA92D6B8B4}",
       "MaxAttenuation": "30",
       "DurationType": "OneShot",
-      "DurationMin": "1.2679604",
-      "DurationMax": "1.9554623",
+      "DurationMin": "2.083464",
+      "DurationMax": "3.2131407",
       "MediaRefs": [
        {
         "Id": "858676444"
@@ -1014,7 +1110,12 @@
       "GUID": "{C9F5D521-9566-41BE-8CAD-561D1896CA7E}",
       "DurationType": "OneShot",
       "DurationMin": "0.9511473",
-      "DurationMax": "1.5098522"
+      "DurationMax": "1.5098522",
+      "MediaRefs": [
+       {
+        "Id": "75394159"
+       }
+      ]
      },
      {
       "Id": "1475219471",
@@ -1023,7 +1124,12 @@
       "GUID": "{FE559452-8C7D-4C7D-93D6-70E58CBE1F77}",
       "DurationType": "OneShot",
       "DurationMin": "0.061202683",
-      "DurationMax": "0.17817974"
+      "DurationMax": "0.17817974",
+      "MediaRefs": [
+       {
+        "Id": "599022264"
+       }
+      ]
      },
      {
       "Id": "2147561130",
@@ -1033,7 +1139,12 @@
       "MaxAttenuation": "30",
       "DurationType": "OneShot",
       "DurationMin": "0.06869768",
-      "DurationMax": "0.12782471"
+      "DurationMax": "0.12782471",
+      "MediaRefs": [
+       {
+        "Id": "15494918"
+       }
+      ]
      },
      {
       "Id": "456382354",
@@ -1114,8 +1225,13 @@
       "ObjectPath": "\\Events\\SFX\\UI\\UI_Hover",
       "GUID": "{1810A31A-9430-47A4-BF78-7C5F0CE7D506}",
       "DurationType": "OneShot",
-      "DurationMin": "0.029057777",
-      "DurationMax": "0.029057777"
+      "DurationMin": "0.28125",
+      "DurationMax": "0.28125",
+      "MediaRefs": [
+       {
+        "Id": "879810700"
+       }
+      ]
      },
      {
       "Id": "2774129122",
@@ -1123,8 +1239,13 @@
       "ObjectPath": "\\Events\\SFX\\UI\\UI_Select",
       "GUID": "{0D155F77-4F0C-42A7-A593-7BC60EC0382A}",
       "DurationType": "OneShot",
-      "DurationMin": "0.06",
-      "DurationMax": "0.06"
+      "DurationMin": "0.65625",
+      "DurationMax": "0.65625",
+      "MediaRefs": [
+       {
+        "Id": "29280551"
+       }
+      ]
      },
      {
       "Id": "3546044105",
@@ -1273,6 +1394,6 @@
     ]
    }
   ],
-  "FileHash": "{B9BB5373-AF54-7410-C926-6FF38CD8D9B3}"
+  "FileHash": "{F05910B0-FF70-ED3F-2497-E83D1A3CBF2D}"
  }
 }

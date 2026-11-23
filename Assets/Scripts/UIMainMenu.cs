@@ -67,6 +67,7 @@ public class UIMainMenu : MonoBehaviour
     {
         SetPanel(creditsPanel, true);
         SetPanel(menuPanel, false);
+        AkSoundEngine.SetState("Game_State", "Loose_Credit");
     }
 
     private void OnButtonSettingsClicked()
@@ -87,6 +88,7 @@ public class UIMainMenu : MonoBehaviour
     {
         SetPanel(creditsPanel, false);
         SetPanel(menuPanel, true);
+        AkSoundEngine.SetState("Game_State", "Menu");
     }
     
     private void SetPanel(CanvasGroup panel, bool state)

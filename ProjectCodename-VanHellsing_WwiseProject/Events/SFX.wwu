@@ -272,7 +272,7 @@
 								<Action Name="" ID="{79247475-C733-4DD7-94ED-5C7125044322}" ShortID="522560202">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="TestHover" ID="{FA244A02-85D9-46F0-BFB8-DE89F336F9E4}" WorkUnitID="{82D7ADE6-F8D1-4AC0-A8C0-CDF4DB1DB335}"/>
+											<ObjectRef Name="SFX_UI_Hover" ID="{0F328BE0-81C0-40F0-B6D8-BB462AE07DC6}" WorkUnitID="{82D7ADE6-F8D1-4AC0-A8C0-CDF4DB1DB335}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -283,7 +283,7 @@
 								<Action Name="" ID="{CF07AC5B-4BA5-4EB2-B5F0-0FC8CCDC397C}" ShortID="810636352">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="TestSelect" ID="{08C0E2E6-D131-441A-8DB4-51E863619DFA}" WorkUnitID="{82D7ADE6-F8D1-4AC0-A8C0-CDF4DB1DB335}"/>
+											<ObjectRef Name="SFX_UI_Select" ID="{4E4EB965-FC05-47D3-9E80-32725B91630D}" WorkUnitID="{82D7ADE6-F8D1-4AC0-A8C0-CDF4DB1DB335}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
