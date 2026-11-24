@@ -32,15 +32,13 @@ public class UIMainMenu : MonoBehaviour
         
     }
 
-    void Start()
+    private void OnDisable()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        buttonPlay.onClick.RemoveListener(OnButtonPlayClicked);
+        buttonCredits.onClick.RemoveListener(OnButtonCreditsClicked);
+        buttonSettings.onClick.RemoveListener(OnButtonSettingsClicked);
+        buttonExit.onClick.RemoveListener(OnButtonExitClicked);
+        buttonBack.onClick.RemoveListener(OnButtonBackClicked);
     }
 
     private void OnButtonPlayClicked()

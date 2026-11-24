@@ -50,6 +50,7 @@ public class UIPause : MonoBehaviour
     {
         buttonResume.onClick.RemoveAllListeners();
         buttonMainMenu.onClick.RemoveAllListeners();
+        buttonRestart.onClick.RemoveAllListeners();
         //buttonSettings.onClick.RemoveAllListeners();
         //buttonMainMenu.onClick.RemoveAllListeners();
       
