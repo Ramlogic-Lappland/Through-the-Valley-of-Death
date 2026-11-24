@@ -1,5 +1,6 @@
 using UnityEngine;
 using System;
+
 public class PlayerHealth : MonoBehaviour
 {
     [SerializeField] private float maxHealth = 100f;
@@ -7,6 +8,7 @@ public class PlayerHealth : MonoBehaviour
     public event Action<float> OnHealthChanged;
     [SerializeField] private AK.Wwise.Event hitEvent;
     [SerializeField] private AK.Wwise.Event deathEvent;
+    
 
     private float _health;
     private bool _isDead;
@@ -19,9 +21,10 @@ public class PlayerHealth : MonoBehaviour
         _playerController = GetComponent<PlayerController>();
         _health = maxHealth;
         OnHealthChanged?.Invoke(_health);
-        _porHP = (int) (maxHealth / (100f * _health));
+        _porHP = 100;
+        _porHP = (int)((_health / maxHealth) * 100f);
         
-        AkSoundEngine.SetRTPCValue("GameParameter", _porHP, gameObject);
+        Music.Instance?.SetHP(_porHP);
     }
 
     private void Update()
@@ -50,10 +53,10 @@ public class PlayerHealth : MonoBehaviour
 
         OnHealthChanged?.Invoke(_health);
         
-        _porHP = (int) (maxHealth / (100f * _health));
+        _porHP = (int)((_health / maxHealth) * 100f);
         
-        AkSoundEngine.SetRTPCValue("HP", _porHP, gameObject);
-
+        Music.Instance?.SetHP(_porHP);
+        
         AkUnitySoundEngine.PostEvent(hitEvent.Id, gameObject);
         
         if (_health <= 0f)
@@ -71,9 +74,9 @@ public class PlayerHealth : MonoBehaviour
 
         _health = Mathf.Min(_health + heal, maxHealth);
         
-        _porHP = (int) (maxHealth / (100f * _health));
+        _porHP = (int)((_health / maxHealth) * 100f);
         
-        AkSoundEngine.SetRTPCValue("HP", _porHP, gameObject);
+        Music.Instance?.SetHP(_porHP);
 
         OnHealthChanged?.Invoke(_health);
     }
@@ -95,7 +98,7 @@ public class PlayerHealth : MonoBehaviour
         }
         _playerController.SetIsAlive(false);
         AkUnitySoundEngine.PostEvent(deathEvent.Id, gameObject);
-        AkSoundEngine.SetState("Game_State", "Loose");
+        AkSoundEngine.SetState("Game_State", "Loose_Credit");
         
         Debug.Log("Player died!");
 

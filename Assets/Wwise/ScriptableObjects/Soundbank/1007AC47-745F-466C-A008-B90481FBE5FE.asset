@@ -12,7 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 28ab7a1e8cdf28d42bf84b740de8a478, type: 3}
   m_Name: 1007AC47-745F-466C-A008-B90481FBE5FE
   m_EditorClassIdentifier: AK.Wwise.Unity.API.WwiseTypes::WwiseBankReference
-  objectName: New_SoundBank
-  id: 4072029455
+  objectName: Global
+  id: 1465331116
   guid: 1007AC47-745F-466C-A008-B90481FBE5FE
-  bank: {fileID: 11400000, guid: 56fed75aaccadf94d8b065a31a24ef61, type: 2}

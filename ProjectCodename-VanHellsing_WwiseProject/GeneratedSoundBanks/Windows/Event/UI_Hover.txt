@@ -1,3 +1,0 @@
-Event	ID	Name			Wwise Object Path	Notes
-	2118900976	UI_Hover			\SFX\UI\UI_Hover	
-

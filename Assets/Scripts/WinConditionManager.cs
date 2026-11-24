@@ -81,6 +81,7 @@ public class WinConditionManager : MonoBehaviour
         {
             exitArrow.ActivateArrow();
         }
+        AkSoundEngine.SetState("Game_State", "Clear");
         
         // TODO: Show win screen
     }

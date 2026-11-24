@@ -15,4 +15,4 @@ MonoBehaviour:
   objectName: Werewolf_Walk
   id: 1324873894
   guid: E586896F-9277-45B1-ACC8-D602B8A293D3
-  IsInUserDefinedSoundBank: 0
+  IsInUserDefinedSoundBank: 1

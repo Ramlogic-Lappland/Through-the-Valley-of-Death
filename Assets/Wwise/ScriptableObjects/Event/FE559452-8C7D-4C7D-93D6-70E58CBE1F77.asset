@@ -15,4 +15,4 @@ MonoBehaviour:
   objectName: Player_Dmg
   id: 1475219471
   guid: FE559452-8C7D-4C7D-93D6-70E58CBE1F77
-  IsInUserDefinedSoundBank: 0
+  IsInUserDefinedSoundBank: 1

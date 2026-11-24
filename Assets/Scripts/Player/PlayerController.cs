@@ -18,6 +18,17 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float dashSpeed = 20f;
     [SerializeField] private float dashDuration = 0.2f;
     [SerializeField] private float dashCooldown = 1f;
+    [SerializeField] private TrailRenderer dashTrail;
+    
+    [Header("Dash Collision")]
+    [SerializeField] private string playerLayerName = "Player";
+    [SerializeField] private string enemyLayerName = "Enemy";
+
+    private int _playerLayer;
+    private int _enemyLayer;
+
+    private bool _dashCollisionIgnored;
+    private bool _wasIgnoringCollision;
 
     private Rigidbody2D _rb;
     private bool _gamePasued;
@@ -39,6 +50,19 @@ public class PlayerController : MonoBehaviour
         _rb = GetComponent<Rigidbody2D>();
         _isAlive = true;
         _gamePasued = false;
+        
+        _playerLayer = LayerMask.NameToLayer(playerLayerName);
+        _enemyLayer = LayerMask.NameToLayer(enemyLayerName);
+
+        if (dashTrail != null)
+        {
+            dashTrail.emitting = false;
+        }
+        
+        if (_playerLayer == -1 || _enemyLayer == -1)
+        {
+            Debug.LogError("Player or Enemy layer was not found.");
+        }
 
         if (uiPause != null)
         {
@@ -70,6 +94,8 @@ public class PlayerController : MonoBehaviour
     {
         if (_gamePasued || !_isAlive)
         {
+            EndDash();
+
             _rb.linearVelocity = Vector2.zero;
             _knockbackVelocity = Vector2.zero;
             return;
@@ -82,6 +108,8 @@ public class PlayerController : MonoBehaviour
 
     private void OnDisable()
     {
+        EndDash();
+        
         if (uiPause != null)
         {
             uiPause.GameTogglePouse -= toggleFreezeInput;
@@ -155,13 +183,11 @@ public class PlayerController : MonoBehaviour
 
     private void StartDash()
     {
-        
         if (_isDashing || _dashCooldownRemaining > 0f) return;
 
-        // use current direction if there is none, use last
+       
         Vector2 direction = _movementInput.sqrMagnitude > 0.01f ? _movementInput : _lastMoveDirection;
 
-    
         if (direction.sqrMagnitude <= 0.01f) return;
 
         _dashDirection = direction.normalized;
@@ -169,6 +195,43 @@ public class PlayerController : MonoBehaviour
         _isDashing = true;
         _dashTimeRemaining = dashDuration;
         _dashCooldownRemaining = dashCooldown;
+        
+        if (dashTrail != null)
+        {
+            dashTrail.Clear();
+            dashTrail.emitting = true;
+        }
+
+        // ignore coll
+        if (_playerLayer != -1 && _enemyLayer != -1)
+        {
+            _wasIgnoringCollision = Physics2D.GetIgnoreLayerCollision(_playerLayer, _enemyLayer);
+
+            Physics2D.IgnoreLayerCollision(_playerLayer, _enemyLayer, true);
+
+            _dashCollisionIgnored = true;
+        }
+    }
+    private void EndDash()
+    {
+        if (dashTrail != null)
+        {
+            dashTrail.emitting = false;
+        }
+        
+        if (!_isDashing)
+            return;
+
+        _isDashing = false;
+        _dashTimeRemaining = 0f;
+
+        // enable colls
+        if (_dashCollisionIgnored)
+        {
+            Physics2D.IgnoreLayerCollision(_playerLayer, _enemyLayer, _wasIgnoringCollision);
+
+            _dashCollisionIgnored = false;
+        }
     }
 
     private void UpdateDashTimers()
@@ -185,7 +248,7 @@ public class PlayerController : MonoBehaviour
 
         if (_dashTimeRemaining <= 0f)
         {
-            _isDashing = false;
+            EndDash();
         }
     }
 
@@ -230,6 +293,9 @@ public class PlayerController : MonoBehaviour
     public void SetIsAlive(bool isAlive)
     {
         _isAlive = isAlive;
+
+        if (!isAlive)
+            EndDash();
     }
 
     

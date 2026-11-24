@@ -1,20 +1,11 @@
 using UnityEngine;
 
-public class Music : MonoBehaviour
+public class Music : MonoSingleton<Music>
 {
-    private static Music _instancia;
-    
-    void Awake()
+
+    public void SetHP(int HP)
     {
-        
-        if (_instancia == null)
-        {
-            _instancia = this;
-            DontDestroyOnLoad(gameObject);
-        }
-        else
-        {
-            Destroy(gameObject);
-        }
+        AkSoundEngine.SetRTPCValue("HP", HP, gameObject);
+        Debug.Log("HP: " + HP);
     }
 }

@@ -15,4 +15,4 @@ MonoBehaviour:
   objectName: Shoot
   id: 3038207054
   guid: 7A35BB67-4F45-4F42-8D33-7149B7BE44FA
-  IsInUserDefinedSoundBank: 0
+  IsInUserDefinedSoundBank: 1

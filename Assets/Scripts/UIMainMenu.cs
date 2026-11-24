@@ -2,6 +2,7 @@ using System;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using TMPro;
 
 public class UIMainMenu : MonoBehaviour
 {
@@ -11,6 +12,7 @@ public class UIMainMenu : MonoBehaviour
     [SerializeField] private Button buttonExit;
     [SerializeField] private Button buttonBack;
     [SerializeField] private SceneField sceneToLoad;
+    [SerializeField] private TMP_Text versionText;
 
     [SerializeField] private CanvasGroup creditsPanel;
     [SerializeField] private CanvasGroup menuPanel;
@@ -25,17 +27,18 @@ public class UIMainMenu : MonoBehaviour
         buttonSettings.onClick.AddListener(OnButtonSettingsClicked);
         buttonExit.onClick.AddListener(OnButtonExitClicked);
         buttonBack.onClick.AddListener(OnButtonBackClicked);
-    }
-
-    void Start()
-    {
+        versionText.text = $"{Application.version}";
+        AkSoundEngine.SetState("Game_State",  "Menu");
         
     }
 
-    // Update is called once per frame
-    void Update()
+    private void OnDisable()
     {
-        
+        buttonPlay.onClick.RemoveListener(OnButtonPlayClicked);
+        buttonCredits.onClick.RemoveListener(OnButtonCreditsClicked);
+        buttonSettings.onClick.RemoveListener(OnButtonSettingsClicked);
+        buttonExit.onClick.RemoveListener(OnButtonExitClicked);
+        buttonBack.onClick.RemoveListener(OnButtonBackClicked);
     }
 
     private void OnButtonPlayClicked()
@@ -62,6 +65,7 @@ public class UIMainMenu : MonoBehaviour
     {
         SetPanel(creditsPanel, true);
         SetPanel(menuPanel, false);
+        AkSoundEngine.SetState("Game_State", "Loose_Credit");
     }
 
     private void OnButtonSettingsClicked()
@@ -82,6 +86,7 @@ public class UIMainMenu : MonoBehaviour
     {
         SetPanel(creditsPanel, false);
         SetPanel(menuPanel, true);
+        AkSoundEngine.SetState("Game_State", "Menu");
     }
     
     private void SetPanel(CanvasGroup panel, bool state)

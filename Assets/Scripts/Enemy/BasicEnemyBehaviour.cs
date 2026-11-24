@@ -58,6 +58,8 @@ public class BasicEnemyBehaviour : MonoBehaviour
     [SerializeField] private AK.Wwise.Event hitEvent;
     [SerializeField] private AK.Wwise.Event idleEvent;
 
+    private uint playingId;
+
     private enum EnemyState
     {
         Idle,
@@ -211,6 +213,8 @@ public class BasicEnemyBehaviour : MonoBehaviour
         {
             DetectPlayer();
         }
+        
+        idleEvent.Post(gameObject);
     }
 
     #region PATROL CODE =============================================================================================================================
@@ -290,6 +294,7 @@ public class BasicEnemyBehaviour : MonoBehaviour
     
     private void UpdateChase()
     {
+        idleEvent.Stop(gameObject);
         if (!CanSeePlayer())
         {
             StartSearch();
@@ -308,6 +313,11 @@ public class BasicEnemyBehaviour : MonoBehaviour
 
         _agent.isStopped = false;
         _agent.SetDestination(player.position);
+        CombatManager.Instance?.RegisterCombat();
+        if (CombatManager.Instance == false)
+        {
+            Debug.Log("Esta el combat manager");
+        }
     }
 
     #region Chase Code =============================================================================================================================
@@ -537,6 +547,7 @@ public class BasicEnemyBehaviour : MonoBehaviour
         if (hitPoints <= 0)
         {
             AkUnitySoundEngine.PostEvent(deathEvent.Id, gameObject);
+            idleEvent.Stop(gameObject);
             if (deadEnemyPrefab != null) // sprite of dead enemy
             {
                 Instantiate
