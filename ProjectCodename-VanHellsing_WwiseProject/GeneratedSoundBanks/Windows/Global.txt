@@ -23,7 +23,6 @@ Event	ID	Name			Wwise Object Path	Notes
 	3062523241	Miss			\SFX\Characters\Player\Miss	
 	3083087645	Player_Death			\SFX\Characters\Player\Player_Death	
 	3361049067	Werewolf_Dmg			\SFX\Characters\Enemy\Werewolf\Werewolf_Dmg	
-	3427683745	DummyBugFixer			\Default Work Unit\DummyBugFixer	
 	3546044105	Werewolf_Atk			\SFX\Characters\Enemy\Werewolf\Werewolf_Atk	
 	3754399842	Fiend_Death			\SFX\Characters\Enemy\Fiend\Fiend_Death	
 	4081187737	Werewolf_Death			\SFX\Characters\Enemy\Werewolf\Werewolf_Death	
@@ -50,20 +49,17 @@ Game Parameter	ID	Name			Wwise Object Path	Notes
 	940850806	DoorSpeed			\SFX\DoorSpeed	
 	1769415205	HP			\MX\HP	
 
-Effect plug-ins	ID	Name	Type				Notes
-	2039592764	SidechainCompressor	Wwise Compressor			
-
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	4823242	SFX_GUN_CILINDER CLOSE V2 2	.cache\F0\{F07351F0-FEAE-9228-3D0F-BC2C7332F607}.wem		\Containers\Default Work Unit\SFX\Player\Reload\Cylinder Close\SFX_GUN_CILINDER CLOSE V2 2		128096
+	4823242	SFX_GUN_CILINDER CLOSE V2 2	.cache\F2\{F2BADA3C-F2EE-B1BF-3B9E-A15EA854CBBE}.wem		\Containers\Default Work Unit\SFX\Player\Reload\Cylinder Close\SFX_GUN_CILINDER CLOSE V2 2		97160
 	8458071	SFX_GUN_SPINNING CILINDER 2	.cache\5B\{5B5A3ED8-19E7-730A-4A9A-2FC0A29B3970}.wem		\Containers\Default Work Unit\SFX\Player\Reload\Cylinder Spin\SFX_GUN_SPINNING CILINDER 2		184096
 	23076556	SFX_Dhampir_Dmg-002	.cache\E4\{E4163E13-D424-E570-D3E9-AE10C696B2DD}.wem		\Containers\Default Work Unit\SFX\Dhampir\Dhampir\Dmg\SFX_Dhampir_Dmg-002		164912
 	23957678	SFX_Player_Dmg-004	.cache\3F\{3F28A133-FA4D-EF6A-ABD5-FCBEFDBAFBCE}.wem		\Containers\Default Work Unit\SFX\Player\Dmg\SFX_Player_Dmg-004		96096
-	24159660	SFX_GUN_CILINDER CLOSE 5	.cache\D9\{D9553407-6426-6033-E747-02324E621FA3}.wem		\Containers\Default Work Unit\SFX\Player\Reload\Cylinder Close\SFX_GUN_CILINDER CLOSE 5		127996
+	24159660	SFX_GUN_CILINDER CLOSE 5	.cache\6E\{6E55D3F0-752C-D19E-32A6-98E04907DDEC}.wem		\Containers\Default Work Unit\SFX\Player\Reload\Cylinder Close\SFX_GUN_CILINDER CLOSE 5		88452
 	27346878	SFX_GUN_SHOOT 3	.cache\2D\{2D408BA4-5740-3A53-9135-82D9804841CF}.wem		\Containers\Default Work Unit\SFX\Player\Shoot\SFX_GUN_SHOOT 3		273140
 	29280551	SFX_UI_Select	.cache\80\{803A7ECD-408A-C61F-E24E-63A5F570127B}.wem		\Containers\Default Work Unit\SFX\UI\SFX_UI_Select		126096
 	30202432	Low	.cache\79\{79AE2E89-3120-E630-DCB9-EF654C5ADDF5}.wem		\Containers\Default Work Unit\MX\MX_Manager\Lvl Loop\Lvl Mix\Low		4915296
 	56924388	M01 Stinger	.cache\CF\{CFC1F04B-4410-C27C-174D-E19ABCA6DE64}.wem		\Containers\Default Work Unit\MX\MX_Manager\Menu Stinger\M01 Stinger		1675732
-	57513176	SFX_GUN_CILINDER CLOSE V2 4	.cache\1A\{1AFE41E5-6842-06DA-0E07-3235C5A644C3}.wem		\Containers\Default Work Unit\SFX\Player\Reload\Cylinder Close\SFX_GUN_CILINDER CLOSE V2 4		112096
+	57513176	SFX_GUN_CILINDER CLOSE V2 4	.cache\36\{36D19931-CD89-7F85-9242-6E4F1713F475}.wem		\Containers\Default Work Unit\SFX\Player\Reload\Cylinder Close\SFX_GUN_CILINDER CLOSE V2 4		83048
 	74447655	SFX_Player_Death-004	.cache\99\{99AFB11C-3045-8A3B-32E3-29A38F264F9F}.wem		\Containers\Default Work Unit\SFX\Player\Death\SFX_Player_Death-004		324096
 	74664070	SFX_Player_Death-006	.cache\BE\{BE6E5D12-D456-AA0E-5948-D90FC107315B}.wem		\Containers\Default Work Unit\SFX\Player\Death\SFX_Player_Death-006		324096
 	91437013	High	.cache\9C\{9CE7071D-190D-8FC4-8729-EDEE78C1517E}.wem		\Containers\Default Work Unit\MX\MX_Manager\Lvl Loop\Lvl Mix\High		4915296
@@ -72,7 +68,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	118245628	SFX_Player_Death-001	.cache\D9\{D959F18B-3BFC-BA60-2FA9-2CB775FC1360}.wem		\Containers\Default Work Unit\SFX\Player\Death\SFX_Player_Death-001		324096
 	130844389	M01 Intro	.cache\CC\{CC035F2D-B0D5-7B20-DD96-EED277550516}.wem		\Containers\Default Work Unit\MX\MX_Manager\Menu I+L\M01 Intro\M01 Intro		837916
 	138369396	SFX_Bullet_Miss_Layer-004	.cache\F4\{F4F8DF8B-FA11-130C-F19F-699C62F9DB51}.wem		\Containers\Default Work Unit\SFX\Player\Miss\SFX_Bullet_Miss_Random_Layer\SFX_Bullet_Miss_Layer-004		129096
-	150320353	SFX_GUN_CILINDER CLOSE 4	.cache\A0\{A05FFCFF-BB8B-5CCA-EAB0-8CB93625C246}.wem		\Containers\Default Work Unit\SFX\Player\Reload\Cylinder Close\SFX_GUN_CILINDER CLOSE 4		72096
+	150320353	SFX_GUN_CILINDER CLOSE 4	.cache\DA\{DAAD3F61-1341-4636-66B6-4295E372F48D}.wem		\Containers\Default Work Unit\SFX\Player\Reload\Cylinder Close\SFX_GUN_CILINDER CLOSE 4		57664
 	154413639	SFX_GUN_SHOOT 1	.cache\22\{22C96539-C55D-31EC-84DE-B6499B3D94A9}.wem		\Containers\Default Work Unit\SFX\Player\Shoot\SFX_GUN_SHOOT 1		184888
 	157883211	SFX_Fiend_Dmg-002	.cache\08\{0898B71B-5018-8BAD-9FD8-E2A5D664C2DE}.wem		\Containers\Default Work Unit\SFX\Fiend\Fiend\Dmg\SFX_Fiend_Dmg-002		384096
 	159004044	New Music Track	.cache\4E\{4E87A3C5-6A10-A763-7548-FCF077D803CC}.wem		\Containers\Default Work Unit\MX\MX_Manager\Loose Credit I+L\Intro\New Music Track		1165040
@@ -86,6 +82,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	296364105	SFX_Player_Death-003	.cache\99\{9913AB09-58A7-F4E2-9883-FED8E83B65C9}.wem		\Containers\Default Work Unit\SFX\Player\Death\SFX_Player_Death-003		324096
 	304272422	Idle	.cache\FD\{FD5E68B2-1FEF-EB19-397B-7D6CB888F0CD}.wem		\Containers\Default Work Unit\SFX\Werewolf\Werewolf\Idle		2058228
 	321804017	SFX_GUN_SHOOT 4	.cache\1B\{1BE2C0F5-7927-B18D-C585-289C65E21780}.wem		\Containers\Default Work Unit\SFX\Player\Shoot\SFX_GUN_SHOOT 4		234052
+	328493796	SFX_Player_Reload	.cache\B7\{B772275B-7C08-BEBC-4839-E492517F2217}.wem		\Containers\Default Work Unit\SFX\Player\Reload\SFX_Player_Reload		118036
 	334008703	SFX_Player_Walk-005	.cache\4A\{4A2EA142-B1A6-F796-ED4E-FBB5745272FC}.wem		\Containers\Default Work Unit\SFX\Player\Walk\SFX_Player_Walk-005		63096
 	337034063	SFX_Werewolf_Atk-001	.cache\F5\{F536CA27-52ED-6B91-3310-CB1DC7A985D1}.wem		\Containers\Default Work Unit\SFX\Werewolf\Werewolf\Atk\SFX_Werewolf_Atk-001		324108
 	354451990	SFX_Dhampir_Atk-002	.cache\AF\{AF41D43F-1610-6DDC-7199-23A73D2DD0E0}.wem		\Containers\Default Work Unit\SFX\Dhampir\Dhampir\Atk\SFX_Dhampir_Atk-002		96096
@@ -96,10 +93,10 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	405586145	SFX_Player_Death-005	.cache\D7\{D78AF660-C7D3-8E36-DA59-68D9DF6809BD}.wem		\Containers\Default Work Unit\SFX\Player\Death\SFX_Player_Death-005		324096
 	407577203	SFX_Fiend_Walk-001	.cache\94\{943E4CF6-3BB9-A5CD-4AF0-111BC9601731}.wem		\Containers\Default Work Unit\SFX\Fiend\Fiend\Walk\SFX_Fiend_Walk-001		84096
 	429691459	SFX_Player_Death-007	.cache\54\{54199449-050C-CFF8-F965-F56CD61DF018}.wem		\Containers\Default Work Unit\SFX\Player\Death\SFX_Player_Death-007		324096
-	437214707	SFX_GUN_CILINDER CLOSE V2 3	.cache\B8\{B8DD5ABE-4D8D-2BEA-A522-5100587AB21A}.wem		\Containers\Default Work Unit\SFX\Player\Reload\Cylinder Close\SFX_GUN_CILINDER CLOSE V2 3		120096
+	437214707	SFX_GUN_CILINDER CLOSE V2 3	.cache\30\{30501118-78A8-197B-0266-2D9628500752}.wem		\Containers\Default Work Unit\SFX\Player\Reload\Cylinder Close\SFX_GUN_CILINDER CLOSE V2 3		89056
 	440301588	SFX_Door_Open-002	.cache\25\{254E596A-299A-6D2A-B736-398DB6ACBED2}.wem		\Containers\Default Work Unit\SFX\Door\Collision\SFX_Door_Open-002		86316
 	449449473	Death	.cache\86\{8601A206-A78D-6C0A-9A01-3AB942CF6193}.wem		\Containers\Default Work Unit\SFX\Dhampir\Dhampir\Death		687796
-	483060373	SFX_GUN_CILINDER CLOSE V2 1	.cache\15\{154E561D-9B2B-D7D1-F32A-BFCDDA9781AA}.wem		\Containers\Default Work Unit\SFX\Player\Reload\Cylinder Close\SFX_GUN_CILINDER CLOSE V2 1		120096
+	483060373	SFX_GUN_CILINDER CLOSE V2 1	.cache\F6\{F6F66861-CED9-D7EA-B153-9986B3A71F3C}.wem		\Containers\Default Work Unit\SFX\Player\Reload\Cylinder Close\SFX_GUN_CILINDER CLOSE V2 1		91232
 	483360807	SFX_Player_Dmg-002	.cache\70\{70830821-4E73-8A2D-1802-AEC3F2041B33}.wem		\Containers\Default Work Unit\SFX\Player\Dmg\SFX_Player_Dmg-002		96096
 	508103518	SFX_Door_Tone	.cache\76\{768A0AF1-AD66-B098-3C11-BA803416E3B0}.wem		\Containers\Default Work Unit\SFX\Door\SFX_Door_Creak_System\SFX_Door_Tone		21096
 	528366957	SFX_Fiend_Death-001	.cache\A5\{A59777D6-EBAF-E025-135F-A3ADEF8C4C89}.wem		\Containers\Default Work Unit\SFX\Fiend\Fiend\Death\SFX_Fiend_Death-001		768096
@@ -114,10 +111,10 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	651423273	SFX_Bullet_Miss_Layer-005	.cache\68\{687847AF-025A-31BB-1080-1835655ED868}.wem		\Containers\Default Work Unit\SFX\Player\Miss\SFX_Bullet_Miss_Random_Layer\SFX_Bullet_Miss_Layer-005		168096
 	670357036	SFX_Werewolf_Atk-002	.cache\9D\{9DB21326-97F7-CE75-F7BB-30D66BEBFCE8}.wem		\Containers\Default Work Unit\SFX\Werewolf\Werewolf\Atk\SFX_Werewolf_Atk-002		324108
 	679493528	SFX_Dhampir_Atk-003	.cache\69\{69C230B8-D3CD-C201-477F-4A7462AB19D3}.wem		\Containers\Default Work Unit\SFX\Dhampir\Dhampir\Atk\SFX_Dhampir_Atk-003		96096
-	686185509	SFX_GUN_CILINDER CLOSE 2	.cache\58\{58B2936F-10A4-319E-F01A-4A9023F87408}.wem		\Containers\Default Work Unit\SFX\Player\Reload\Cylinder Close\SFX_GUN_CILINDER CLOSE 2		56096
+	686185509	SFX_GUN_CILINDER CLOSE 2	.cache\E7\{E76CB133-85D8-3A7B-ADB6-256B3D1CA7BD}.wem		\Containers\Default Work Unit\SFX\Player\Reload\Cylinder Close\SFX_GUN_CILINDER CLOSE 2		41572
 	689190827	Idle	.cache\15\{15E7822C-82BD-747C-F593-6351858003A5}.wem		\Containers\Default Work Unit\SFX\Dhampir\Dhampir\Idle		2098940
 	693320417	SFX_Player_Walk-003	.cache\D1\{D17059B6-0862-7924-4201-8A0DFC56F9E9}.wem		\Containers\Default Work Unit\SFX\Player\Walk\SFX_Player_Walk-003		60096
-	701542522	SFX_GUN_CILINDER CLOSE 1	.cache\F9\{F9996E3C-B31B-642B-06AF-D3BE4AAC5BDF}.wem		\Containers\Default Work Unit\SFX\Player\Reload\Cylinder Close\SFX_GUN_CILINDER CLOSE 1		72096
+	701542522	SFX_GUN_CILINDER CLOSE 1	.cache\4B\{4B851576-74FE-0D11-8883-911D4058EC0E}.wem		\Containers\Default Work Unit\SFX\Player\Reload\Cylinder Close\SFX_GUN_CILINDER CLOSE 1		60052
 	759004911	SFX_GUN_SPINNING CILINDER 4	.cache\13\{1300C156-4A79-9411-34A4-152DA1038B48}.wem		\Containers\Default Work Unit\SFX\Player\Reload\Cylinder Spin\SFX_GUN_SPINNING CILINDER 4		192096
 	769773365	SFX_Dhampir_Dmg-001	.cache\5C\{5C5BE629-8641-7CCE-50F4-299DC96FFB32}.wem		\Containers\Default Work Unit\SFX\Dhampir\Dhampir\Dmg\SFX_Dhampir_Dmg-001		164912
 	786379861	SFX_Amb_Outdoor	.cache\F2\{F2DEF0F0-BD90-44EA-DB95-AEDD2D42C080}.wem		\Containers\Default Work Unit\SFX\Amb\Amb\SFX_Amb_Outdoor		7488096
@@ -140,7 +137,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	917437552	SFX_Werewolf_Walk-002	.cache\A0\{A050177D-5439-CA1E-CAF7-7E44C30B109B}.wem		\Containers\Default Work Unit\SFX\Werewolf\Werewolf\Walk\SFX_Werewolf_Walk-002		242976
 	919920395	SFX_Bullet_Miss_Layer-002	.cache\9F\{9FDD3AD6-FF2D-D219-D477-76D5792FFF0B}.wem		\Containers\Default Work Unit\SFX\Player\Miss\SFX_Bullet_Miss_Random_Layer\SFX_Bullet_Miss_Layer-002		93096
 	949696014	SFX_Player_Dmg-006	.cache\F9\{F9CC0B1B-A76A-9D5E-FDBF-E9884227E955}.wem		\Containers\Default Work Unit\SFX\Player\Dmg\SFX_Player_Dmg-006		96096
-	950886996	SFX_GUN_CILINDER CLOSE 3	.cache\8E\{8E5672AC-578E-68F8-D36F-2714873CA0B4}.wem		\Containers\Default Work Unit\SFX\Player\Reload\Cylinder Close\SFX_GUN_CILINDER CLOSE 3		56096
+	950886996	SFX_GUN_CILINDER CLOSE 3	.cache\C2\{C25B9858-C3D6-DA4B-AAD8-31E886E712C6}.wem		\Containers\Default Work Unit\SFX\Player\Reload\Cylinder Close\SFX_GUN_CILINDER CLOSE 3		37900
 	953069027	SFX_Amb_Menu	.cache\4F\{4F0C7DE9-0ABC-71A9-4CE6-EE86F32D13B6}.wem		\Containers\Default Work Unit\SFX\Amb\Amb\SFX_Amb_Menu		14592096
 	962489214	SFX_Dhampir_Atk-001	.cache\0B\{0B5D7464-351B-7713-7AFB-C57C625C7139}.wem		\Containers\Default Work Unit\SFX\Dhampir\Dhampir\Atk\SFX_Dhampir_Atk-001		96096
 	989837666	SFX_Dhampir_Dmg-003	.cache\6C\{6CF3BA1E-EEAD-4511-95F1-0E33D9BD878E}.wem		\Containers\Default Work Unit\SFX\Dhampir\Dhampir\Dmg\SFX_Dhampir_Dmg-003		164912

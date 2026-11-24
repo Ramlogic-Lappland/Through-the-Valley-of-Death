@@ -29,7 +29,6 @@
 						<ObjectRef Name="Player_Walk" ID="{B40B49EE-C35B-4D32-B4D2-66CDCC2A3685}" WorkUnitID="{F2C881ED-CBE3-4C24-BFB7-8B706B5DFC8B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Fiend_Walk" ID="{48528660-B9D5-4DA9-9743-79A8A072770E}" WorkUnitID="{F2C881ED-CBE3-4C24-BFB7-8B706B5DFC8B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Reload" ID="{8BF3532A-3338-4DC0-B4C9-9AC9915AF88E}" WorkUnitID="{F2C881ED-CBE3-4C24-BFB7-8B706B5DFC8B}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="DummyBugFixer" ID="{7C1ADAF3-57FD-4DC8-9DBF-08B87207A195}" WorkUnitID="{26ECB0A2-5ED8-4033-BAEA-DD05D6B3ACF6}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Miss" ID="{C8E585EC-386F-4DD3-B6CC-FD11826EA74A}" WorkUnitID="{F2C881ED-CBE3-4C24-BFB7-8B706B5DFC8B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Shoot" ID="{7A35BB67-4F45-4F42-8D33-7149B7BE44FA}" WorkUnitID="{F2C881ED-CBE3-4C24-BFB7-8B706B5DFC8B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Werewolf_Atk" ID="{E938608F-64CD-4F4A-BAE3-C1C9C5964092}" WorkUnitID="{F2C881ED-CBE3-4C24-BFB7-8B706B5DFC8B}" Origin="Manual" Filter="7"/>

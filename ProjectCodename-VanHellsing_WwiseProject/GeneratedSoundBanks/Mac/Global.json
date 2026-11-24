@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{1007AC47-745F-466C-A008-B90481FBE5FE}",
     "Language": "SFX",
-    "Hash": "{FDF89005-50D6-91FE-81D4-AA4C1D208BFC}",
+    "Hash": "{9207159C-D830-D19B-D19C-F5374337E1C4}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Global",
     "ShortName": "Global",
     "Path": "Global.bnk",
@@ -21,7 +21,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "SFX_GUN_CILINDER CLOSE V2 2.wav",
-      "CachePath": "F0/{F07351F0-FEAE-9228-3D0F-BC2C7332F607}.wem"
+      "CachePath": "F2/{F2BADA3C-F2EE-B1BF-3B9E-A15EA854CBBE}.wem"
      },
      {
       "Id": "8458071",
@@ -53,7 +53,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "SFX_GUN_CILINDER CLOSE 5.wav",
-      "CachePath": "D9/{D9553407-6426-6033-E747-02324E621FA3}.wem"
+      "CachePath": "6E/{6E55D3F0-752C-D19E-32A6-98E04907DDEC}.wem"
      },
      {
       "Id": "27346878",
@@ -93,7 +93,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "SFX_GUN_CILINDER CLOSE V2 4.wav",
-      "CachePath": "1A/{1AFE41E5-6842-06DA-0E07-3235C5A644C3}.wem"
+      "CachePath": "36/{36D19931-CD89-7F85-9242-6E4F1713F475}.wem"
      },
      {
       "Id": "74447655",
@@ -165,7 +165,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "SFX_GUN_CILINDER CLOSE 4.wav",
-      "CachePath": "A0/{A05FFCFF-BB8B-5CCA-EAB0-8CB93625C246}.wem"
+      "CachePath": "DA/{DAAD3F61-1341-4636-66B6-4295E372F48D}.wem"
      },
      {
       "Id": "154413639",
@@ -272,6 +272,14 @@
       "CachePath": "1B/{1BE2C0F5-7927-B18D-C585-289C65E21780}.wem"
      },
      {
+      "Id": "328493796",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_Player_Reload.wav",
+      "CachePath": "B7/{B772275B-7C08-BEBC-4839-E492517F2217}.wem"
+     },
+     {
       "Id": "334008703",
       "Language": "SFX",
       "Streaming": "false",
@@ -357,7 +365,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "SFX_GUN_CILINDER CLOSE V2 3.wav",
-      "CachePath": "B8/{B8DD5ABE-4D8D-2BEA-A522-5100587AB21A}.wem"
+      "CachePath": "30/{30501118-78A8-197B-0266-2D9628500752}.wem"
      },
      {
       "Id": "440301588",
@@ -381,7 +389,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "SFX_GUN_CILINDER CLOSE V2 1.wav",
-      "CachePath": "15/{154E561D-9B2B-D7D1-F32A-BFCDDA9781AA}.wem"
+      "CachePath": "F6/{F6F66861-CED9-D7EA-B153-9986B3A71F3C}.wem"
      },
      {
       "Id": "483360807",
@@ -501,7 +509,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "SFX_GUN_CILINDER CLOSE 2.wav",
-      "CachePath": "58/{58B2936F-10A4-319E-F01A-4A9023F87408}.wem"
+      "CachePath": "E7/{E76CB133-85D8-3A7B-ADB6-256B3D1CA7BD}.wem"
      },
      {
       "Id": "689190827",
@@ -525,7 +533,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "SFX_GUN_CILINDER CLOSE 1.wav",
-      "CachePath": "F9/{F9996E3C-B31B-642B-06AF-D3BE4AAC5BDF}.wem"
+      "CachePath": "4B/{4B851576-74FE-0D11-8883-911D4058EC0E}.wem"
      },
      {
       "Id": "759004911",
@@ -709,7 +717,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "SFX_GUN_CILINDER CLOSE 3.wav",
-      "CachePath": "8E/{8E5672AC-578E-68F8-D36F-2714873CA0B4}.wem"
+      "CachePath": "C2/{C25B9858-C3D6-DA4B-AAD8-31E886E712C6}.wem"
      },
      {
       "Id": "953069027",
@@ -784,18 +792,6 @@
       "CachePath": "13/{137DBD66-04AE-8A63-B85F-EEE633A9F7BE}.wem"
      }
     ],
-    "Plugins": {
-     "ShareSets": [
-      {
-       "Id": "2039592764",
-       "Name": "SidechainCompressor",
-       "ObjectPath": "\\Effects\\Default Work Unit\\SidechainCompressor",
-       "GUID": "{076C2179-9022-46C5-A020-CB75F78D17C2}",
-       "LibName": "Wwise Compressor",
-       "LibId": "7077891"
-      }
-     ]
-    },
     "Events": [
      {
       "Id": "1117531639",
@@ -954,36 +950,11 @@
       ]
      },
      {
-      "Id": "3427683745",
-      "Name": "DummyBugFixer",
-      "ObjectPath": "\\Events\\Default Work Unit\\DummyBugFixer",
-      "GUID": "{7C1ADAF3-57FD-4DC8-9DBF-08B87207A195}",
-      "MaxAttenuation": "0",
-      "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0",
-      "PluginRefs": {
-       "ShareSets": [
-        {
-         "Id": "2039592764"
-        }
-       ]
-      },
-      "ActionSetFX": [
-       {
-        "Id": "1685527054",
-        "Name": "MX",
-        "ObjectPath": "\\Busses\\Default Work Unit\\MX",
-        "GUID": "{8DF3C9F8-4455-4560-BE0C-45189655F97C}"
-       }
-      ]
-     },
-     {
       "Id": "646769050",
       "Name": "Fiend_Atk",
       "ObjectPath": "\\Events\\SFX\\Characters\\Enemy\\Fiend\\Fiend_Atk",
       "GUID": "{F0B2D42E-4283-4595-82A3-2BBA92D6B8B4}",
-      "MaxAttenuation": "30",
+      "MaxAttenuation": "48",
       "DurationType": "OneShot",
       "DurationMin": "2.083464",
       "DurationMax": "3.2131407",
@@ -1279,8 +1250,8 @@
       "ObjectPath": "\\Events\\SFX\\Characters\\Player\\Reload",
       "GUID": "{8BF3532A-3338-4DC0-B4C9-9AC9915AF88E}",
       "DurationType": "OneShot",
-      "DurationMin": "1.5362718",
-      "DurationMax": "2.0890727",
+      "DurationMin": "1.4254283",
+      "DurationMax": "1.7340783",
       "MediaRefs": [
        {
         "Id": "4823242"
@@ -1296,6 +1267,9 @@
        },
        {
         "Id": "150320353"
+       },
+       {
+        "Id": "328493796"
        },
        {
         "Id": "437214707"
@@ -1521,6 +1495,6 @@
     ]
    }
   ],
-  "FileHash": "{67060136-FE05-57D9-0C1D-7626A301427B}"
+  "FileHash": "{BF10F016-90BF-E7BE-F09C-D8F5FE31C15E}"
  }
 }

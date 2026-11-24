@@ -490,6 +490,11 @@
 										<Value>1</Value>
 									</ValueList>
 								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-3</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -2004,6 +2009,11 @@
 									<PropertyList>
 										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 										<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-7</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -2142,6 +2152,11 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="SFX_GUN_CILINDER CLOSE 1" ID="{E42AAD30-6D9F-407E-800E-B07479C21B1E}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.0146"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.06273"/>
+															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>SFX_GUN_CILINDER CLOSE 1.wav</AudioFile>
 															<MediaIDList>
@@ -2164,6 +2179,11 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="SFX_GUN_CILINDER CLOSE 2" ID="{52F7AD49-6426-4658-9561-47489E9B87A8}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.00432"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.07565"/>
+															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>SFX_GUN_CILINDER CLOSE 2.wav</AudioFile>
 															<MediaIDList>
@@ -2186,6 +2206,11 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="SFX_GUN_CILINDER CLOSE 3" ID="{74C3B377-021A-49A3-817D-23048E11D49B}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.00398"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.09478"/>
+															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>SFX_GUN_CILINDER CLOSE 3.wav</AudioFile>
 															<MediaIDList>
@@ -2208,6 +2233,11 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="SFX_GUN_CILINDER CLOSE 4" ID="{4E108474-1CE3-4697-8DC4-66A7ED904048}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.00772"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.07516"/>
+															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>SFX_GUN_CILINDER CLOSE 4.wav</AudioFile>
 															<MediaIDList>
@@ -2230,6 +2260,11 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="SFX_GUN_CILINDER CLOSE 5" ID="{A04C66B5-31FC-412A-973E-B7357CFDD343}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.00836"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.20596"/>
+															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>SFX_GUN_CILINDER CLOSE 5.wav</AudioFile>
 															<MediaIDList>
@@ -2252,6 +2287,11 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="SFX_GUN_CILINDER CLOSE V2 1" ID="{65437C92-98E3-481E-ABA8-6B2EA5E41654}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.00783"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.15033"/>
+															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>SFX_GUN_CILINDER CLOSE V2 1.wav</AudioFile>
 															<MediaIDList>
@@ -2274,6 +2314,11 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="SFX_GUN_CILINDER CLOSE V2 2" ID="{3D9BA538-7ABE-427D-A007-AE6577EB3520}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.00761"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.16113"/>
+															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>SFX_GUN_CILINDER CLOSE V2 2.wav</AudioFile>
 															<MediaIDList>
@@ -2296,6 +2341,11 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="SFX_GUN_CILINDER CLOSE V2 3" ID="{4A7B5D04-7659-4099-AD66-B33796447391}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.00997"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.16166"/>
+															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>SFX_GUN_CILINDER CLOSE V2 3.wav</AudioFile>
 															<MediaIDList>
@@ -2318,6 +2368,11 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="SFX_GUN_CILINDER CLOSE V2 4" ID="{3962B105-92E1-4D49-8FFC-8BFF8BF14923}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.00734"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.15129"/>
+															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>SFX_GUN_CILINDER CLOSE V2 4.wav</AudioFile>
 															<MediaIDList>
@@ -2331,17 +2386,39 @@
 												</Sound>
 											</ChildrenList>
 										</RandomSequenceContainer>
+										<Sound Name="SFX_Player_Reload" ID="{39AFDD01-29BA-4031-B1D8-73322792C9E7}" ShortID="508511730">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4D728955-958C-4B5A-90A1-2DBDEB0EB7DA}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="SFX" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E636EE33-691F-4FD0-96E9-388E6E0470F6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_Player_Reload" ID="{4E365373-2187-4C31-98D0-F966A23CF22F}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_Player_Reload.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="328493796"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_Player_Reload" ID="{4E365373-2187-4C31-98D0-F966A23CF22F}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
 									</ChildrenList>
 									<ObjectLists>
 										<ObjectList Name="Playlist">
-											<PluginInnerObject Name="" ID="{26BA1C39-8191-44F2-996D-49D7C2448366}" PluginName="PlaylistSlot" CompanyID="0" PluginID="86">
+											<PluginInnerObject Name="" ID="{1053E4BB-82CD-45ED-9DC0-C81E8C4E1672}" PluginName="PlaylistSlot" CompanyID="0" PluginID="86">
 												<ReferenceList>
 													<Reference Name="PlaylistObject">
-														<ObjectRef Name="Cylinder Spin" ID="{BC63F117-90A8-428F-B4FD-E66B4133482D}" WorkUnitID="{82D7ADE6-F8D1-4AC0-A8C0-CDF4DB1DB335}"/>
+														<ObjectRef Name="SFX_Player_Reload" ID="{39AFDD01-29BA-4031-B1D8-73322792C9E7}" WorkUnitID="{82D7ADE6-F8D1-4AC0-A8C0-CDF4DB1DB335}"/>
 													</Reference>
 												</ReferenceList>
 											</PluginInnerObject>
-											<PluginInnerObject Name="" ID="{665CEAC1-F977-454B-AAC3-21BBB3DFE313}" PluginName="PlaylistSlot" CompanyID="0" PluginID="86">
+											<PluginInnerObject Name="" ID="{BEED47E9-5B22-48F6-8ADF-45FE7D981086}" PluginName="PlaylistSlot" CompanyID="0" PluginID="86">
 												<ReferenceList>
 													<Reference Name="PlaylistObject">
 														<ObjectRef Name="Cylinder Close" ID="{8F44F35C-BCD6-4B02-853B-B448596B5245}" WorkUnitID="{82D7ADE6-F8D1-4AC0-A8C0-CDF4DB1DB335}"/>
@@ -4328,6 +4405,7 @@
 										</RandomSequenceContainer>
 										<Sound Name="Atk" ID="{15553C16-A011-4C6F-B524-E0ACD5BB73EF}" ShortID="792830546">
 											<PropertyList>
+												<Property Name="AttenuationDistanceScaling" Type="Real32" Value="1.6"/>
 												<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
 												<Property Name="MaxSoundPerInstance" Type="int16">
 													<ValueList>
