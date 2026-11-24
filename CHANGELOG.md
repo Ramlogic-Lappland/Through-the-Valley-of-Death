@@ -1,5 +1,52 @@
 # Changelog
 
+## [1.3.0] - 2026-11-24
+
+### Changes
+
+- Level 4 exit door animation fixed.
+
+## [1.2.0] - 2026-11-24
+
+### Changes
+
+- Level 4 exit fixed.
+
+## [1.1.0] - 2026-11-24
+
+### Changes
+
+- Scene transitions fixed.
+
+## [1.0.0] - 2026-11-24
+
+### New
+
+- Level 3 layout.
+- Level 4 scene.
+- Game icon.
+- Dash effect.
+- Fiend walk sound.
+- Version number shown in the main menu.
+- Final art for the main menu, pause menu and win/game over screens.
+
+### Changes
+
+- Level layouts and navmesh updated.
+- Final enemy audio integrated.
+- Win panel fixed.
+
+### Known Issues
+
+- Scene fade-in is not applied.
+- Charger footstep audio missing.
+
+## [0.11.1] - 2026-11-22
+
+### Changes
+
+- Level 1 and Level 2 frame-rate drops fixed.
+
 ## [0.11.0] - 2026-11-17
 
 ### New
