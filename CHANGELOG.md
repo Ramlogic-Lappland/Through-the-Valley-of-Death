@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.4.0] - 2026-11-24
+
+### Changes
+
+- Level 4 removed from the build scene list.
+
 ## [1.3.0] - 2026-11-24
 
 ### Changes
