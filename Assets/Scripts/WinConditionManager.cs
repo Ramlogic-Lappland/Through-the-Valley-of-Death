@@ -94,6 +94,7 @@ public class WinConditionManager : MonoBehaviour
         _gameEnded = true;
         
         gameOverPanel.ActivePanel();
+        EventManager.Instance.ChangeCursor();
         
         Debug.Log("YOU LOSE!");
 

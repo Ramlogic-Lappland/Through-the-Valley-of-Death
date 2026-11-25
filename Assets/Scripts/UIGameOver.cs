@@ -22,6 +22,7 @@ public class UIGameOver : MonoBehaviour
    private void OnButtonRestart()
    {
       AkSoundEngine.SetState("Game_State",  "Lvl");
+      EventManager.Instance.ChangeCursor();
       SceneManager.LoadScene(sceneLvl1);
    }
 

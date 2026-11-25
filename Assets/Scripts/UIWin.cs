@@ -19,6 +19,7 @@ public class UIWin : MonoBehaviour
         buttonMainMenu.onClick.AddListener(OnButtonMainMenu);
         buttonBack.onClick.AddListener(OnButtonBack);
         AkSoundEngine.SetState("Game_State",  "Win");
+        EventManager.Instance?.ChangeCursor();
     }
 
     private void OnDisable()
