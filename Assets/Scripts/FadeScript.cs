@@ -1,79 +1,50 @@
-using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
+using System.Collections;
 
 public class FadeScript : MonoBehaviour
 {
-    public static FadeScript Instance;
-
     [SerializeField] private Image fadeImage;
-    [SerializeField] private float fadeDuration = 1f;
-
-    private Coroutine _currentFade;
-
-    private void Awake()
-    {
-        if (Instance != null && Instance != this)
-        {
-            Destroy(gameObject);
-            return;
-        }
-
-        Instance = this;
-        DontDestroyOnLoad(gameObject);
-    }
 
     private void Start()
     {
-        SetAlpha(1f);
-        StartFade(0f);
+        StartCoroutine(FadeOut());
+    }
+    
+    public void FadeAndLoad(string SceneName, float duration)
+    {
+        StartCoroutine(Fader(SceneName, duration));
     }
 
-    public IEnumerator FadeOut()
+    IEnumerator Fader(string SceneName, float duration)
     {
-        yield return FadeTo(1f);
-    }
+        float t = 0;
+        Color c = fadeImage.color;
 
-    public IEnumerator FadeIn()
-    {
-        yield return FadeTo(0f);
-    }
-
-    private void StartFade(float targetAlpha)
-    {
-        if (_currentFade != null)
-            StopCoroutine(_currentFade);
-
-        _currentFade = StartCoroutine(FadeTo(targetAlpha));
-    }
-
-    private IEnumerator FadeTo(float targetAlpha)
-    {
-        float startAlpha = fadeImage.color.a;
-        float timer = 0f;
-
-        while (timer < fadeDuration)
+        while (t < duration)
         {
-            timer += Time.unscaledDeltaTime;
-
-            float alpha = Mathf.Lerp
-            (
-                startAlpha,
-                targetAlpha,
-                timer / fadeDuration
-            );
-
-            SetAlpha(alpha);
-
+            t += Time.deltaTime;
+            c.a = t / duration;
+            fadeImage.color = c;
             yield return null;
         }
-
-        SetAlpha(targetAlpha);
-        _currentFade = null;
+        
+        SceneManager.LoadScene(SceneName);
     }
 
-    private void SetAlpha(float alpha)
+    IEnumerator FadeOut()
     {
-        fadeImage.color = new Color(0f, 0f, 0f, alpha);
+        float t = 0;
+        Color c = fadeImage.color;
+
+        while (t < 1)
+        {
+            t += Time.deltaTime;
+            c.a = 1f - (t / 1f);
+            fadeImage.color = c;
+            yield return null;
+        }
     }
+    
 }

@@ -13,6 +13,8 @@ public class WinConditionManager : MonoBehaviour
     [SerializeField] private ExitArrow exitArrow;
     [SerializeField] private UIGameOver gameOverPanel;
     [SerializeField] private Animator exitDoorAnimator;
+    
+    
     public string hexColor = "#EFA35B";
     private int _remainingEnemies = 0;
     private bool _gameEnded;
@@ -54,7 +56,6 @@ public class WinConditionManager : MonoBehaviour
 
     private void WinGame()
     {
-        Debug.Log("YOU WIN!");
         stageClearText.gameObject.SetActive(true);
         exitPoint.SetActive(true);
 
@@ -82,8 +83,6 @@ public class WinConditionManager : MonoBehaviour
             exitArrow.ActivateArrow();
         }
         AkSoundEngine.SetState("Game_State", "Clear");
-        
-        // TODO: Show win screen
     }
     
     public void PlayerDefeated()
